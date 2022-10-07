@@ -4,6 +4,7 @@ var nom_du_livre = "";
 var chapitre = 1;
 var a = 0;
 var z = "";
+var abbr_list = ["Ge. ", "Ex. ", "Lé. ", "No. ", "De. ", "Jos. ", "Jg. ", "1 S. ", "2 S. ", "1 R. ", "2 R. ", "Es. ", "Jé. ", "Ez. ", "Os. ", "Joë. ", "Am. ", "Ab. ", "Jon. ", "Mi. ", "Na. ", "Ha. ", "So. ", "Ag. ", "Za. ", "Mal. ", "Ps. ", "Pr. ", "Job, Ca. ", "Ru. ", "La. ", "Ec. ", "Est. ", "Da. ", "Esd. ", "Né. ", "1 Ch. ", "2 Ch. ", "Mt. ", "Mc. ", "Lu. ", "Jn. ", "Ac. ", "Ja. ", "Ga. ", "1 Th. ", "2 Th. ", "1 Co. ", "2 Co. ", "Ro. ", "Ep. ", "Ph. ", "Col. ", "Phm. ", "1 Ti. ", "Tit. ", "1 Pi. ", "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "]
 
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -37,12 +38,192 @@ function capitalizeFirstLetter(string) {
  * @return {string} l'abbreviation du livre
  */
 function get_book_name(param){
-  if (param.toLowerCase() != "job") {
-    nom_du_livre = capitalizeFirstLetter(
-      param.substring(0, 2).toLowerCase() + ". "
-    );
-  } else {
-    nom_du_livre = capitalizeFirstLetter(param.toLowerCase() + " ");
+  var correct = true;
+
+  if (!abbr_list.includes(capitalizeFirstLetter(param).trim() + ". ")) {
+    correct = false 
+  }
+  if (!abbr_list.includes(capitalizeFirstLetter(param).trim() + " ")) {
+    correct = false 
+  }
+  
+  if(!correct){
+    correct = true;
+    switch (param.substring(0, 5).toLowerCase()) {
+      case "phili":
+        nom_du_livre = "Ph. ";
+        break;
+      case "phile":
+        nom_du_livre = "Phm. ";
+        break;
+      case "philé":
+        nom_du_livre = "Phm. ";
+        break;
+      case "philm":
+        nom_du_livre = "Phm. ";
+        break;
+  
+      default:
+        correct = false;
+        break;
+    }
+  }
+  
+  if(!correct){
+    correct = true;
+    switch (param.substring(0, 3).toLowerCase()) {
+      case "1co":
+          nom_du_livre = "1 Co. ";
+        break;
+      case "2co":
+          nom_du_livre = "2 Co. ";
+        break;
+      case "1ch":
+          nom_du_livre = "1 Ch. ";
+        break;
+      case "2ch":
+          nom_du_livre = "2 Ch. ";
+        break;
+      case "1pi":
+          nom_du_livre = "1 Pi. ";
+        break;
+      case "2pi":
+          nom_du_livre = "2 Pi. ";
+        break;
+      case "1ti":
+          nom_du_livre = "1 Ti. ";
+        break;
+      case "2ti":
+          nom_du_livre = "2 Ti. ";
+        break;
+      case "1jn":
+          nom_du_livre = "1 Jn. ";
+        break;
+      case "1je":
+          nom_du_livre = "1 Jn. ";
+        break;
+      case "2jn":
+          nom_du_livre = "2 Jn. ";
+        break;
+      case "2je":
+          nom_du_livre = "2 Jn. ";
+        break;
+      case "1th":
+          nom_du_livre = "1 Th. ";
+        break;
+      case "2th":
+          nom_du_livre = "2 Th. ";
+        break;
+      case "mat":
+          nom_du_livre = "Mt. ";
+        break;
+      case "mar":
+          nom_du_livre = "Mc. ";
+        break;
+          nom_du_livre = "Mc. ";
+      case "mal":
+          nom_du_livre = "Mal. ";
+        break;
+      case "jea":
+          nom_du_livre = "Jn. ";
+        break;
+      case "job":
+          nom_du_livre = "Job ";
+        break;
+      case "joe":
+          nom_du_livre = "Joë ";
+        break;
+      case "jos":
+          nom_du_livre = "Jos. ";
+        break;
+      case "jon":
+          nom_du_livre = "Jon. ";
+        break;
+      case "est":
+          nom_du_livre = "Est. ";
+        break;
+      case "esd":
+          nom_du_livre = "Esd. ";
+        break;
+      case "col":
+          nom_du_livre = "Col. ";
+        break;
+      case "phi":
+          nom_du_livre = "Ph. ";
+        break;
+      case "phi":
+          nom_du_livre = "Ph. ";
+        break;
+      case "tim":
+          nom_du_livre = "Ti. ";
+        break;
+      case "tit":
+          nom_du_livre = "Tit. ";
+        break;
+      case "jud":
+          nom_du_livre = "Jud. ";
+        break;
+      case "jug":
+          nom_du_livre = "Jg. ";
+        break;
+  
+      default:
+        correct = false;
+        break;
+    }
+  }
+
+  if (!correct) {
+    correct = true;
+    switch (param.substring(0, 2).toLowerCase()) {
+      case "le":
+        nom_du_livre = "Lé. ";
+        break;
+      case "ne":
+        nom_du_livre = "Né. ";
+        break;
+      case "je":
+        nom_du_livre = "Jé. ";
+        break;
+      case "ju":
+        nom_du_livre = "Jg. ";
+        break;
+      case "1s":
+        nom_du_livre = "1 S. ";
+        break;
+      case "2s":
+        nom_du_livre = "2 S. ";
+        break;
+      case "1r":
+        nom_du_livre = "1 R. ";
+        break;
+      case "2r":
+        nom_du_livre = "2 R. ";
+        break;
+      case "1c":
+        nom_du_livre = "1 Ch. ";
+        break;
+      case "2c":
+        nom_du_livre = "2 Ch. ";
+        break;
+      case "1t":
+        nom_du_livre = "1 Th. ";
+        break;
+      case "2t":
+        nom_du_livre = "2 Th. ";
+        break;
+      case "ml":
+        nom_du_livre = "Mal. ";
+        break;
+
+      default:
+        correct = false;
+        break;
+    }
+  }
+
+  if (!correct) {
+    nom_du_livre = capitalizeFirstLetter(param.substring(0, 2).toLowerCase() + ". ");
   }
 
   return nom_du_livre
