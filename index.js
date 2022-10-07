@@ -340,18 +340,6 @@ function get_selection(res, nom_livre, chapitre, a, z) {
 }
 
 
-// Récupérer toute la bible
-
-app.get("/bym", (req, res) => {
-  const bym = require("./db/thebym.json");
-  try {
-    res.status(200).json(bym);
-  } catch (err) {
-    console.error(err);
-  }
-});
-
-
 // ajoute des entêtes
 
 app.use((req, res, next) => {
@@ -365,6 +353,19 @@ app.use((req, res, next) => {
     "GET, POST, PUT, DELETE, PATCH, OPTIONS"
   );
   next();
+});
+
+
+
+// Récupére toute la bible
+
+app.get("/bym", (req, res) => {
+  const all = require("./db/thebym.json");
+  try {
+    res.status(200).json(all);
+  } catch (err) {
+    console.error(err);
+  }
 });
 
 
