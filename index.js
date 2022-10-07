@@ -5,6 +5,32 @@ var chapitre = 1;
 var a = 0;
 var z = "";
 
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const helmet = require("helmet");
+const morgan = require('morgan');
+
+// adding Helmet to enhance your API's security
+app.use(helmet());
+
+// using bodyParser to parse JSON bodies into JS objects
+app.use(bodyParser.json());
+
+// enabling CORS for all requests
+app.use(cors());
+
+// adding morgan to log HTTP requests
+app.use(morgan('combined'));
+
+// import de mongoDB
+// const mongoose = require("mongoose");
+
+// // configuration to connect to the mongoBD Cluster
+// mongoose.connect('mongodb+srv://o_keb:Q2Rq2Kv5ejxsG7aa8VB5SttA@cluster0.slyemps.mongodb.net/?retryWrites=true&w=majority',
+//   { useNewUrlParser: true,
+//     useUnifiedTopology: true })
+//   .then(() => console.log('Connexion à MongoDB réussie !'))
+//   .catch(() => console.log('Connexion à MongoDB échouée !'));
 
 /**
  * Capitalize une chaine de caractère
@@ -205,6 +231,10 @@ app.get("/bym/:livre/:chap/:selections", (req, res) => {
   get_selection(res, nom_du_livre, num_du_chapitre, v_start, v_end);
 });
 
+
+app.get("/", (req, res) => {
+  res.send("Que Yehowshuw`a Ha-Mashiyah soit glorifié. Amen 🙏🏾");
+});
 
 // Start server
 
