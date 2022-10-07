@@ -1,4 +1,9 @@
 /node_modules
-/index_V1.js
 /db/books
 /versions
+**/logs/debug.log
+**/logs
+index_V1.js
+server.js
+pnpm-lock.yaml
+*.log
