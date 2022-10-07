@@ -172,6 +172,7 @@ function get_selection(res, nom_livre, chapitre, a, z) {
 // Récupérer toute la bible
 
 app.get("/bym", (req, res) => {
+  const bym = require("./db/thebym.json");
   res.status(200).json(bym);
 });
 
