@@ -1,8 +1,4 @@
 # Express REST API starter
-[![Build Status](https://travis-ci.org/jeescu/express-rest-api.svg?style=flat-square)](https://travis-ci.org/jeescu/express-rest-api)
-[![bitHound Dependencies](https://www.bithound.io/github/jeescu/express-rest-api/badges/dependencies.svg?style=flat-square)](https://www.bithound.io/github/jeescu/express-rest-api/master/dependencies/npm)
-[![bitHound Dev Dependencies](https://www.bithound.io/github/jeescu/express-rest-api/badges/devDependencies.svg?style=flat-square)](https://www.bithound.io/github/jeescu/express-rest-api/master/dependencies/npm)
-
 A REST API boilerplate for NodeJS to show the bible simply.
 
 > Uses MongoDB as its database and Passport for authentication with (jwt).
