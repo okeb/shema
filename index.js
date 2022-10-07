@@ -22,16 +22,6 @@ app.use(cors());
 // adding morgan to log HTTP requests
 app.use(morgan('combined'));
 
-// import de mongoDB
-// const mongoose = require("mongoose");
-
-// // configuration to connect to the mongoBD Cluster
-// mongoose.connect('mongodb+srv://o_keb:Q2Rq2Kv5ejxsG7aa8VB5SttA@cluster0.slyemps.mongodb.net/?retryWrites=true&w=majority',
-//   { useNewUrlParser: true,
-//     useUnifiedTopology: true })
-//   .then(() => console.log('Connexion à MongoDB réussie !'))
-//   .catch(() => console.log('Connexion à MongoDB échouée !'));
-
 /**
  * Capitalize une chaine de caractère
  * @param {string} string la chaine de caractère a capitalizer
@@ -173,7 +163,11 @@ function get_selection(res, nom_livre, chapitre, a, z) {
 
 app.get("/bym", (req, res) => {
   const bym = require("./db/thebym.json");
-  res.status(200).json(bym);
+  try {
+    res.status(200).json(bym);
+  } catch (err) {
+    console.error(err);
+  }
 });
 
 
