@@ -9,6 +9,11 @@
   "author": "Oliver KEB",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
   }
 }
