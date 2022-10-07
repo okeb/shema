@@ -163,7 +163,11 @@ function get_selection(res, nom_livre, chapitre, a, z) {
 
 app.get("/bym", (req, res) => {
   const bym = require("./db/thebym.json");
-  res.status(200).json(bym);
+  try {
+    res.status(200).json(bym);
+  } catch (err) {
+    console.error(err);
+  }
 });
 
 
