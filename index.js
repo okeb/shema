@@ -1,10 +1,11 @@
 const express = require("express");
 const app = express();
+const TOKEN = process.env.TELEGRAM_TOKEN || "YOUR_TELEGRAM_BOT_TOKEN";
 var nom_du_livre = "";
 var chapitre = 1;
 var a = 0;
 var z = "";
-var abbr_list = ["Ge. ", "Ex. ", "Lé. ", "No. ", "De. ", "Jos. ", "Jg. ", "1 S. ", "2 S. ", "1 R. ", "2 R. ", "Es. ", "Jé. ", "Ez. ", "Os. ", "Joë. ", "Am. ", "Ab. ", "Jon. ", "Mi. ", "Na. ", "Ha. ", "So. ", "Ag. ", "Za. ", "Mal. ", "Ps. ", "Pr. ", "Job, Ca. ", "Ru. ", "La. ", "Ec. ", "Est. ", "Da. ", "Esd. ", "Né. ", "1 Ch. ", "2 Ch. ", "Mt. ", "Mc. ", "Lu. ", "Jn. ", "Ac. ", "Ja. ", "Ga. ", "1 Th. ", "2 Th. ", "1 Co. ", "2 Co. ", "Ro. ", "Ep. ", "Ph. ", "Col. ", "Phm. ", "1 Ti. ", "Tit. ", "1 Pi. ", "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "]
+var abbr_list = ["Ge. ", "Ex. ", "Lé. ", "No. ", "De. ", "Jos. ", "Jg. ", "1 S. ", "2 S. ", "1 R. ", "2 R. ", "Es. ", "Jé. ", "Ez. ", "Os. ", "Joë. ", "Am. ", "Ab. ", "Jon. ", "Mi. ", "Na. ", "Ha. ", "So. ", "Ag. ", "Za. ", "Mal. ", "Ps. ", "Pr. ", "Job ", "Ca. ", "Ru. ", "La. ", "Ec. ", "Est. ", "Da. ", "Esd. ", "Né. ", "1 Ch. ", "2 Ch. ", "Mt. ", "Mc. ", "Lu. ", "Jn. ", "Ac. ", "Ja. ", "Ga. ", "1 Th. ", "2 Th. ", "1 Co. ", "2 Co. ", "Ro. ", "Ep. ", "Ph. ", "Col. ", "Phm. ", "1 Ti. ", "Tit. ", "1 Pi. ", "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "]
 
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -285,7 +286,8 @@ function get_selection(res, nom_livre, chapitre, a, z) {
         verset_actual["livre"] = nom_du_livre;
         verset_actual["chapitre"] = chapitre;
         verset_actual["verset"]= x;
-        verset_actual["value"] = v_value;
+        verset_actual["ecrit"] = v_value;
+        verset_actual["version"] = "Bible de Yéhoshoua Ha Mashiah";
         resultats[v_name] = verset_actual;
 
         // resultats[v_name] = v_value;
@@ -360,9 +362,150 @@ app.use((req, res, next) => {
 // Récupére toute la bible
 
 app.get("/bym", (req, res) => {
-  const all = require("./db/thebym.json");
+  // const all = require("./db/thebym.json");
+  // try {
+  //   res.status(200).json(all);
+  // } catch (err) {
+  //   console.error(err);
+  // }
+  const thebym = require("./db/thebym.json");
+  function getRandomInt(max) {
+    return 1 + Math.floor(Math.random() * max);
+  }
+  var abbr_list = [
+    "Ge. ", "Ex. ", "Lé. ", "No. ", "De. ", "Jos. ", "Jg. ", "1 S. ", "2 S. ", "1 R. ", "2 R. ", "Es. ", "Jé. ", "Ez. ", "Os. ", "Joë. ", "Am. ", "Ab. ", "Jon. ", "Mi. ", "Na. ", "Ha. ", "So. ", "Ag. ", "Za. ", "Mal. ", "Ps. ", "Pr. ", "Job ", "Ca. ", "Ru. ", "La. ", "Ec. ", "Est. ", "Da. ", "Esd. ", "Né. ", "1 Ch. ", "2 Ch. ", "Mt. ", "Mc. ", "Lu. ", "Jn. ", "Ac. ", "Ja. ", "Ga. ", "1 Th. ", "2 Th. ", "1 Co. ", "2 Co. ", "Ro. ", "Ep. ", "Ph. ", "Col. ", "Phm. ", "1 Ti. ", "Tit. ", "1 Pi. ", "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "
+  ]
+
+  var books_list = {
+    "Ge. ": [
+      {
+        "livre": "Genèse",
+        "abbreviation": "Ge.",
+        "auteur": "Probablement Moshèh (Moïse)",
+        "signification": "Au commencement",
+        "theme": "La Création de L'être humain",
+        "date": "Env.1450 - 1410 av. Y.-M. (J.-C.)",
+        "explication": "Premier livre du Tanakh, Bereshit est le livre du commencement. Il relate l'histoire des origines de l'humanité, la création des cieux, de la Terre et de tout ce qui s'y trouve par YHWH, l'Elohîm créateur.\nIl y est décrit le péché de l'être humain et sa séparation d'avec Elohîm, ainsi que la décadence de l'univers qui en résulta. En réponse à la méchanceté du cœur de l'humain, YHWH exerça sa justice en détruisant la Terre par le déluge. Dans sa prescience, YHWH avait cependant résolu de se réconcilier avec l'être humain. Il se révéla donc comme Sauveur en accordant sa grâce à Noah (Noé) et à sa famille. Après cet événement, les êtres humains se tournèrent une fois de plus vers le mal en tentant Elohîm par la construction de la tour de Babel, œuvre à l'origine de la dispersion des nations.\nCe livre présente aussi l'élection d'Abraham, originaire d'Our en Chaldée (Mésopotamie antique, dans l'actuel Irak), qui reçut la promesse divine de devenir une grande nation, en qui toutes les familles de la Terre seraient bénies. Le récit se poursuit par l'histoire de ses descendants : Yitzhak (Isaac), Yaacov (Jacob) et ses douze fils, qui formèrent par la suite la nation d'Israël.",
+        "nbrchap": 50,
+        "chapitres": [
+          {1: 31},
+        ]
+      }
+    ],
+    "Ex. ": [
+        {
+          "livre": "",
+          "abbreviation": "",
+          "auteur": "",
+          "signification": "",
+          "theme": "",
+          "date": "",
+          "explication": "",
+          "nbrchap": 50,
+          "chapitres": [
+            {1: 31},
+          ]
+        }
+      ], 
+    "Lé. ": [{
+          "livre": "",
+          "abbreviation": "",
+          "auteur": "",
+          "signification": "",
+          "theme": "",
+          "date": "",
+          "explication": "",
+          "nbrchap": 50,
+          "chapitres": [
+            {1: 31},
+          ]
+      }], 
+    "No. ": [], 
+    "De. ": [], 
+    "Jos. ": [], 
+    "Jg. ": [], 
+    "1 S. ": [], 
+    "2 S. ": [], 
+    "1 R. ": [], 
+    "2 R. ": [], 
+    "Es. ": [], 
+    "Jé. ": [], 
+    "Ez. ": [], 
+    "Os. ": [], 
+    "Joë. ": [], 
+    "Am. ": [], 
+    "Ab. ": [], 
+    "Jon. ": [], 
+    "Mi. ": [], 
+    "Na. ": [], 
+    "Ha. ": [], 
+    "So. ": [], 
+    "Ag. ": [], 
+    "Za. ": [], 
+    "Mal. ": [], 
+    "Ps. ": [], 
+    "Pr. ": [], 
+    "Job ": [],
+    "Ca. ": [], 
+    "Ru. ": [], 
+    "La. ": [], 
+    "Ec. ": [], 
+    "Est. ": [], 
+    "Da. ": [], 
+    "Esd. ": [], 
+    "Né. ": [], 
+    "1 Ch. ": [], 
+    "2 Ch. ": [], 
+    "Mt. ": [], 
+    "Mc. ": [], 
+    "Lu. ": [], 
+    "Jn. ": [], 
+    "Ac. ": [], 
+    "Ja. ": [], 
+    "Ga. ": [], 
+    "1 Th. ": [], 
+    "2 Th. ": [], 
+    "1 Co. ": [], 
+    "2 Co. ": [], 
+    "Ro. ": [], 
+    "Ep. ": [], 
+    "Ph. ": [], 
+    "Col. ": [], 
+    "Phm. ": [], 
+    "1 Ti. ": [], 
+    "Tit. ": [], 
+    "1 Pi. ": [], 
+    "2 Pi. ": [], 
+    "2 Ti. ": [], 
+    "Jud. ": [], 
+    "Hé. ": [], 
+    "1 Jn. ": [], 
+    "2 Jn. ": [], 
+    "3 Jn. ": [], 
+    "Ap. ": []
+  }
+  function find_verset(abbr_list){
+    abbr_list = [
+    "Ge. ", "Ex. ", "Lé. ", "No. ", "De. ", "Jos. ", "Jg. ", "1 S. ", "2 S. ", "1 R. ", "2 R. ", "Es. ", "Jé. ", "Ez. ", "Os. ", "Joë. ", "Am. ", "Ab. ", "Jon. ", "Mi. ", "Na. ", "Ha. ", "So. ", "Ag. ", "Za. ", "Mal. ", "Ps. ", "Pr. ", "Job ", "Ca. ", "Ru. ", "La. ", "Ec. ", "Est. ", "Da. ", "Esd. ", "Né. ", "1 Ch. ", "2 Ch. ", "Mt. ", "Mc. ", "Lu. ", "Jn. ", "Ac. ", "Ja. ", "Ga. ", "1 Th. ", "2 Th. ", "1 Co. ", "2 Co. ", "Ro. ", "Ep. ", "Ph. ", "Col. ", "Phm. ", "1 Ti. ", "Tit. ", "1 Pi. ", "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "
+  ]
+    return abbr_list[getRandomInt(abbr_list.length)] + getRandomInt(100) + ":" + getRandomInt(250)
+  }
+
+  // var book = books[abbr_list[getRandomInt(abbr_list.length)]]
+
+  var random_verset = find_verset();
+
+  while (typeof thebym[random_verset] === "undefined") {
+    random_verset = find_verset();
+  }
+  resultat = {
+    verset: random_verset,
+    ecrit: thebym[random_verset],
+    version: "Bible de Yéhoshoua Ha Mashiah",
+    de: "https://www.shemaproject.org/bibleapi"
+  };
   try {
-    res.status(200).json(all);
+    res.status(200).json(resultat);
   } catch (err) {
     console.error(err);
   }
