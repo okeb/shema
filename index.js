@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require('morgan');
-const environment = "dev"
+const environment = "prod"
 
 // adding Helmet to enhance your API's security
 app.use(helmet());
@@ -578,7 +578,7 @@ app.get("/bym", (req, res) => {
 
 // servir des fichiers statiques
 
-app.use("/home", express.static("src"));
+// app.use("/home", express.static("src"));
 // app.use("/contact", express.static("src/contact"));
 
 
