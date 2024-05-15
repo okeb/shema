@@ -18,13 +18,13 @@ main {
 
 /* TODO: TOPBAR section */
 .topbar {
+    /* background-color: #111111; */
     position:absolute;
     padding: 7px 35px;
     top: 0;
     left: 0;
     right: 0;
 }
-
 @media (prefers-color-scheme: dark) {
     .topbar {
         /* background-color: #242526; */
@@ -48,12 +48,13 @@ main {
 
 .topbar__logo a {
     text-decoration: none;
-    color: #1B1B1D;
+    color:#1B1B1D;
 }
 
 @media (prefer-color-scheme: dark) {
     .topbar__logo a {
-        color: white;
+        text-decoration: none;
+        color: #FEFEFE;
     }
 }
 
@@ -84,7 +85,7 @@ main {
     transition: all .4s;
 }
 .topbar__link:hover {
-    color: rgb(1, 193, 49);
+    color: rgb(10, 226, 64);
     background-color: #FEFEFE;
     transition: all .5s;
 }
@@ -136,7 +137,7 @@ main {
 }
 
 .topbar__buttons button:hover {
-    background-color:rgb(1, 213, 72);
+    background-color: rgb(1, 213, 72);
     border: 1px solid rgb(1, 213, 72);
     transition: all .5s;
 }
@@ -158,30 +159,10 @@ main {
 /* TODO: HERO section */
 
 .hero {
-    width: 600px;
-    height: screen;
-    margin: 0 auto;
-}
-.hero h2 {
-    margin-top: 150px;
-    font-size: 3.5rem;
+    /* display: flex; */
+    margin-top: 100px;
+    font-size: 4rem;
     color:#1B1B1D;
     text-align: center;
-    line-height: 3.3rem;
-    letter-spacing: -3px;
-    font-weight: 600;
-}
 
-.hero p {
-    text-align: center;
-    margin-top: -22px;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 1.7rem;
-}
-
-@media (prefers-color-scheme: dark) {
-    .hero h2 {
-        color: aliceblue;
-    }
 }
