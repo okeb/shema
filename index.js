@@ -69,8 +69,290 @@ const complet_list = [
     "Hé. ": "Hébreux",
     "1 Jn. ": "1 Yohanan (1 Jean)",
     "2 Jn. ": "2 Yohanan (2 Jean)",
-    "3 Jn. ": "3 Yohanan (# Jean)",
+    "3 Jn. ": "3 Yohanan (3 Jean)",
     "Ap. ": "Apokalupsis (Apocalypse)",
+  },
+];
+const bible_details = [
+  {
+    "Ge. ": {
+      nom_complet: "Bereshit (Génèse)",
+      nbre_chapitres: 50,
+      max_verset: 100,
+    },
+    "Ex. ": {
+      nom_complet: "Shemot (Exode)",
+      nbre_chapitres: 40,
+      max_verset: 100,
+    },
+    "Lé. ": {
+      nom_complet: "Viyaqra (Lévitique)",
+      nbre_chapitres: 27,
+      max_verset: 100,
+    },
+    "No. ": {
+      nom_complet: "Badmidbar (Nombres)",
+      nbre_chapitres: 36,
+      max_verset: 100,
+    },
+    "De. ": {
+      nom_complet: "Davarim (Deutéronomes)",
+      nbre_chapitres: 34,
+      max_verset: 100,
+    },
+    "Jos. ": {
+      nom_complet: "Yéhoshoua (Josué)",
+      nbre_chapitres: 24,
+      max_verset: 100,
+    },
+    "Jg. ": {
+      nom_complet: "Shoftim (Juges)",
+      nbre_chapitres: 21,
+      max_verset: 100,
+    },
+    "1 S. ": {
+      nom_complet: "1 Shemouél (1 Samuel)",
+      nbre_chapitres: 31,
+      max_verset: 100,
+    },
+    "2 S. ": {
+      nom_complet: "2 Shemouél (2 Samuel)",
+      nbre_chapitres: 24,
+      max_verset: 100,
+    },
+    "1 R. ": {
+      nom_complet: "1 Melakhim (1 Rois)",
+      nbre_chapitres: 22,
+      max_verset: 100,
+    },
+    "2 R. ": {
+      nom_complet: "2 Melakhim (2 Rois)",
+      nbre_chapitres: 25,
+      max_verset: 100,
+    },
+    "Es. ": {
+      nom_complet: "Yesha`yah (Ésaïe)",
+      nbre_chapitres: 66,
+      max_verset: 100,
+    },
+    "Jé. ": {
+      nom_complet: "Yirmeyah (Jérémie)",
+      nbre_chapitres: 52,
+      max_verset: 100,
+    },
+    "Ez. ": {
+      nom_complet: "Yehezkel (Ézéchiel)",
+      nbre_chapitres: 48,
+      max_verset: 100,
+    },
+    "Os. ": {
+      nom_complet: "Hoshea (Osée)",
+      nbre_chapitres: 14,
+      max_verset: 100,
+    },
+    "Joë. ": { nom_complet: "Yoel (Joël)", nbre_chapitres: 4, max_verset: 100 },
+    "Am. ": { nom_complet: "Amowc (Amos)", nbre_chapitres: 9, max_verset: 100 },
+    "Ab. ": {
+      nom_complet: "Obadyah (Abdias)",
+      nbre_chapitres: 1,
+      max_verset: 100,
+    },
+    "Jon. ": {
+      nom_complet: "Yonah (Jonas)",
+      nbre_chapitres: 4,
+      max_verset: 100,
+    },
+    "Mi. ": {
+      nom_complet: "Miykayah (Michée)",
+      nbre_chapitres: 7,
+      max_verset: 100,
+    },
+    "Na. ": {
+      nom_complet: "Nachuwm (Nahum)",
+      nbre_chapitres: 3,
+      max_verset: 100,
+    },
+    "Ha. ": {
+      nom_complet: "Habaqqouq (Habakuk)",
+      nbre_chapitres: 3,
+      max_verset: 100,
+    },
+    "So. ": {
+      nom_complet: "Tsephanyah (Sophonie)",
+      nbre_chapitres: 3,
+      max_verset: 100,
+    },
+    "Ag. ": {
+      nom_complet: "Chaggay (Aggée)",
+      nbre_chapitres: 2,
+      max_verset: 100,
+    },
+    "Za. ": {
+      nom_complet: "Zakaryah (Zacharie)",
+      nbre_chapitres: 14,
+      max_verset: 100,
+    },
+    "Mal. ": {
+      nom_complet: "Mal`akiy (Malachie)",
+      nbre_chapitres: 3,
+      max_verset: 100,
+    },
+    "Ps. ": {
+      nom_complet: "Tehilim (Psaumes)",
+      nbre_chapitres: 150,
+      max_verset: 100,
+    },
+    "Pr. ": {
+      nom_complet: "Mishlei (Proverbes)",
+      nbre_chapitres: 31,
+      max_verset: 100,
+    },
+    "Job ": { nom_complet: "Iyov (Job)", nbre_chapitres: 42, max_verset: 100 },
+    "Ca. ": {
+      nom_complet: "ShirHashirim (Cantiques des Cantiques)",
+      nbre_chapitres: 8,
+      max_verset: 100,
+    },
+    "Ru. ": { nom_complet: "Routh (Ruth)", nbre_chapitres: 4, max_verset: 100 },
+    "La. ": {
+      nom_complet: "Eikha (Lamentations de Jérémie)",
+      nbre_chapitres: 5,
+      max_verset: 100,
+    },
+    "Ec. ": {
+      nom_complet: "Qohelet (Écclésiaste)",
+      nbre_chapitres: 12,
+      max_verset: 100,
+    },
+    "Est. ": {
+      nom_complet: "Meguila Esther (Esther)",
+      nbre_chapitres: 10,
+      max_verset: 100,
+    },
+    "Da. ": {
+      nom_complet: "Daniye'l (Daniel)",
+      nbre_chapitres: 12,
+      max_verset: 100,
+    },
+    "Esd. ": {
+      nom_complet: "Ezra (Esdras)",
+      nbre_chapitres: 10,
+      max_verset: 100,
+    },
+    "Né. ": {
+      nom_complet: "Nehemyah (Nehémie)",
+      nbre_chapitres: 13,
+      max_verset: 100,
+    },
+    "1 Ch. ": {
+      nom_complet: "1 Hayyamim Dibre (1 Chroniques)",
+      nbre_chapitres: 29,
+      max_verset: 100,
+    },
+    "2 Ch. ": {
+      nom_complet: "2 Hayyamim Dibre (2 Chroniques)",
+      nbre_chapitres: 36,
+      max_verset: 100,
+    },
+    "Mt. ": {
+      nom_complet: "Matthaios (Matthieu)",
+      nbre_chapitres: 28,
+      max_verset: 100,
+    },
+    "Mc. ": {
+      nom_complet: "Markos (Marc)",
+      nbre_chapitres: 16,
+      max_verset: 100,
+    },
+    "Lu. ": { nom_complet: "Loukas (Luc)", nbre_chapitres: 24, max_verset: 100 },
+    "Jn. ": {
+      nom_complet: "Yohanan (Jean)",
+      nbre_chapitres: 21,
+      max_verset: 100,
+    },
+    "Ac. ": { nom_complet: "Actes", nbre_chapitres: 28, max_verset: 100 },
+    "Ja. ": {
+      nom_complet: "Yaacov (Jacques)",
+      nbre_chapitres: 5,
+      max_verset: 100,
+    },
+    "Ga. ": { nom_complet: "Galates", nbre_chapitres: 6, max_verset: 100 },
+    "1 Th. ": {
+      nom_complet: "1 Thessaloniciens",
+      nbre_chapitres: 5,
+      max_verset: 100,
+    },
+    "2 Th. ": {
+      nom_complet: "2 Thessaloniciens",
+      nbre_chapitres: 3,
+      max_verset: 100,
+    },
+    "1 Co. ": {
+      nom_complet: "1 Corinthiens",
+      nbre_chapitres: 16,
+      max_verset: 100,
+    },
+    "2 Co. ": {
+      nom_complet: "2 Corinthiens",
+      nbre_chapitres: 13,
+      max_verset: 100,
+    },
+    "Ro. ": { nom_complet: "Romains", nbre_chapitres: 16, max_verset: 100 },
+    "Ep. ": { nom_complet: "Éphésiens", nbre_chapitres: 6, max_verset: 100 },
+    "Ph. ": { nom_complet: "Philippiens", nbre_chapitres: 4, max_verset: 100 },
+    "Col. ": { nom_complet: "Colossiens", nbre_chapitres: 4, max_verset: 100 },
+    "Phm. ": { nom_complet: "Philémon", nbre_chapitres: 1, max_verset: 100 },
+    "1 Ti. ": {
+      nom_complet: "1 Timotheos (1 Timothée)",
+      nbre_chapitres: 6,
+      max_verset: 100,
+    },
+    "Tit. ": {
+      nom_complet: "Titos (Tites)",
+      nbre_chapitres:3,
+      max_verset: 100,
+    },
+    "1 Pi. ": {
+      nom_complet: "1 Petros (1 Pierre)",
+      nbre_chapitres: 5,
+      max_verset: 100,
+    },
+    "2 Pi. ": {
+      nom_complet: "2 Petros (2 Pierre)",
+      nbre_chapitres: 3,
+      max_verset: 100,
+    },
+    "2 Ti. ": {
+      nom_complet: "2 Timotheos (2 Timothée)",
+      nbre_chapitres: 4,
+      max_verset: 100,
+    },
+    "Jud. ": {
+      nom_complet: "Yéhouda (Jude)",
+      nbre_chapitres: 1,
+      max_verset: 100,
+    },
+    "Hé. ": { nom_complet: "Hébreux", nbre_chapitres: 13, max_verset: 100 },
+    "1 Jn. ": {
+      nom_complet: "1 Yohanan (1 Jean)",
+      nbre_chapitres: 5,
+      max_verset: 100,
+    },
+    "2 Jn. ": {
+      nom_complet: "2 Yohanan (2 Jean)",
+      nbre_chapitres: 1,
+      max_verset: 100,
+    },
+    "3 Jn. ": {
+      nom_complet: "3 Yohanan (3 Jean)",
+      nbre_chapitres: 1,
+      max_verset: 100,
+    },
+    "Ap. ": {
+      nom_complet: "Apokalupsis (Apocalypse)",
+      nbre_chapitres: 22,
+      max_verset: 100,
+    },
   },
 ];
 
@@ -189,9 +471,17 @@ function get_book_name(param){
           nom_du_livre = "2 Jn. ";
           nom_complet_du_livre = "2 Yohanan (2 Jean)";
         break;
+      case "3jn":
+          nom_du_livre = "3 Jn. ";
+          nom_complet_du_livre = "3 Yohanan (3 Jean)";
+        break;
       case "2je":
           nom_du_livre = "2 Jn. ";
           nom_complet_du_livre = "2 Yohanan (2 Jean)";
+        break;
+      case "3je":
+          nom_du_livre = "3 Jn. ";
+          nom_complet_du_livre = "3 Yohanan (3 Jean)";
         break;
       case "1th":
           nom_du_livre = "1 Th. ";
@@ -295,9 +585,21 @@ function get_book_name(param){
         nom_du_livre = "1 S. ";
         nom_complet_du_livre = "1 Shemouél (1 Samuel)";
         break;
+      case "1j":
+        nom_du_livre = "1 Jn. ";
+        nom_complet_du_livre = "1 Yohanan (1 Jean)";
+        break;
       case "2s":
         nom_du_livre = "2 S. ";
         nom_complet_du_livre = "2 Shemouél (2 Samuel)";
+        break;
+      case "2j":
+        nom_du_livre = "2 Jn. ";
+        nom_complet_du_livre = "2 Yohanan (2 Jean)";
+        break;
+      case "3j":
+        nom_du_livre = "3 Jn. ";
+        nom_complet_du_livre = "3 Yohanan (3 Jean)";
         break;
       case "1r":
         nom_du_livre = "1 R. ";
@@ -765,15 +1067,141 @@ app.get("/bym/:livre/:chap", (req, res) => {
 });
 
 
-// Recuperation des versets choisit
-
 app.get("/bym/:livre/:chap/:selections", (req, res) => {
   const notre_selection = req.params.selections;
   const nom_du_livre = req.params.livre;
   const num_du_chapitre = req.params.chap;
-
+  console.log(nom_du_livre, num_du_chapitre, notre_selection);
   const result = get_all_of_selection(nom_du_livre, num_du_chapitre, notre_selection);
   return_result(res, result, environment);
+});
+
+
+
+app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
+  const notre_selection = req.params.selections;
+  const nom_du_livre = req.params.livre;
+  const num_du_chapitre = req.params.chap;
+  const thegoto = req.params.goto;
+  if (thegoto === undefined) {
+    return res.status(200);
+  }
+
+  livre_actuel = get_book_name(
+    nom_du_livre.toLowerCase().replace(".", "").replace(" ", "")
+  )[0];
+  if (abbr_list.indexOf(livre_actuel) === 65) {
+    livre_suivant = get_book_name("gen");
+    livre_precedent = get_book_name("3jn");
+  } else if (abbr_list.indexOf(livre_actuel) === 0) {
+    livre_suivant = get_book_name("ex");
+    livre_precedent = get_book_name("ap");
+  } else {
+    livre_suivant = get_book_name(
+      abbr_list[abbr_list.indexOf(livre_actuel) + 1]
+        .toLowerCase()
+        .replace(".", "")
+        .replace(" ", "")
+    );
+    livre_precedent = get_book_name(
+      abbr_list[abbr_list.indexOf(livre_actuel) - 1]
+        .toLowerCase()
+        .replace(".", "")
+        .replace(" ", "")
+    );
+    livre_actuel = get_book_name(
+      abbr_list[abbr_list.indexOf(livre_actuel)]
+        .toLowerCase()
+        .replace(".", "")
+        .replace(" ", "")
+    );
+  }
+  nom_du_livre_actuel = livre_actuel[0]
+    .toLowerCase()
+    .replace(".", "")
+    .replace(" ", "");
+  nom_du_livre_precedent = livre_precedent[0]
+    .toLowerCase()
+    .replace(".", "")
+    .replace(" ", "");
+  nom_du_livre_suivant = livre_suivant[0]
+    .toLowerCase()
+    .replace(".", "")
+    .replace(" ", "");
+
+  
+  selection = make_selection(notre_selection);
+  const first = selection[0];
+  const last = selection[selection.length - 1];
+  prev = first - 1;
+  next = last + 1;
+  
+  switch (thegoto) {
+    case 'prev':
+      if (prev === 0) {
+        prev_chapitre = bible_details[0][livre_precedent[0]].nbre_chapitres;
+        getchapitre = get_all_chapter(nom_du_livre_precedent, prev_chapitre);
+        last_num_verset = Object.keys(getchapitre).length;
+
+        chapitre = prev_chapitre;
+        selection = `${last_num_verset}-${last_num_verset}`;
+        livre = nom_du_livre_precedent;
+        
+      } else {
+        chapitre = num_du_chapitre
+        if (last === first) {
+          selection = `${prev}-${prev}`;
+        }else {
+          selection = `${prev}-${last}`
+        }
+        livre = nom_du_livre_actuel
+      }
+      resultat = get_all_of_selection(livre, chapitre, selection); 
+      break;
+
+    case 'next':
+      livre_actuel = get_book_name(
+        abbr_list[abbr_list.indexOf(livre_actuel)]
+          .toLowerCase()
+          .replace(".", "")
+          .replace(" ", "")
+      );
+      nom_du_livre_act = livre_actuel[0]
+        .toLowerCase()
+        .replace(".", "")
+        .replace(" ", "");
+      // on verifie qu'il existe
+      if (last === first){
+        selection = `${next}-${next}`;
+      }else {
+        selection = `${last}-${next}`;
+      }
+      livre = nom_du_livre_act;
+      chapitre = num_du_chapitre
+      console.log("data:", livre, chapitre, selection);
+      it_s_exit = get_all_of_selection(livre, chapitre, selection); 
+      if (Object.keys(it_s_exit).length > 0) {
+        resultat = it_s_exit;
+      } else {
+        chapitre = parseInt(num_du_chapitre) + 1;
+        selection = "1-1"
+        if (chapitre > bible_details[0][livre_actuel[0]].nbre_chapitres) {
+          livre = nom_du_livre_suivant;
+          chapitre = 1;
+        } else {
+          livre = nom_du_livre_act;
+          selection = "1-1";
+        }
+        resultat = get_all_of_selection(livre, chapitre, selection);
+      }
+      break;
+
+    default:
+      resultat = [{}]
+      break;
+  }
+  return_result(res, resultat, environment);
+
 });
 
 
