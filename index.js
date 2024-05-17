@@ -1154,7 +1154,7 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
         livre = nom_du_livre_precedent;
         
       } else {
-        chapitre = num_du_chapitre
+        prev_chapitre = num_du_chapitre;
         if (last === first) {
           selection = `${prev}-${prev}`;
         }else {
