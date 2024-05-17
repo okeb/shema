@@ -637,9 +637,17 @@ function get_book_name(param){
         nom_du_livre = "Hé. ";
         nom_complet_du_livre = "Hébreux";
         break;
+      case "hé":
+        nom_du_livre = "Hé. ";
+        nom_complet_du_livre = "Hébreux";
+        break;
       case "es":
         nom_du_livre = "Es. ";
         nom_complet_du_livre = "Yesha`yah (Ésaïe)";
+        break;
+      case "ap":
+        nom_du_livre = "Ap. ";
+        nom_complet_du_livre = "Apokalupsis (Apocalypse)";
         break;
 
       default:
@@ -1154,7 +1162,6 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
         }else {
           selection = `${prev}-${last}`
         }
-        
         livre = nom_du_livre_actuel
           .toLowerCase()
           .replace(".", "")
@@ -1168,15 +1175,22 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
 
     case 'next':
       livre_actuel = get_book_name(
-        abbr_list[abbr_list.indexOf(livre_actuel)]
+        nom_du_livre
           .toLowerCase()
           .replace(".", "")
           .replace(" ", "")
+          .replace("é", "e")
+          .replace("ö", "o")
       );
+
+      
       nom_du_livre_act = livre_actuel[0]
         .toLowerCase()
         .replace(".", "")
-        .replace(" ", "");
+        .replace(" ", "")
+        .replace("é", "e")
+        .replace("ö", "o");
+
       // on verifie qu'il existe
       if (last === first){
         selection = `${next}-${next}`;
@@ -1184,8 +1198,8 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
         selection = `${last}-${next}`;
       }
       livre = nom_du_livre_act;
-      chapitre = num_du_chapitre
-      console.log("data:", livre, chapitre, selection);
+      let chapitre = num_du_chapitre
+      // console.log("data:", livre, chapitre, selection);
       it_s_exit = get_all_of_selection(livre, chapitre, selection); 
       if (Object.keys(it_s_exit).length > 0) {
         resultat = it_s_exit;
