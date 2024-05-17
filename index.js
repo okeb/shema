@@ -1154,7 +1154,13 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
         }else {
           selection = `${prev}-${last}`
         }
-        livre = livre_actuel.toLowerCase().replace(".", "").replace(" ", "");
+        
+        livre = nom_du_livre_actuel
+          .toLowerCase()
+          .replace(".", "")
+          .replace(" ", "")
+          .replace("é", "e")
+          .replace("ö", "o");
       }
 
       resultat = get_all_of_selection(livre, chapitre, selection); 
