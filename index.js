@@ -1137,13 +1137,11 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
     .replace(".", "")
     .replace(" ", "");
 
-  
   selection = make_selection(notre_selection);
   const first = selection[0];
   const last = selection[selection.length - 1];
   prev = first - 1;
   next = last + 1;
-  
   switch (thegoto) {
     case 'prev':
       if (prev === 0) {
@@ -1151,7 +1149,7 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
         getchapitre = get_all_chapter(nom_du_livre_precedent, prev_chapitre);
         last_num_verset = Object.keys(getchapitre).length;
 
-        chapitre = prev_chapitre;
+        // chapitre = prev_chapitre;
         selection = `${last_num_verset}-${last_num_verset}`;
         livre = nom_du_livre_precedent;
         
@@ -1170,7 +1168,7 @@ app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
           .replace("ö", "o");
       }
 
-      resultat = get_all_of_selection(livre, chapitre, selection); 
+      resultat = get_all_of_selection(livre, prev_chapitre, selection); 
       break;
 
     case 'next':
