@@ -4,7 +4,9 @@
   "description": "API de la bible de Yehowshuw`a Ha Mashiyah",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Oliver KEB",
   "license": "ISC",
@@ -15,5 +17,8 @@
     "helmet": "^6.0.0",
     "mongoose": "^6.6.5",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
