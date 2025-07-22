@@ -1,7 +1,74 @@
 const express = require("express");
 const app = express();
 // const TOKEN = process.env.TELEGRAM_TOKEN || "YOUR_TELEGRAM_BOT_TOKEN";
-const abbr_list = ["Ge. ", "Ex. ", "Lé. ", "No. ", "De. ", "Jos. ", "Jg. ", "1 S. ", "2 S. ", "1 R. ", "2 R. ", "Es. ", "Jé. ", "Ez. ", "Os. ", "Joë. ", "Am. ", "Ab. ", "Jon. ", "Mi. ", "Na. ", "Ha. ", "So. ", "Ag. ", "Za. ", "Mal. ", "Ps. ", "Pr. ", "Job ", "Ca. ", "Ru. ", "La. ", "Ec. ", "Est. ", "Da. ", "Esd. ", "Né. ", "1 Ch. ", "2 Ch. ", "Mt. ", "Mc. ", "Lu. ", "Jn. ", "Ac. ", "Ja. ", "Ga. ", "1 Th. ", "2 Th. ", "1 Co. ", "2 Co. ", "Ro. ", "Ep. ", "Ph. ", "Col. ", "Phm. ", "1 Ti. ", "Tit. ", "1 Pi. ", "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "]
+const abbr_list = [
+  "Ge. ",
+  "Ex. ",
+  "Lé. ",
+  "No. ",
+  "De. ",
+  "Jos. ",
+  "Jg. ",
+  "1 S. ",
+  "2 S. ",
+  "1 R. ",
+  "2 R. ",
+  "Es. ",
+  "Jé. ",
+  "Ez. ",
+  "Os. ",
+  "Joë. ",
+  "Am. ",
+  "Ab. ",
+  "Jon. ",
+  "Mi. ",
+  "Na. ",
+  "Ha. ",
+  "So. ",
+  "Ag. ",
+  "Za. ",
+  "Mal. ",
+  "Ps. ",
+  "Pr. ",
+  "Job ",
+  "Ca. ",
+  "Ru. ",
+  "La. ",
+  "Ec. ",
+  "Est. ",
+  "Da. ",
+  "Esd. ",
+  "Né. ",
+  "1 Ch. ",
+  "2 Ch. ",
+  "Mt. ",
+  "Mc. ",
+  "Lu. ",
+  "Jn. ",
+  "Ac. ",
+  "Ja. ",
+  "Ga. ",
+  "1 Th. ",
+  "2 Th. ",
+  "1 Co. ",
+  "2 Co. ",
+  "Ro. ",
+  "Ep. ",
+  "Ph. ",
+  "Col. ",
+  "Phm. ",
+  "1 Ti. ",
+  "Tit. ",
+  "1 Pi. ",
+  "2 Pi. ",
+  "2 Ti. ",
+  "Jud. ",
+  "Hé. ",
+  "1 Jn. ",
+  "2 Jn. ",
+  "3 Jn. ",
+  "Ap. ",
+];
 
 const complet_list = [
   {
@@ -372,7 +439,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // adding morgan to log HTTP requests
-app.use(morgan('combined'));
+app.use(morgan("combined"));
 
 /**
  * Capitalize une chaine de caractère
@@ -388,17 +455,17 @@ function capitalizeFirstLetter(string) {
  * @param {string} param le nom ou abbreviation du livre demandé par l'utilisateur
  * @return {string[]} l'abbreviation du livre et le nom complet
  */
-function get_book_name(param){
+function get_book_name(param) {
   var correct = true;
 
   if (!abbr_list.includes(capitalizeFirstLetter(param).trim() + ". ")) {
-    correct = false 
+    correct = false;
   }
   if (!abbr_list.includes(capitalizeFirstLetter(param).trim() + " ")) {
-    correct = false 
+    correct = false;
   }
-  
-  if(!correct){
+
+  if (!correct) {
     correct = true;
     switch (param.substring(0, 5).toLowerCase()) {
       case "phili":
@@ -417,14 +484,14 @@ function get_book_name(param){
         nom_du_livre = "Phm. ";
         nom_complet_du_livre = "Philémon";
         break;
-  
+
       default:
         correct = false;
         break;
     }
   }
-  
-  if(!correct){
+
+  if (!correct) {
     correct = true;
     switch (param.substring(0, 3).toLowerCase()) {
       case "1co":
@@ -555,7 +622,7 @@ function get_book_name(param){
           nom_du_livre = "Jg. ";
           nom_complet_du_livre = "Vayiqra (Lévitique)";
         break;
-  
+
       default:
         correct = false;
         break;
@@ -663,7 +730,6 @@ function get_book_name(param){
   return [nom_du_livre, nom_complet_du_livre]
 }
 
-
 /**
  * Recupère un livre entier
  * @param {string} nom_du_livre nom du livre a récuperer
@@ -677,7 +743,7 @@ function get_book(nom_du_livre, action) {
   var result = {}
 
   if (typeof action === "undefined") {
-    action = "verset"
+    action = "verset";
   }
 
   switch (action) {
@@ -703,7 +769,7 @@ function get_book(nom_du_livre, action) {
             verset_actual["version"] = "Bible de Yéhoshoua Ha Mashiah";
             verset_actual["version_abbr"] = "BYM";
             result[verset] = verset_actual;
-          }else{
+          } else {
             search = false;
           }
         }
@@ -717,14 +783,13 @@ function get_book(nom_du_livre, action) {
         }
       }
       break;
-  
+
     default:
       break;
   }
-  
+
   return result;
 }
-
 
 /**
  * recupère tout le chapitre d'un livre de la bible
@@ -732,20 +797,19 @@ function get_book(nom_du_livre, action) {
  * @param {string} chapitre chapitre du livre
  * @returns {JSON} versets du chapitre du livre demandé
  */
-function get_all_chapter(nom_du_livre, chapitre){
+function get_all_chapter(nom_du_livre, chapitre) {
   const bym = require("./db/thebym.json");
   const l = get_book_name(nom_du_livre);
   const livre = l[0];
   const livre_nom_complet = l[1];
   var result = {};
-  var a = 0
+  var a = 0;
   var continued = true;
 
   while (continued) {
     a++;
     var verset = livre + chapitre + ":" + a;
     var ecriture = bym[verset];
-
 
     if (ecriture) {
       var verset_actual = {};
@@ -766,43 +830,40 @@ function get_all_chapter(nom_du_livre, chapitre){
   return result;
 }
 
-
 /**
  * crée un tableau contenant tous les numéros de verset contenu dans le params
  * @param {string} versets liste des verset qu'on souhaite recupérer
  * @returns selection tableau contenant la liste des numero des versets
  */
-function make_selection(versets){
-  var selection = []
+function make_selection(versets) {
+  var selection = [];
 
   const listes = versets.split(",");
   for (let i = 0; i < listes.length; i++) {
     const liste = listes[i];
-    if(liste.includes("-")){
-      const v_debut = parseInt(liste.split("-")[0])
+    if (liste.includes("-")) {
+      const v_debut = parseInt(liste.split("-")[0]);
       const v_fin = parseInt(liste.split("-")[1]);
       for (var y = v_debut; y <= v_fin; y++) {
         selection.push(y);
       }
-
-    }else{
+    } else {
       selection.push(parseInt(liste));
-    } 
+    }
   }
 
-  selection.sort((a, b) =>(a - b))
+  selection.sort((a, b) => a - b);
 
   // console.log(selection)
-  return selection
+  return selection;
 }
-
 
 /**
  * recupere tous les versets selectionnés
  * @param {string} nom_du_livre c'est le nom du livre dans lequel on va récuperer les verset
  * @param {string} chapitre c'est le nom du chapitre du livre 
  * @param {array} notre_selection un tableau de tous les versets selectionnés
- * @returns {JSON} un json contenant les versets choisi de la bible 
+ * @returns {JSON} un json contenant les versets choisi de la bible
  */
 function get_all_of_selection(nom_du_livre, chapitre, notre_selection) {
   const bym = require("./db/thebym.json");
@@ -834,7 +895,6 @@ function get_all_of_selection(nom_du_livre, chapitre, notre_selection) {
   return result;
 }
 
-
 /**
  * renvoi la reponse au client
  * @param {response} res la reponse du serveur
@@ -852,7 +912,6 @@ function return_result(res, result, environment) {
   }
 }
 
-
 // ajoute des entêtes
 
 app.use((req, res, next) => {
@@ -868,7 +927,6 @@ app.use((req, res, next) => {
   next();
 });
 
-
 // Récupére toute la bible
 
 app.get("/bym", (req, res) => {
@@ -883,117 +941,179 @@ app.get("/bym", (req, res) => {
     return 1 + Math.floor(Math.random() * max);
   }
   var abbr_list = [
-    "Ge. ", "Ex. ", "Lé. ", "No. ", "De. ", "Jos. ", "Jg. ", "1 S. ", "2 S. ", "1 R. ", "2 R. ", "Es. ", "Jé. ", "Ez. ", "Os. ", "Joë. ", "Am. ", "Ab. ", "Jon. ", "Mi. ", "Na. ", "Ha. ", "So. ", "Ag. ", "Za. ", "Mal. ", "Ps. ", "Pr. ", "Job ", "Ca. ", "Ru. ", "La. ", "Ec. ", "Est. ", "Da. ", "Esd. ", "Né. ", "1 Ch. ", "2 Ch. ", "Mt. ", "Mc. ", "Lu. ", "Jn. ", "Ac. ", "Ja. ", "Ga. ", "1 Th. ", "2 Th. ", "1 Co. ", "2 Co. ", "Ro. ", "Ep. ", "Ph. ", "Col. ", "Phm. ", "1 Ti. ", "Tit. ", "1 Pi. ", "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "
-  ]
+    "Ge. ",
+    "Ex. ",
+    "Lé. ",
+    "No. ",
+    "De. ",
+    "Jos. ",
+    "Jg. ",
+    "1 S. ",
+    "2 S. ",
+    "1 R. ",
+    "2 R. ",
+    "Es. ",
+    "Jé. ",
+    "Ez. ",
+    "Os. ",
+    "Joë. ",
+    "Am. ",
+    "Ab. ",
+    "Jon. ",
+    "Mi. ",
+    "Na. ",
+    "Ha. ",
+    "So. ",
+    "Ag. ",
+    "Za. ",
+    "Mal. ",
+    "Ps. ",
+    "Pr. ",
+    "Job ",
+    "Ca. ",
+    "Ru. ",
+    "La. ",
+    "Ec. ",
+    "Est. ",
+    "Da. ",
+    "Esd. ",
+    "Né. ",
+    "1 Ch. ",
+    "2 Ch. ",
+    "Mt. ",
+    "Mc. ",
+    "Lu. ",
+    "Jn. ",
+    "Ac. ",
+    "Ja. ",
+    "Ga. ",
+    "1 Th. ",
+    "2 Th. ",
+    "1 Co. ",
+    "2 Co. ",
+    "Ro. ",
+    "Ep. ",
+    "Ph. ",
+    "Col. ",
+    "Phm. ",
+    "1 Ti. ",
+    "Tit. ",
+    "1 Pi. ",
+    "2 Pi. ",
+    "2 Ti. ",
+    "Jud. ",
+    "Hé. ",
+    "1 Jn. ",
+    "2 Jn. ",
+    "3 Jn. ",
+    "Ap. ",
+  ];
 
   var books_list = {
     "Ge. ": [
       {
-        "livre": "Genèse",
-        "abbreviation": "Ge.",
-        "auteur": "Probablement Moshèh (Moïse)",
-        "signification": "Au commencement",
-        "theme": "La Création de L'être humain",
-        "date": "Env.1450 - 1410 av. Y.-M. (J.-C.)",
-        "explication": "Premier livre du Tanakh, Bereshit est le livre du commencement. Il relate l'histoire des origines de l'humanité, la création des cieux, de la Terre et de tout ce qui s'y trouve par YHWH, l'Elohîm créateur.\nIl y est décrit le péché de l'être humain et sa séparation d'avec Elohîm, ainsi que la décadence de l'univers qui en résulta. En réponse à la méchanceté du cœur de l'humain, YHWH exerça sa justice en détruisant la Terre par le déluge. Dans sa prescience, YHWH avait cependant résolu de se réconcilier avec l'être humain. Il se révéla donc comme Sauveur en accordant sa grâce à Noah (Noé) et à sa famille. Après cet événement, les êtres humains se tournèrent une fois de plus vers le mal en tentant Elohîm par la construction de la tour de Babel, œuvre à l'origine de la dispersion des nations.\nCe livre présente aussi l'élection d'Abraham, originaire d'Our en Chaldée (Mésopotamie antique, dans l'actuel Irak), qui reçut la promesse divine de devenir une grande nation, en qui toutes les familles de la Terre seraient bénies. Le récit se poursuit par l'histoire de ses descendants : Yitzhak (Isaac), Yaacov (Jacob) et ses douze fils, qui formèrent par la suite la nation d'Israël.",
-        "nbrchap": 50,
-        "chapitres": [
-          {1: 31},
-        ]
-      }
+        livre: "Genèse",
+        abbreviation: "Ge.",
+        auteur: "Probablement Moshèh (Moïse)",
+        signification: "Au commencement",
+        theme: "La Création de L'être humain",
+        date: "Env.1450 - 1410 av. Y.-M. (J.-C.)",
+        explication:
+          "Premier livre du Tanakh, Bereshit est le livre du commencement. Il relate l'histoire des origines de l'humanité, la création des cieux, de la Terre et de tout ce qui s'y trouve par YHWH, l'Elohîm créateur.\nIl y est décrit le péché de l'être humain et sa séparation d'avec Elohîm, ainsi que la décadence de l'univers qui en résulta. En réponse à la méchanceté du cœur de l'humain, YHWH exerça sa justice en détruisant la Terre par le déluge. Dans sa prescience, YHWH avait cependant résolu de se réconcilier avec l'être humain. Il se révéla donc comme Sauveur en accordant sa grâce à Noah (Noé) et à sa famille. Après cet événement, les êtres humains se tournèrent une fois de plus vers le mal en tentant Elohîm par la construction de la tour de Babel, œuvre à l'origine de la dispersion des nations.\nCe livre présente aussi l'élection d'Abraham, originaire d'Our en Chaldée (Mésopotamie antique, dans l'actuel Irak), qui reçut la promesse divine de devenir une grande nation, en qui toutes les familles de la Terre seraient bénies. Le récit se poursuit par l'histoire de ses descendants : Yitzhak (Isaac), Yaacov (Jacob) et ses douze fils, qui formèrent par la suite la nation d'Israël.",
+        nbrchap: 50,
+        chapitres: [{ 1: 31 }],
+      },
     ],
     "Ex. ": [
-        {
-          "livre": "",
-          "abbreviation": "",
-          "auteur": "",
-          "signification": "",
-          "theme": "",
-          "date": "",
-          "explication": "",
-          "nbrchap": 50,
-          "chapitres": [
-            {1: 31},
-          ]
-        }
-      ], 
-    "Lé. ": [{
-          "livre": "",
-          "abbreviation": "",
-          "auteur": "",
-          "signification": "",
-          "theme": "",
-          "date": "",
-          "explication": "",
-          "nbrchap": 50,
-          "chapitres": [
-            {1: 31},
-          ]
-      }], 
-    "No. ": [], 
-    "De. ": [], 
-    "Jos. ": [], 
-    "Jg. ": [], 
-    "1 S. ": [], 
-    "2 S. ": [], 
-    "1 R. ": [], 
-    "2 R. ": [], 
-    "Es. ": [], 
-    "Jé. ": [], 
-    "Ez. ": [], 
-    "Os. ": [], 
-    "Joë. ": [], 
-    "Am. ": [], 
-    "Ab. ": [], 
-    "Jon. ": [], 
-    "Mi. ": [], 
-    "Na. ": [], 
-    "Ha. ": [], 
-    "So. ": [], 
-    "Ag. ": [], 
-    "Za. ": [], 
-    "Mal. ": [], 
-    "Ps. ": [], 
-    "Pr. ": [], 
+      {
+        livre: "",
+        abbreviation: "",
+        auteur: "",
+        signification: "",
+        theme: "",
+        date: "",
+        explication: "",
+        nbrchap: 50,
+        chapitres: [{ 1: 31 }],
+      },
+    ],
+    "Lé. ": [
+      {
+        livre: "",
+        abbreviation: "",
+        auteur: "",
+        signification: "",
+        theme: "",
+        date: "",
+        explication: "",
+        nbrchap: 50,
+        chapitres: [{ 1: 31 }],
+      },
+    ],
+    "No. ": [],
+    "De. ": [],
+    "Jos. ": [],
+    "Jg. ": [],
+    "1 S. ": [],
+    "2 S. ": [],
+    "1 R. ": [],
+    "2 R. ": [],
+    "Es. ": [],
+    "Jé. ": [],
+    "Ez. ": [],
+    "Os. ": [],
+    "Joë. ": [],
+    "Am. ": [],
+    "Ab. ": [],
+    "Jon. ": [],
+    "Mi. ": [],
+    "Na. ": [],
+    "Ha. ": [],
+    "So. ": [],
+    "Ag. ": [],
+    "Za. ": [],
+    "Mal. ": [],
+    "Ps. ": [],
+    "Pr. ": [],
     "Job ": [],
-    "Ca. ": [], 
-    "Ru. ": [], 
-    "La. ": [], 
-    "Ec. ": [], 
-    "Est. ": [], 
-    "Da. ": [], 
-    "Esd. ": [], 
-    "Né. ": [], 
-    "1 Ch. ": [], 
-    "2 Ch. ": [], 
-    "Mt. ": [], 
-    "Mc. ": [], 
-    "Lu. ": [], 
-    "Jn. ": [], 
-    "Ac. ": [], 
-    "Ja. ": [], 
-    "Ga. ": [], 
-    "1 Th. ": [], 
-    "2 Th. ": [], 
-    "1 Co. ": [], 
-    "2 Co. ": [], 
-    "Ro. ": [], 
-    "Ep. ": [], 
-    "Ph. ": [], 
-    "Col. ": [], 
-    "Phm. ": [], 
-    "1 Ti. ": [], 
-    "Tit. ": [], 
-    "1 Pi. ": [], 
-    "2 Pi. ": [], 
-    "2 Ti. ": [], 
-    "Jud. ": [], 
-    "Hé. ": [], 
-    "1 Jn. ": [], 
-    "2 Jn. ": [], 
-    "3 Jn. ": [], 
-    "Ap. ": []
-  }
+    "Ca. ": [],
+    "Ru. ": [],
+    "La. ": [],
+    "Ec. ": [],
+    "Est. ": [],
+    "Da. ": [],
+    "Esd. ": [],
+    "Né. ": [],
+    "1 Ch. ": [],
+    "2 Ch. ": [],
+    "Mt. ": [],
+    "Mc. ": [],
+    "Lu. ": [],
+    "Jn. ": [],
+    "Ac. ": [],
+    "Ja. ": [],
+    "Ga. ": [],
+    "1 Th. ": [],
+    "2 Th. ": [],
+    "1 Co. ": [],
+    "2 Co. ": [],
+    "Ro. ": [],
+    "Ep. ": [],
+    "Ph. ": [],
+    "Col. ": [],
+    "Phm. ": [],
+    "1 Ti. ": [],
+    "Tit. ": [],
+    "1 Pi. ": [],
+    "2 Pi. ": [],
+    "2 Ti. ": [],
+    "Jud. ": [],
+    "Hé. ": [],
+    "1 Jn. ": [],
+    "2 Jn. ": [],
+    "3 Jn. ": [],
+    "Ap. ": [],
+  };
 
 
   function find_verset(complet_list) {
@@ -1046,23 +1166,19 @@ app.get("/bym", (req, res) => {
   }
 });
 
-
 // servir des fichiers statiques
 
 app.use("/home", express.static("src"));
 app.use("/contact", express.static("src/contact"));
 
-
 // Récupérer tout un livre
-
 
 app.get("/bym/:livre", (req, res) => {
   const nom_du_livre = req.params.livre;
 
   const result = get_book(nom_du_livre);
   return_result(res, result, environment);
-})
-
+});
 
 // Récupérer tous les versets d'un chapitre
 
@@ -1086,143 +1202,36 @@ app.get("/bym/:livre/:chap/:selections", (req, res) => {
 
 
 
-app.get("/bym/:livre/:chap/:selections/:goto", (req, res) => {
-  const notre_selection = req.params.selections;
-  const nom_du_livre = req.params.livre;
-  const num_du_chapitre = req.params.chap;
-  const thegoto = req.params.goto;
-  if (thegoto === undefined) {
-    return res.status(200);
-  }
+// Récuperer le nombre de versets par chapitre pour tous les livres de la bible
+app.get("/infos", (req, res) => {
+   const bym = require("./db/thebym.json");
 
-  livre_actuel = get_book_name(
-    nom_du_livre.toLowerCase().replace(".", "").replace(" ", "")
-  )[0];
-  if (abbr_list.indexOf(livre_actuel) === 65) {
-    livre_suivant = get_book_name("gen");
-    livre_precedent = get_book_name("3jn");
-  } else if (abbr_list.indexOf(livre_actuel) === 0) {
-    livre_suivant = get_book_name("ex");
-    livre_precedent = get_book_name("ap");
-  } else {
-    livre_suivant = get_book_name(
-      abbr_list[abbr_list.indexOf(livre_actuel) + 1]
-        .toLowerCase()
-        .replace(".", "")
-        .replace(" ", "")
-    );
-    livre_precedent = get_book_name(
-      abbr_list[abbr_list.indexOf(livre_actuel) - 1]
-        .toLowerCase()
-        .replace(".", "")
-        .replace(" ", "")
-    );
-    livre_actuel = get_book_name(
-      abbr_list[abbr_list.indexOf(livre_actuel)]
-        .toLowerCase()
-        .replace(".", "")
-        .replace(" ", "")
-    );
-  }
-  nom_du_livre_actuel = livre_actuel[0]
-    .toLowerCase()
-    .replace(".", "")
-    .replace(" ", "");
-  nom_du_livre_precedent = livre_precedent[0]
-    .toLowerCase()
-    .replace(".", "")
-    .replace(" ", "");
-  nom_du_livre_suivant = livre_suivant[0]
-    .toLowerCase()
-    .replace(".", "")
-    .replace(" ", "");
+  const data = {}; // Structure finale : { Ge: { 1: 31, 2: 25, ... } }
 
-  selection = make_selection(notre_selection);
-  const first = selection[0];
-  const last = selection[selection.length - 1];
-  prev = first - 1;
-  next = last + 1;
-  switch (thegoto) {
-    case 'prev':
-      if (prev === 0) {
-        prev_chapitre = bible_details[0][livre_precedent[0]].nbre_chapitres;
-        getchapitre = get_all_chapter(nom_du_livre_precedent, prev_chapitre);
-        last_num_verset = Object.keys(getchapitre).length;
+  for (const ref in bym) {
+    // Extraire livre, chapitre et verset
+    const match = ref.match(/^([^\s\.]+)\s*\.\s*(\d+):(\d+)/);
+    if (match) {
+      const livre = match[1];
+      const chapitre = match[2];
 
-        // chapitre = prev_chapitre;
-        selection = `${last_num_verset}-${last_num_verset}`;
-        livre = nom_du_livre_precedent;
-        
-      } else {
-        prev_chapitre = num_du_chapitre;
-        if (last === first) {
-          selection = `${prev}-${prev}`;
-        }else {
-          selection = `${prev}-${last}`
-        }
-        livre = nom_du_livre_actuel
-          .toLowerCase()
-          .replace(".", "")
-          .replace(" ", "")
-          .replace("é", "e")
-          .replace("ö", "o");
+      // Initialiser si nécessaire
+      if (!data[livre]) {
+        data[livre] = {};
       }
 
-      resultat = get_all_of_selection(livre, prev_chapitre, selection); 
-      break;
-
-    case 'next':
-      livre_actuel = get_book_name(
-        nom_du_livre
-          .toLowerCase()
-          .replace(".", "")
-          .replace(" ", "")
-          .replace("é", "e")
-          .replace("ö", "o")
-      );
-
-      
-      nom_du_livre_act = livre_actuel[0]
-        .toLowerCase()
-        .replace(".", "")
-        .replace(" ", "")
-        .replace("é", "e")
-        .replace("ö", "o");
-
-      // on verifie qu'il existe
-      if (last === first){
-        selection = `${next}-${next}`;
-      }else {
-        selection = `${last}-${next}`;
+      if (!data[livre][chapitre]) {
+        data[livre][chapitre] = 0;
       }
-      livre = nom_du_livre_act;
-      let chapitre = num_du_chapitre
-      // console.log("data:", livre, chapitre, selection);
-      it_s_exit = get_all_of_selection(livre, chapitre, selection); 
-      if (Object.keys(it_s_exit).length > 0) {
-        resultat = it_s_exit;
-      } else {
-        chapitre = parseInt(num_du_chapitre) + 1;
-        selection = "1-1"
-        if (chapitre > bible_details[0][livre_actuel[0]].nbre_chapitres) {
-          livre = nom_du_livre_suivant;
-          chapitre = 1;
-        } else {
-          livre = nom_du_livre_act;
-          selection = "1-1";
-        }
-        resultat = get_all_of_selection(livre, chapitre, selection);
-      }
-      break;
 
-    default:
-      resultat = [{}]
-      break;
+      // Chaque verset compte +1
+      data[livre][chapitre]++;
+    }
   }
-  return_result(res, resultat, environment);
 
+  return_result(res, data, "prod");
 });
-
+ 
 
 app.get("/", (req, res) => {
   res.send("Que Yehowshuw`a Ha-Mashiyah soit glorifié. Amen 🙏🏾");
@@ -1233,7 +1242,6 @@ app.get("/", (req, res) => {
 app.listen(process.env.PORT || 8080, () => {
   console.log("Que Yehowshuw`a Ha-Mashiyah soit glorifié. Amen 🙏🏾");
 });
-
 
 // Export the Express API
 module.exports = app;

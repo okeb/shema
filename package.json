@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "dev": "nodemon"
+=======
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+>>>>>>> release/info-bible
   },
   "author": "Oliver KEB",
   "license": "ISC",
@@ -13,6 +18,7 @@
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+<<<<<<< HEAD
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "helmet": "^6.0.1",
@@ -23,5 +29,14 @@
   },
   "devDependencies": {
     "pnpm": "^8.6.11"
+=======
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+>>>>>>> release/info-bible
   }
 }
