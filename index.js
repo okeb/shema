@@ -809,15 +809,15 @@ app.get("/bym/:livre/:chap/:selections", (req, res) => {
 
 // Récuperer le nombre de versets par chapitre pour tous les livres de la bible
 app.get("/infos", (req, res) => {
-   const bym = require("./db/thebym.json");
+  const bym = require("./db/thebym.json");
 
   const data = {}; // Structure finale : { Ge: { 1: 31, 2: 25, ... } }
 
   for (const ref in bym) {
     // Extraire livre, chapitre et verset
-    const match = ref.match(/^([^\s\.]+)\s*\.\s*(\d+):(\d+)/);
+    const match = ref.match(/^([\w\s]+)\.\s*(\d+):(\d+)/);
     if (match) {
-      const livre = match[1];
+      const livre = match[1].trim();
       const chapitre = match[2];
 
       // Initialiser si nécessaire
