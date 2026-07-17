@@ -1,0 +1,141 @@
+body {
+    font-family: 'Lexend', 'Inter', sans-serif;
+    /* background-color: #333333;
+    color:aliceblue; */
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1B1B1D;
+        color: azure;
+    }
+}
+
+main {
+    margin-top:100px;
+}
+
+.topbar {
+    position:absolute;
+    /* background-color: #111111; */
+    padding: 7px 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+@media (prefers-color-scheme: dark) {
+    .topbar {
+        background-color: #242526;
+    }
+}
+
+.topbar__grid {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.topbar__logo {
+    font-weight: 600;
+    font-size: x-large;
+    letter-spacing: -1px;
+}
+
+.topbar__navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topbar__list {
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+}
+
+.topbar__list li {
+    margin: 0 7px;
+}
+
+    .topbar__link {
+        text-decoration: none;
+        display: flex;
+        align-items: flex-end;
+        color:#444444;
+        font-weight: 300;
+        border-radius: 7px;
+        padding: 7px 12px;
+        transition: all .4s;
+    }
+    .topbar__link:hover {
+        color: black;
+        background-color: #FEFEFE;
+        transition: all .5s;
+    }
+
+.topbar__link.as_active {
+    font-weight: bold;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    .topbar__link {
+        display: flex;
+        align-items:flex-end;
+        color: azure;
+        transition: all .4s;
+    }
+    .topbar__link:hover {
+        color: rgb(80, 250, 123);
+        background-color: #222;
+        transition: all .5s;
+    }
+}
+
+.topbar__link__icon {
+    margin: 0;
+    padding: 0;
+    margin-right: -12px;
+    transition: all .4s;
+}
+
+.topbar__link:hover .topbar__link__icon {
+    transform: rotateZ(-180deg);
+    transition: transform .5s;
+    transition-delay: .1s;
+}
+
+
+.topbar__buttons button {
+    background-color: black;
+    color:#FFFFFF;
+    border-radius: 7px;
+    padding: 7px 12px;
+    font-size: medium;
+    margin: 0 18px;
+    border: none;
+    transition: all .4s;
+    border: 1px solid black;
+}
+
+.topbar__buttons button:hover {
+    background-color:rgb(213, 1, 1);
+    border: 1px solid rgb(213, 1, 1);
+    transition: all .5s;
+}
+
+@media (prefers-color-scheme: dark) {
+    .topbar__buttons button {
+        color: rgb(80, 250, 123);
+        background-color: #242526;
+        border: 1px solid rgb(80, 250, 123);
+    }
+    .topbar__buttons button:hover {
+        background-color: #25C2A0;
+        transition: all .5s;
+        color: white;
+        border-color: #25C2A0;
+    }
+}

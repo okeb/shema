@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation API - ShemaProject</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .doc-section {
+            margin: 3rem 0;
+        }
+        
+        .doc-section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .doc-section h3 {
+            color: #34495e;
+            margin-top: 2rem;
+        }
+        
+        .api-pattern {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid #3498db;
+        }
+        
+        .example-card {
+            background: white;
+            border: 1px solid #e1e8ed;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .example-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .example-url {
+            background: #ecf0f1;
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            margin: 1rem 0;
+            word-break: break-all;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .example-url:hover {
+            background: #d5dbdb;
+        }
+        
+        .example-response {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 1rem;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .api-tester {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            color: white;
+            margin: 2rem 0;
+        }
+        
+        .api-tester h3 {
+            color: white;
+            margin-top: 0;
+        }
+        
+        .input-group {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1rem;
+            align-items: center;
+            margin: 1rem 0;
+        }
+        
+        .input-group label {
+            font-weight: 600;
+        }
+        
+        .input-group input {
+            padding: 0.75rem;
+            border-radius: 6px;
+            border: none;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .test-button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background 0.2s;
+        }
+        
+        .test-button:hover {
+            background: #229954;
+        }
+        
+        .test-button:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+        }
+        
+        .test-result {
+            margin-top: 1.5rem;
+            background: white;
+            color: #2c3e50;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .abbr-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .abbr-item {
+            background: #ecf0f1;
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .copy-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            margin-left: 0.5rem;
+            transition: background 0.2s;
+        }
+        
+        .copy-btn:hover {
+            background: #2980b9;
+        }
+        
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar__grid">
+            <div class="topbar__logo">
+                <a href="/" style="color: inherit; text-decoration: none;">ShemaProject<sup style="font-size:x-small; margin: 0px 3px">&trade;</sup></a>
+            </div>
+            <div class="topbar__navigation">
+                <ul class="topbar__list">
+                    <li><a href="/bym" class="topbar__link">Références&nbsp;API</a></li>
+                    <li><a href="/docs.html" class="topbar__link" style="font-weight: 600;">Documentation</a></li>
+                    <li><a href="/contact.html" class="topbar__link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        <h1>Documentation de l'API ShemaProject</h1>
+        <p>Une API REST simple pour accéder aux versets de la Bible de Yehowshuw`a Ha-Mashiyah.</p>
+        
+        <!-- Pattern de l'API -->
+        <section class="doc-section">
+            <h2>📋 Format de l'URL</h2>
+            <div class="api-pattern">
+                https://www.shemaproject.org/bym/<strong>livre</strong>/[<strong>chapitre</strong>/][<strong>verset_debut</strong>][-<strong>verset_fin</strong>]
+            </div>
+            <p><em>Les éléments entre crochets sont optionnels</em></p>
+        </section>
+        
+        <!-- Testeur d'API interactif -->
+        <section class="api-tester">
+            <h3>🔬 Testeur d'API en direct</h3>
+            <p>Essayez l'API directement depuis cette page !</p>
+            
+            <div class="input-group">
+                <label>Livre :</label>
+                <input type="text" id="book" placeholder="Ex: genèse, Ge, matthieu, Mt" value="genèse">
+            </div>
+            
+            <div class="input-group">
+                <label>Chapitre :</label>
+                <input type="text" id="chapter" placeholder="Ex: 1" value="1">
+            </div>
+            
+            <div class="input-group">
+                <label>Verset début :</label>
+                <input type="text" id="verse-start" placeholder="Ex: 3 (optionnel)" value="3">
+            </div>
+            
+            <div class="input-group">
+                <label>Verset fin :</label>
+                <input type="text" id="verse-end" placeholder="Ex: 7 (optionnel)" value="7">
+            </div>
+            
+            <button class="test-button" id="test-api">Tester l'API</button>
+            
+            <div id="test-result" class="test-result" style="display: none;"></div>
+        </section>
+        
+        <!-- Exemples -->
+        <section class="doc-section">
+            <h2>💡 Exemples d'utilisation</h2>
+            
+            <div class="example-card">
+                <h3 class="example-title">Exemple 1 : Séquence de versets</h3>
+                <p><strong>Genèse 1:3-7</strong></p>
+                <div class="example-url" onclick="copyToClipboard(this)">
+                    https://www.shemaproject.org/bym/genèse/1/3-7
+                    <button class="copy-btn">Copier</button>
+                </div>
+                <p><em>Affiche les versets 3 à 7 du chapitre 1 de la Genèse</em></p>
+                <details>
+                    <summary style="cursor: pointer; font-weight: 600; margin: 1rem 0;">Voir la réponse</summary>
+                    <pre class="example-response">{
+  "Ge. 1:3": {
+    "livre": "Ge. ",
+    "chapitre": "1",
+    "verset": 3,
+    "value": "Elohîm dit : Que la lumière apparaisse ! Et la lumière apparut."
+  },
+  "Ge. 1:4": {
+    "livre": "Ge. ",
+    "chapitre": "1",
+    "verset": 4,
+    "value": "Elohîm vit que la lumière était bonne, et Elohîm sépara la lumière de la ténèbre."
+  },
+  ...
+}</pre>
+                </details>
+            </div>
+            
+            <div class="example-card">
+                <h3 class="example-title">Exemple 2 : Un seul verset</h3>
+                <p><strong>Apocalypse 3:5</strong></p>
+                <div class="example-url" onclick="copyToClipboard(this)">
+                    https://www.shemaproject.org/bym/ap/3/5
+                    <button class="copy-btn">Copier</button>
+                </div>
+                <p><em>Affiche uniquement le verset 5 du chapitre 3 de l'Apocalypse</em></p>
+            </div>
+            
+            <div class="example-card">
+                <h3 class="example-title">Exemple 3 : Chapitre complet</h3>
+                <p><strong>Romains 8</strong></p>
+                <div class="example-url" onclick="copyToClipboard(this)">
+                    https://www.shemaproject.org/bym/romains/8
+                    <button class="copy-btn">Copier</button>
+                </div>
+                <p><em>Affiche tous les versets du chapitre 8 des Romains</em></p>
+            </div>
+            
+            <div class="example-card">
+                <h3 class="example-title">Exemple 4 : Livre complet</h3>
+                <p><strong>Matthieu (tous les chapitres)</strong></p>
+                <div class="example-url" onclick="copyToClipboard(this)">
+                    https://www.shemaproject.org/bym/matthieu
+                    <button class="copy-btn">Copier</button>
+                </div>
+                <p><em>Affiche tous les versets du livre de Matthieu (chapitres 1 à 28)</em></p>
+            </div>
+        </section>
+        
+        <!-- Abréviations -->
+        <section class="doc-section">
+            <h2>📚 Abréviations acceptées</h2>
+            <p>Vous pouvez utiliser les abréviations suivantes ou écrire le nom complet du livre (sans espaces) :</p>
+            <div class="abbr-grid">
+                <div class="abbr-item">Ge.</div>
+                <div class="abbr-item">Ex.</div>
+                <div class="abbr-item">Lé.</div>
+                <div class="abbr-item">No.</div>
+                <div class="abbr-item">De.</div>
+                <div class="abbr-item">Jos.</div>
+                <div class="abbr-item">Jg.</div>
+                <div class="abbr-item">1 S.</div>
+                <div class="abbr-item">2 S.</div>
+                <div class="abbr-item">1 R.</div>
+                <div class="abbr-item">2 R.</div>
+                <div class="abbr-item">Es.</div>
+                <div class="abbr-item">Jé.</div>
+                <div class="abbr-item">Ez.</div>
+                <div class="abbr-item">Os.</div>
+                <div class="abbr-item">Joë.</div>
+                <div class="abbr-item">Am.</div>
+                <div class="abbr-item">Ab.</div>
+                <div class="abbr-item">Jon.</div>
+                <div class="abbr-item">Mi.</div>
+                <div class="abbr-item">Na.</div>
+                <div class="abbr-item">Ha.</div>
+                <div class="abbr-item">So.</div>
+                <div class="abbr-item">Ag.</div>
+                <div class="abbr-item">Za.</div>
+                <div class="abbr-item">Mal.</div>
+                <div class="abbr-item">Ps.</div>
+                <div class="abbr-item">Pr.</div>
+                <div class="abbr-item">Job</div>
+                <div class="abbr-item">Ca.</div>
+                <div class="abbr-item">Ru.</div>
+                <div class="abbr-item">La.</div>
+                <div class="abbr-item">Ec.</div>
+                <div class="abbr-item">Est.</div>
+                <div class="abbr-item">Da.</div>
+                <div class="abbr-item">Esd.</div>
+                <div class="abbr-item">Né.</div>
+                <div class="abbr-item">1 Ch.</div>
+                <div class="abbr-item">2 Ch.</div>
+                <div class="abbr-item">Mt.</div>
+                <div class="abbr-item">Mc.</div>
+                <div class="abbr-item">Lu.</div>
+                <div class="abbr-item">Jn.</div>
+                <div class="abbr-item">Ac.</div>
+                <div class="abbr-item">Ja.</div>
+                <div class="abbr-item">Ga.</div>
+                <div class="abbr-item">1 Th.</div>
+                <div class="abbr-item">2 Th.</div>
+                <div class="abbr-item">1 Co.</div>
+                <div class="abbr-item">2 Co.</div>
+                <div class="abbr-item">Ro.</div>
+                <div class="abbr-item">Ep.</div>
+                <div class="abbr-item">Ph.</div>
+                <div class="abbr-item">Col.</div>
+                <div class="abbr-item">Phm.</div>
+                <div class="abbr-item">1 Ti.</div>
+                <div class="abbr-item">Tit.</div>
+                <div class="abbr-item">1 Pi.</div>
+                <div class="abbr-item">2 Pi.</div>
+                <div class="abbr-item">2 Ti.</div>
+                <div class="abbr-item">Jud.</div>
+                <div class="abbr-item">Hé.</div>
+                <div class="abbr-item">1 Jn.</div>
+                <div class="abbr-item">2 Jn.</div>
+                <div class="abbr-item">3 Jn.</div>
+                <div class="abbr-item">Ap.</div>
+            </div>
+            
+            <div class="note">
+                <strong>💡 Note :</strong> Vous pouvez également écrire le nom complet des livres (sans espaces). Par exemple : <code>genèse</code>, <code>matthieu</code>, <code>apocalypse</code>.
+            </div>
+        </section>
+        
+        <!-- Format de réponse -->
+        <section class="doc-section">
+            <h2>📤 Format de réponse</h2>
+            <p>L'API retourne toujours un objet JSON avec les versets demandés :</p>
+            <pre class="example-response">{
+  "Référence": {
+    "livre": "Abréviation du livre",
+    "chapitre": "Numéro du chapitre",
+    "verset": Numéro du verset,
+    "value": "Texte du verset"
+  }
+}</pre>
+        </section>
+    </main>
+    
+    <script src="/js/api-demo.js"></script>
+</body>
+</html>

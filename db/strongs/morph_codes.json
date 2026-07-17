@@ -1,0 +1,1794 @@
+{
+ "G5625": {
+  "fr": "deux numéros Strong (variante)",
+  "type": "variant",
+  "variant": true
+ },
+ "G5627": {
+  "fr": "aoriste second actif indicatif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5628": {
+  "fr": "aoriste second actif impératif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "actif",
+  "mood": "impératif"
+ },
+ "G5629": {
+  "fr": "aoriste second actif infinitif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "actif",
+  "mood": "infinitif"
+ },
+ "G5630": {
+  "fr": "aoriste second actif optatif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "actif",
+  "mood": "optatif"
+ },
+ "G5631": {
+  "fr": "aoriste second actif participe",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "actif",
+  "mood": "participe"
+ },
+ "G5632": {
+  "fr": "aoriste second actif subjonctif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "actif",
+  "mood": "subjonctif"
+ },
+ "G5633": {
+  "fr": "aoriste second moyen déponent indicatif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen déponent",
+  "mood": "indicatif"
+ },
+ "G5634": {
+  "fr": "aoriste second moyen déponent impératif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen déponent",
+  "mood": "impératif"
+ },
+ "G5635": {
+  "fr": "aoriste second moyen déponent infinitif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen déponent",
+  "mood": "infinitif"
+ },
+ "G5636": {
+  "fr": "aoriste second moyen déponent optatif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen déponent",
+  "mood": "optatif"
+ },
+ "G5637": {
+  "fr": "aoriste second moyen déponent participe",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen déponent",
+  "mood": "participe"
+ },
+ "G5638": {
+  "fr": "aoriste second moyen déponent subjonctif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen déponent",
+  "mood": "subjonctif"
+ },
+ "G5639": {
+  "fr": "aoriste second moyen indicatif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5640": {
+  "fr": "aoriste second moyen impératif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen",
+  "mood": "impératif"
+ },
+ "G5641": {
+  "fr": "aoriste second moyen infinitif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen",
+  "mood": "infinitif"
+ },
+ "G5642": {
+  "fr": "aoriste second moyen participe",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen",
+  "mood": "participe"
+ },
+ "G5643": {
+  "fr": "aoriste second moyen subjonctif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "moyen",
+  "mood": "subjonctif"
+ },
+ "G5644": {
+  "fr": "aoriste second passif déponent indicatif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif déponent",
+  "mood": "indicatif"
+ },
+ "G5645": {
+  "fr": "aoriste second passif déponent impératif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif déponent",
+  "mood": "impératif"
+ },
+ "G5646": {
+  "fr": "aoriste second passif déponent infinitif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif déponent",
+  "mood": "infinitif"
+ },
+ "G5647": {
+  "fr": "aoriste second passif déponent subjonctif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif déponent",
+  "mood": "subjonctif"
+ },
+ "G5648": {
+  "fr": "aoriste second passif indicatif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5649": {
+  "fr": "aoriste second passif impératif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif",
+  "mood": "impératif"
+ },
+ "G5650": {
+  "fr": "aoriste second passif infinitif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif",
+  "mood": "infinitif"
+ },
+ "G5651": {
+  "fr": "aoriste second passif participe",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif",
+  "mood": "participe"
+ },
+ "G5652": {
+  "fr": "aoriste second passif subjonctif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "voice": "passif",
+  "mood": "subjonctif"
+ },
+ "G5654": {
+  "fr": "aoriste second participe",
+  "type": "greek",
+  "tense": "aoriste second",
+  "mood": "participe"
+ },
+ "G5655": {
+  "fr": "aoriste second subjonctif",
+  "type": "greek",
+  "tense": "aoriste second",
+  "mood": "subjonctif"
+ },
+ "G5656": {
+  "fr": "aoriste actif indicatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5657": {
+  "fr": "aoriste actif impératif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "actif",
+  "mood": "impératif"
+ },
+ "G5658": {
+  "fr": "aoriste actif infinitif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "actif",
+  "mood": "infinitif"
+ },
+ "G5659": {
+  "fr": "aoriste actif optatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "actif",
+  "mood": "optatif"
+ },
+ "G5660": {
+  "fr": "aoriste actif participe",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "actif",
+  "mood": "participe"
+ },
+ "G5661": {
+  "fr": "aoriste actif subjonctif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "actif",
+  "mood": "subjonctif"
+ },
+ "G5662": {
+  "fr": "aoriste moyen déponent indicatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen déponent",
+  "mood": "indicatif"
+ },
+ "G5663": {
+  "fr": "aoriste moyen déponent impératif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen déponent",
+  "mood": "impératif"
+ },
+ "G5664": {
+  "fr": "aoriste moyen déponent infinitif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen déponent",
+  "mood": "infinitif"
+ },
+ "G5665": {
+  "fr": "aoriste moyen déponent optatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen déponent",
+  "mood": "optatif"
+ },
+ "G5666": {
+  "fr": "aoriste moyen déponent participe",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen déponent",
+  "mood": "participe"
+ },
+ "G5667": {
+  "fr": "aoriste moyen déponent subjonctif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen déponent",
+  "mood": "subjonctif"
+ },
+ "G5668": {
+  "fr": "aoriste moyen indicatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5669": {
+  "fr": "aoriste moyen impératif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen",
+  "mood": "impératif"
+ },
+ "G5670": {
+  "fr": "aoriste moyen infinitif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen",
+  "mood": "infinitif"
+ },
+ "G5671": {
+  "fr": "aoriste moyen participe",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen",
+  "mood": "participe"
+ },
+ "G5672": {
+  "fr": "aoriste moyen subjonctif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen",
+  "mood": "subjonctif"
+ },
+ "G5673": {
+  "fr": "aoriste moyen/passif déponent indicatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen/passif déponent",
+  "mood": "indicatif"
+ },
+ "G5674": {
+  "fr": "aoriste moyen/passif déponent participe",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "moyen/passif déponent",
+  "mood": "participe"
+ },
+ "G5675": {
+  "fr": "aoriste passif déponent indicatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif déponent",
+  "mood": "indicatif"
+ },
+ "G5676": {
+  "fr": "aoriste passif déponent impératif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif déponent",
+  "mood": "impératif"
+ },
+ "G5677": {
+  "fr": "aoriste passif déponent infinitif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif déponent",
+  "mood": "infinitif"
+ },
+ "G5678": {
+  "fr": "aoriste passif déponent optatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif déponent",
+  "mood": "optatif"
+ },
+ "G5679": {
+  "fr": "aoriste passif déponent participe",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif déponent",
+  "mood": "participe"
+ },
+ "G5680": {
+  "fr": "aoriste passif déponent subjonctif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif déponent",
+  "mood": "subjonctif"
+ },
+ "G5681": {
+  "fr": "aoriste passif indicatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5682": {
+  "fr": "aoriste passif impératif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif",
+  "mood": "impératif"
+ },
+ "G5683": {
+  "fr": "aoriste passif infinitif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif",
+  "mood": "infinitif"
+ },
+ "G5684": {
+  "fr": "aoriste passif optatif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif",
+  "mood": "optatif"
+ },
+ "G5685": {
+  "fr": "aoriste passif participe",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif",
+  "mood": "participe"
+ },
+ "G5686": {
+  "fr": "aoriste passif subjonctif",
+  "type": "greek",
+  "tense": "aoriste",
+  "voice": "passif",
+  "mood": "subjonctif"
+ },
+ "G5688": {
+  "fr": "futur second moyen déponent indicatif",
+  "type": "greek",
+  "tense": "futur second",
+  "voice": "moyen déponent",
+  "mood": "indicatif"
+ },
+ "G5689": {
+  "fr": "futur second moyen indicatif",
+  "type": "greek",
+  "tense": "futur second",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5690": {
+  "fr": "futur second passif déponent indicatif",
+  "type": "greek",
+  "tense": "futur second",
+  "voice": "passif déponent",
+  "mood": "indicatif"
+ },
+ "G5691": {
+  "fr": "futur second passif indicatif",
+  "type": "greek",
+  "tense": "futur second",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5692": {
+  "fr": "futur actif indicatif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5694": {
+  "fr": "futur actif participe",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "actif",
+  "mood": "participe"
+ },
+ "G5695": {
+  "fr": "futur moyen déponent indicatif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "moyen déponent",
+  "mood": "indicatif"
+ },
+ "G5696": {
+  "fr": "futur moyen déponent infinitif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "moyen déponent",
+  "mood": "infinitif"
+ },
+ "G5697": {
+  "fr": "futur moyen déponent participe",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "moyen déponent",
+  "mood": "participe"
+ },
+ "G5698": {
+  "fr": "futur moyen indicatif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5699": {
+  "fr": "futur moyen/passif déponent indicatif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "moyen/passif déponent",
+  "mood": "indicatif"
+ },
+ "G5700": {
+  "fr": "futur passif déponent indicatif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "passif déponent",
+  "mood": "indicatif"
+ },
+ "G5701": {
+  "fr": "futur passif indicatif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5702": {
+  "fr": "futur passif participe",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "passif",
+  "mood": "participe"
+ },
+ "G5703": {
+  "fr": "futur passif subjonctif",
+  "type": "greek",
+  "tense": "futur",
+  "voice": "passif",
+  "mood": "subjonctif"
+ },
+ "G5704": {
+  "fr": "futur indicatif",
+  "type": "greek",
+  "tense": "futur",
+  "mood": "indicatif"
+ },
+ "G5705": {
+  "fr": "futur infinitif",
+  "type": "greek",
+  "tense": "futur",
+  "mood": "infinitif"
+ },
+ "G5706": {
+  "fr": "futur participe",
+  "type": "greek",
+  "tense": "futur",
+  "mood": "participe"
+ },
+ "G5707": {
+  "fr": "imparfait actif indicatif",
+  "type": "greek",
+  "tense": "imparfait",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5708": {
+  "fr": "imparfait moyen déponent indicatif",
+  "type": "greek",
+  "tense": "imparfait",
+  "voice": "moyen déponent",
+  "mood": "indicatif"
+ },
+ "G5709": {
+  "fr": "imparfait moyen ou passif indicatif",
+  "type": "greek",
+  "tense": "imparfait",
+  "voice": "moyen ou passif",
+  "mood": "indicatif"
+ },
+ "G5710": {
+  "fr": "imparfait moyen indicatif",
+  "type": "greek",
+  "tense": "imparfait",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5711": {
+  "fr": "imparfait moyen/passif déponent indicatif",
+  "type": "greek",
+  "tense": "imparfait",
+  "voice": "moyen/passif déponent",
+  "mood": "indicatif"
+ },
+ "G5712": {
+  "fr": "imparfait passif indicatif",
+  "type": "greek",
+  "tense": "imparfait",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5713": {
+  "fr": "imparfait indicatif",
+  "type": "greek",
+  "tense": "imparfait",
+  "mood": "indicatif"
+ },
+ "G5714": {
+  "fr": "plus-que-parfait second actif indicatif",
+  "type": "greek",
+  "tense": "plus-que-parfait second",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5715": {
+  "fr": "plus-que-parfait actif indicatif",
+  "type": "greek",
+  "tense": "plus-que-parfait",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5716": {
+  "fr": "plus-que-parfait moyen déponent indicatif",
+  "type": "greek",
+  "tense": "plus-que-parfait",
+  "voice": "moyen déponent",
+  "mood": "indicatif"
+ },
+ "G5717": {
+  "fr": "plus-que-parfait moyen indicatif",
+  "type": "greek",
+  "tense": "plus-que-parfait",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5718": {
+  "fr": "plus-que-parfait passif indicatif",
+  "type": "greek",
+  "tense": "plus-que-parfait",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5719": {
+  "fr": "présent actif indicatif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5720": {
+  "fr": "présent actif impératif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "actif",
+  "mood": "impératif"
+ },
+ "G5721": {
+  "fr": "présent actif infinitif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "actif",
+  "mood": "infinitif"
+ },
+ "G5722": {
+  "fr": "présent actif optatif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "actif",
+  "mood": "optatif"
+ },
+ "G5723": {
+  "fr": "présent actif participe",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "actif",
+  "mood": "participe"
+ },
+ "G5724": {
+  "fr": "présent actif impersonnel",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "actif",
+  "mood": "impersonnel"
+ },
+ "G5725": {
+  "fr": "présent actif subjonctif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "actif",
+  "mood": "subjonctif"
+ },
+ "G5726": {
+  "fr": "présent moyen déponent participe",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen déponent",
+  "mood": "participe"
+ },
+ "G5727": {
+  "fr": "présent moyen ou passif indicatif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen ou passif",
+  "mood": "indicatif"
+ },
+ "G5728": {
+  "fr": "présent moyen ou passif impératif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen ou passif",
+  "mood": "impératif"
+ },
+ "G5729": {
+  "fr": "présent moyen ou passif infinitif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen ou passif",
+  "mood": "infinitif"
+ },
+ "G5730": {
+  "fr": "présent moyen ou passif participe",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen ou passif",
+  "mood": "participe"
+ },
+ "G5731": {
+  "fr": "présent moyen indicatif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5732": {
+  "fr": "présent moyen impératif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen",
+  "mood": "impératif"
+ },
+ "G5733": {
+  "fr": "présent moyen infinitif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen",
+  "mood": "infinitif"
+ },
+ "G5734": {
+  "fr": "présent moyen participe",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen",
+  "mood": "participe"
+ },
+ "G5735": {
+  "fr": "présent moyen subjonctif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen",
+  "mood": "subjonctif"
+ },
+ "G5736": {
+  "fr": "présent moyen/passif déponent indicatif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen/passif déponent",
+  "mood": "indicatif"
+ },
+ "G5737": {
+  "fr": "présent moyen/passif déponent impératif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen/passif déponent",
+  "mood": "impératif"
+ },
+ "G5738": {
+  "fr": "présent moyen/passif déponent infinitif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen/passif déponent",
+  "mood": "infinitif"
+ },
+ "G5739": {
+  "fr": "présent moyen/passif déponent optatif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen/passif déponent",
+  "mood": "optatif"
+ },
+ "G5740": {
+  "fr": "présent moyen/passif déponent participe",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen/passif déponent",
+  "mood": "participe"
+ },
+ "G5741": {
+  "fr": "présent moyen/passif déponent subjonctif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "moyen/passif déponent",
+  "mood": "subjonctif"
+ },
+ "G5742": {
+  "fr": "présent passif déponent participe",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "passif déponent",
+  "mood": "participe"
+ },
+ "G5743": {
+  "fr": "présent passif indicatif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5744": {
+  "fr": "présent passif impératif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "passif",
+  "mood": "impératif"
+ },
+ "G5745": {
+  "fr": "présent passif infinitif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "passif",
+  "mood": "infinitif"
+ },
+ "G5746": {
+  "fr": "présent passif participe",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "passif",
+  "mood": "participe"
+ },
+ "G5747": {
+  "fr": "présent passif subjonctif",
+  "type": "greek",
+  "tense": "présent",
+  "voice": "passif",
+  "mood": "subjonctif"
+ },
+ "G5748": {
+  "fr": "présent indicatif",
+  "type": "greek",
+  "tense": "présent",
+  "mood": "indicatif"
+ },
+ "G5749": {
+  "fr": "présent impératif",
+  "type": "greek",
+  "tense": "présent",
+  "mood": "impératif"
+ },
+ "G5750": {
+  "fr": "présent infinitif",
+  "type": "greek",
+  "tense": "présent",
+  "mood": "infinitif"
+ },
+ "G5751": {
+  "fr": "présent optatif",
+  "type": "greek",
+  "tense": "présent",
+  "mood": "optatif"
+ },
+ "G5752": {
+  "fr": "présent participe",
+  "type": "greek",
+  "tense": "présent",
+  "mood": "participe"
+ },
+ "G5753": {
+  "fr": "présent subjonctif",
+  "type": "greek",
+  "tense": "présent",
+  "mood": "subjonctif"
+ },
+ "G5754": {
+  "fr": "parfait second actif indicatif",
+  "type": "greek",
+  "tense": "parfait second",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5755": {
+  "fr": "parfait second actif infinitif",
+  "type": "greek",
+  "tense": "parfait second",
+  "voice": "actif",
+  "mood": "infinitif"
+ },
+ "G5756": {
+  "fr": "parfait second actif participe",
+  "type": "greek",
+  "tense": "parfait second",
+  "voice": "actif",
+  "mood": "participe"
+ },
+ "G5757": {
+  "fr": "parfait second passif participe",
+  "type": "greek",
+  "tense": "parfait second",
+  "voice": "passif",
+  "mood": "participe"
+ },
+ "G5758": {
+  "fr": "parfait actif indicatif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "actif",
+  "mood": "indicatif"
+ },
+ "G5759": {
+  "fr": "parfait actif impératif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "actif",
+  "mood": "impératif"
+ },
+ "G5760": {
+  "fr": "parfait actif infinitif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "actif",
+  "mood": "infinitif"
+ },
+ "G5761": {
+  "fr": "parfait actif participe",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "actif",
+  "mood": "participe"
+ },
+ "G5762": {
+  "fr": "parfait actif subjonctif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "actif",
+  "mood": "subjonctif"
+ },
+ "G5763": {
+  "fr": "parfait moyen déponent indicatif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "moyen déponent",
+  "mood": "indicatif"
+ },
+ "G5764": {
+  "fr": "parfait moyen indicatif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "moyen",
+  "mood": "indicatif"
+ },
+ "G5765": {
+  "fr": "parfait moyen participe",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "moyen",
+  "mood": "participe"
+ },
+ "G5766": {
+  "fr": "parfait moyen/passif déponent indicatif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "moyen/passif déponent",
+  "mood": "indicatif"
+ },
+ "G5768": {
+  "fr": "parfait moyen/passif déponent participe",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "moyen/passif déponent",
+  "mood": "participe"
+ },
+ "G5769": {
+  "fr": "parfait passif indicatif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "passif",
+  "mood": "indicatif"
+ },
+ "G5770": {
+  "fr": "parfait passif impératif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "passif",
+  "mood": "impératif"
+ },
+ "G5771": {
+  "fr": "parfait passif infinitif",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "passif",
+  "mood": "infinitif"
+ },
+ "G5772": {
+  "fr": "parfait passif participe",
+  "type": "greek",
+  "tense": "parfait",
+  "voice": "passif",
+  "mood": "participe"
+ },
+ "G5773": {
+  "fr": "impératif",
+  "type": "greek",
+  "mood": "impératif"
+ },
+ "H8675": {
+  "fr": "double analyse (Kethiv/Qeré)",
+  "type": "variant",
+  "variant": true
+ },
+ "H8676": {
+  "fr": "deux numéros Strong (analyse alternative)",
+  "type": "variant",
+  "variant": true
+ },
+ "H8677": {
+  "fr": "deux numéros Strong + grammaire",
+  "type": "variant",
+  "variant": true
+ },
+ "H8678": {
+  "fr": "variante (deux analyses)",
+  "type": "variant",
+  "variant": true
+ },
+ "H8680": {
+  "fr": "Aphel impératif",
+  "type": "hebrew",
+  "stem": "Aphel",
+  "aspect": "impératif"
+ },
+ "H8681": {
+  "fr": "Aphel inaccompli",
+  "type": "hebrew",
+  "stem": "Aphel",
+  "aspect": "inaccompli"
+ },
+ "H8682": {
+  "fr": "Aphel infinitif",
+  "type": "hebrew",
+  "stem": "Aphel",
+  "aspect": "infinitif"
+ },
+ "H8683": {
+  "fr": "Aphel participe",
+  "type": "hebrew",
+  "stem": "Aphel",
+  "aspect": "participe"
+ },
+ "H8684": {
+  "fr": "Aphel accompli",
+  "type": "hebrew",
+  "stem": "Aphel",
+  "aspect": "accompli"
+ },
+ "H8685": {
+  "fr": "Hiphil impératif",
+  "type": "hebrew",
+  "stem": "Hiphil",
+  "aspect": "impératif"
+ },
+ "H8686": {
+  "fr": "Hiphil inaccompli",
+  "type": "hebrew",
+  "stem": "Hiphil",
+  "aspect": "inaccompli"
+ },
+ "H8687": {
+  "fr": "Hiphil infinitif",
+  "type": "hebrew",
+  "stem": "Hiphil",
+  "aspect": "infinitif"
+ },
+ "H8688": {
+  "fr": "Hiphil participe",
+  "type": "hebrew",
+  "stem": "Hiphil",
+  "aspect": "participe"
+ },
+ "H8689": {
+  "fr": "Hiphil accompli",
+  "type": "hebrew",
+  "stem": "Hiphil",
+  "aspect": "accompli"
+ },
+ "H8690": {
+  "fr": "Hithpael impératif",
+  "type": "hebrew",
+  "stem": "Hithpael",
+  "aspect": "impératif"
+ },
+ "H8691": {
+  "fr": "Hithpael inaccompli",
+  "type": "hebrew",
+  "stem": "Hithpael",
+  "aspect": "inaccompli"
+ },
+ "H8692": {
+  "fr": "Hithpael infinitif",
+  "type": "hebrew",
+  "stem": "Hithpael",
+  "aspect": "infinitif"
+ },
+ "H8693": {
+  "fr": "Hithpael participe",
+  "type": "hebrew",
+  "stem": "Hithpael",
+  "aspect": "participe"
+ },
+ "H8694": {
+  "fr": "Hithpael accompli",
+  "type": "hebrew",
+  "stem": "Hithpael",
+  "aspect": "accompli"
+ },
+ "H8695": {
+  "fr": "Hithpalel impératif",
+  "type": "hebrew",
+  "stem": "Hithpalel",
+  "aspect": "impératif"
+ },
+ "H8696": {
+  "fr": "Hithpalel inaccompli",
+  "type": "hebrew",
+  "stem": "Hithpalel",
+  "aspect": "inaccompli"
+ },
+ "H8697": {
+  "fr": "Hithpalpel impératif",
+  "type": "hebrew",
+  "stem": "Hithpalpel",
+  "aspect": "impératif"
+ },
+ "H8698": {
+  "fr": "Hithpalpel inaccompli",
+  "type": "hebrew",
+  "stem": "Hithpalpel",
+  "aspect": "inaccompli"
+ },
+ "H8699": {
+  "fr": "Hithpalpel infinitif",
+  "type": "hebrew",
+  "stem": "Hithpalpel",
+  "aspect": "infinitif"
+ },
+ "H8700": {
+  "fr": "Hithpalpel participe",
+  "type": "hebrew",
+  "stem": "Hithpalpel",
+  "aspect": "participe"
+ },
+ "H8701": {
+  "fr": "Hithpalpel accompli",
+  "type": "hebrew",
+  "stem": "Hithpalpel",
+  "aspect": "accompli"
+ },
+ "H8702": {
+  "fr": "Hithpeil accompli",
+  "type": "hebrew",
+  "stem": "Hithpeil",
+  "aspect": "accompli"
+ },
+ "H8703": {
+  "fr": "Hithpoel impératif",
+  "type": "hebrew",
+  "stem": "Hithpoel",
+  "aspect": "impératif"
+ },
+ "H8704": {
+  "fr": "Hithpoel inaccompli",
+  "type": "hebrew",
+  "stem": "Hithpoel",
+  "aspect": "inaccompli"
+ },
+ "H8705": {
+  "fr": "Hithpoel infinitif",
+  "type": "hebrew",
+  "stem": "Hithpoel",
+  "aspect": "infinitif"
+ },
+ "H8706": {
+  "fr": "Hithpoel participe",
+  "type": "hebrew",
+  "stem": "Hithpoel",
+  "aspect": "participe"
+ },
+ "H8707": {
+  "fr": "Hithpoel accompli",
+  "type": "hebrew",
+  "stem": "Hithpoel",
+  "aspect": "accompli"
+ },
+ "H8708": {
+  "fr": "Hithpolel impératif",
+  "type": "hebrew",
+  "stem": "Hithpolel",
+  "aspect": "impératif"
+ },
+ "H8709": {
+  "fr": "Hithpolel inaccompli",
+  "type": "hebrew",
+  "stem": "Hithpolel",
+  "aspect": "inaccompli"
+ },
+ "H8710": {
+  "fr": "Hithpolel infinitif",
+  "type": "hebrew",
+  "stem": "Hithpolel",
+  "aspect": "infinitif"
+ },
+ "H8711": {
+  "fr": "Hithpolel participe",
+  "type": "hebrew",
+  "stem": "Hithpolel",
+  "aspect": "participe"
+ },
+ "H8712": {
+  "fr": "Hithpolel accompli",
+  "type": "hebrew",
+  "stem": "Hithpolel",
+  "aspect": "accompli"
+ },
+ "H8713": {
+  "fr": "Hophal impératif",
+  "type": "hebrew",
+  "stem": "Hophal",
+  "aspect": "impératif"
+ },
+ "H8714": {
+  "fr": "Hophal inaccompli",
+  "type": "hebrew",
+  "stem": "Hophal",
+  "aspect": "inaccompli"
+ },
+ "H8715": {
+  "fr": "Hophal infinitif",
+  "type": "hebrew",
+  "stem": "Hophal",
+  "aspect": "infinitif"
+ },
+ "H8716": {
+  "fr": "Hophal participe",
+  "type": "hebrew",
+  "stem": "Hophal",
+  "aspect": "participe"
+ },
+ "H8717": {
+  "fr": "Hophal accompli",
+  "type": "hebrew",
+  "stem": "Hophal",
+  "aspect": "accompli"
+ },
+ "H8718": {
+  "fr": "Hothpael infinitif",
+  "type": "hebrew",
+  "stem": "Hothpael",
+  "aspect": "infinitif"
+ },
+ "H8719": {
+  "fr": "Hothpael accompli",
+  "type": "hebrew",
+  "stem": "Hothpael",
+  "aspect": "accompli"
+ },
+ "H8720": {
+  "fr": "Ishtaphel inaccompli",
+  "type": "hebrew",
+  "stem": "Ishtaphel",
+  "aspect": "inaccompli"
+ },
+ "H8721": {
+  "fr": "Ithpael inaccompli",
+  "type": "hebrew",
+  "stem": "Ithpael",
+  "aspect": "inaccompli"
+ },
+ "H8722": {
+  "fr": "Ithpael infinitif",
+  "type": "hebrew",
+  "stem": "Ithpael",
+  "aspect": "infinitif"
+ },
+ "H8723": {
+  "fr": "Ithpael participe",
+  "type": "hebrew",
+  "stem": "Ithpael",
+  "aspect": "participe"
+ },
+ "H8724": {
+  "fr": "Ithpael accompli",
+  "type": "hebrew",
+  "stem": "Ithpael",
+  "aspect": "accompli"
+ },
+ "H8725": {
+  "fr": "Ithpeal inaccompli",
+  "type": "hebrew",
+  "stem": "Ithpeal",
+  "aspect": "inaccompli"
+ },
+ "H8726": {
+  "fr": "Ithpeal infinitif",
+  "type": "hebrew",
+  "stem": "Ithpeal",
+  "aspect": "infinitif"
+ },
+ "H8727": {
+  "fr": "Ithpeal participe",
+  "type": "hebrew",
+  "stem": "Ithpeal",
+  "aspect": "participe"
+ },
+ "H8728": {
+  "fr": "Ithpeal accompli",
+  "type": "hebrew",
+  "stem": "Ithpeal",
+  "aspect": "accompli"
+ },
+ "H8729": {
+  "fr": "Ithpeel inaccompli",
+  "type": "hebrew",
+  "stem": "Ithpeel",
+  "aspect": "inaccompli"
+ },
+ "H8730": {
+  "fr": "Ithpeel accompli",
+  "type": "hebrew",
+  "stem": "Ithpeel",
+  "aspect": "accompli"
+ },
+ "H8731": {
+  "fr": "Ithpeil inaccompli",
+  "type": "hebrew",
+  "stem": "Ithpeil",
+  "aspect": "inaccompli"
+ },
+ "H8732": {
+  "fr": "Ithpeil participe",
+  "type": "hebrew",
+  "stem": "Ithpeil",
+  "aspect": "participe"
+ },
+ "H8733": {
+  "fr": "Ithpolel inaccompli",
+  "type": "hebrew",
+  "stem": "Ithpolel",
+  "aspect": "inaccompli"
+ },
+ "H8734": {
+  "fr": "Niphal impératif",
+  "type": "hebrew",
+  "stem": "Niphal",
+  "aspect": "impératif"
+ },
+ "H8735": {
+  "fr": "Niphal inaccompli",
+  "type": "hebrew",
+  "stem": "Niphal",
+  "aspect": "inaccompli"
+ },
+ "H8736": {
+  "fr": "Niphal infinitif",
+  "type": "hebrew",
+  "stem": "Niphal",
+  "aspect": "infinitif"
+ },
+ "H8737": {
+  "fr": "Niphal participe",
+  "type": "hebrew",
+  "stem": "Niphal",
+  "aspect": "participe"
+ },
+ "H8738": {
+  "fr": "Niphal accompli",
+  "type": "hebrew",
+  "stem": "Niphal",
+  "aspect": "accompli"
+ },
+ "H8739": {
+  "fr": "Niphpael accompli",
+  "type": "hebrew",
+  "stem": "Niphpael",
+  "aspect": "accompli"
+ },
+ "H8740": {
+  "fr": "Pael impératif",
+  "type": "hebrew",
+  "stem": "Pael",
+  "aspect": "impératif"
+ },
+ "H8741": {
+  "fr": "Pael inaccompli",
+  "type": "hebrew",
+  "stem": "Pael",
+  "aspect": "inaccompli"
+ },
+ "H8742": {
+  "fr": "Pael infinitif",
+  "type": "hebrew",
+  "stem": "Pael",
+  "aspect": "infinitif"
+ },
+ "H8743": {
+  "fr": "Pael participe",
+  "type": "hebrew",
+  "stem": "Pael",
+  "aspect": "participe"
+ },
+ "H8744": {
+  "fr": "Pael participe passif",
+  "type": "hebrew",
+  "stem": "Pael",
+  "aspect": "participe passif"
+ },
+ "H8745": {
+  "fr": "Pael accompli",
+  "type": "hebrew",
+  "stem": "Pael",
+  "aspect": "accompli"
+ },
+ "H8746": {
+  "fr": "Pulpal inaccompli",
+  "type": "hebrew",
+  "stem": "Pulpal",
+  "aspect": "inaccompli"
+ },
+ "H8747": {
+  "fr": "Peal impératif",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "impératif"
+ },
+ "H8748": {
+  "fr": "Peal inaccompli",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "inaccompli"
+ },
+ "H8749": {
+  "fr": "Peal infinitif",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "infinitif"
+ },
+ "H8750": {
+  "fr": "Peal participe",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "participe"
+ },
+ "H8751": {
+  "fr": "Peal participe actif",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "participe actif"
+ },
+ "H8752": {
+  "fr": "Peal participe passif",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "participe passif"
+ },
+ "H8753": {
+  "fr": "Peal participe Peil",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "participe Peil"
+ },
+ "H8754": {
+  "fr": "Peal accompli",
+  "type": "hebrew",
+  "stem": "Peal",
+  "aspect": "accompli"
+ },
+ "H8755": {
+  "fr": "Peel ou Peil inaccompli",
+  "type": "hebrew",
+  "stem": "Peel ou Peil",
+  "aspect": "inaccompli"
+ },
+ "H8756": {
+  "fr": "Peel ou Peil infinitif",
+  "type": "hebrew",
+  "stem": "Peel ou Peil",
+  "aspect": "infinitif"
+ },
+ "H8757": {
+  "fr": "Peel ou Peil participe",
+  "type": "hebrew",
+  "stem": "Peel ou Peil",
+  "aspect": "participe"
+ },
+ "H8758": {
+  "fr": "Peel ou Peil accompli",
+  "type": "hebrew",
+  "stem": "Peel ou Peil",
+  "aspect": "accompli"
+ },
+ "H8759": {
+  "fr": "Peil participe",
+  "type": "hebrew",
+  "stem": "Peil",
+  "aspect": "participe"
+ },
+ "H8760": {
+  "fr": "Peil accompli",
+  "type": "hebrew",
+  "stem": "Peil",
+  "aspect": "accompli"
+ },
+ "H8761": {
+  "fr": "Piel impératif",
+  "type": "hebrew",
+  "stem": "Piel",
+  "aspect": "impératif"
+ },
+ "H8762": {
+  "fr": "Piel inaccompli",
+  "type": "hebrew",
+  "stem": "Piel",
+  "aspect": "inaccompli"
+ },
+ "H8763": {
+  "fr": "Piel infinitif",
+  "type": "hebrew",
+  "stem": "Piel",
+  "aspect": "infinitif"
+ },
+ "H8764": {
+  "fr": "Piel participe",
+  "type": "hebrew",
+  "stem": "Piel",
+  "aspect": "participe"
+ },
+ "H8765": {
+  "fr": "Piel accompli",
+  "type": "hebrew",
+  "stem": "Piel",
+  "aspect": "accompli"
+ },
+ "H8766": {
+  "fr": "Pilel inaccompli",
+  "type": "hebrew",
+  "stem": "Pilel",
+  "aspect": "inaccompli"
+ },
+ "H8767": {
+  "fr": "Pilel participe",
+  "type": "hebrew",
+  "stem": "Pilel",
+  "aspect": "participe"
+ },
+ "H8768": {
+  "fr": "Pilel accompli",
+  "type": "hebrew",
+  "stem": "Pilel",
+  "aspect": "accompli"
+ },
+ "H8769": {
+  "fr": "Pilpel impératif",
+  "type": "hebrew",
+  "stem": "Pilpel",
+  "aspect": "impératif"
+ },
+ "H8770": {
+  "fr": "Pilpel inaccompli",
+  "type": "hebrew",
+  "stem": "Pilpel",
+  "aspect": "inaccompli"
+ },
+ "H8771": {
+  "fr": "Pilpel infinitif",
+  "type": "hebrew",
+  "stem": "Pilpel",
+  "aspect": "infinitif"
+ },
+ "H8772": {
+  "fr": "Pilpel participe",
+  "type": "hebrew",
+  "stem": "Pilpel",
+  "aspect": "participe"
+ },
+ "H8773": {
+  "fr": "Pilpel accompli",
+  "type": "hebrew",
+  "stem": "Pilpel",
+  "aspect": "accompli"
+ },
+ "H8774": {
+  "fr": "Poal infinitif",
+  "type": "hebrew",
+  "stem": "Poal",
+  "aspect": "infinitif"
+ },
+ "H8775": {
+  "fr": "Poal participe",
+  "type": "hebrew",
+  "stem": "Poal",
+  "aspect": "participe"
+ },
+ "H8776": {
+  "fr": "Poal accompli",
+  "type": "hebrew",
+  "stem": "Poal",
+  "aspect": "accompli"
+ },
+ "H8777": {
+  "fr": "Poalal accompli",
+  "type": "hebrew",
+  "stem": "Poalal",
+  "aspect": "accompli"
+ },
+ "H8778": {
+  "fr": "Poel impératif",
+  "type": "hebrew",
+  "stem": "Poel",
+  "aspect": "impératif"
+ },
+ "H8779": {
+  "fr": "Poel inaccompli",
+  "type": "hebrew",
+  "stem": "Poel",
+  "aspect": "inaccompli"
+ },
+ "H8780": {
+  "fr": "Poel infinitif",
+  "type": "hebrew",
+  "stem": "Poel",
+  "aspect": "infinitif"
+ },
+ "H8781": {
+  "fr": "Poel participe",
+  "type": "hebrew",
+  "stem": "Poel",
+  "aspect": "participe"
+ },
+ "H8782": {
+  "fr": "Poel accompli",
+  "type": "hebrew",
+  "stem": "Poel",
+  "aspect": "accompli"
+ },
+ "H8783": {
+  "fr": "Polal inaccompli",
+  "type": "hebrew",
+  "stem": "Polal",
+  "aspect": "inaccompli"
+ },
+ "H8784": {
+  "fr": "Polal participe",
+  "type": "hebrew",
+  "stem": "Polal",
+  "aspect": "participe"
+ },
+ "H8785": {
+  "fr": "Polal accompli",
+  "type": "hebrew",
+  "stem": "Polal",
+  "aspect": "accompli"
+ },
+ "H8786": {
+  "fr": "Polel impératif",
+  "type": "hebrew",
+  "stem": "Polel",
+  "aspect": "impératif"
+ },
+ "H8787": {
+  "fr": "Polel inaccompli",
+  "type": "hebrew",
+  "stem": "Polel",
+  "aspect": "inaccompli"
+ },
+ "H8788": {
+  "fr": "Polel infinitif",
+  "type": "hebrew",
+  "stem": "Polel",
+  "aspect": "infinitif"
+ },
+ "H8789": {
+  "fr": "Polel participe",
+  "type": "hebrew",
+  "stem": "Polel",
+  "aspect": "participe"
+ },
+ "H8790": {
+  "fr": "Polel accompli",
+  "type": "hebrew",
+  "stem": "Polel",
+  "aspect": "accompli"
+ },
+ "H8791": {
+  "fr": "Polpal accompli",
+  "type": "hebrew",
+  "stem": "Polpal",
+  "aspect": "accompli"
+ },
+ "H8792": {
+  "fr": "Pual inaccompli",
+  "type": "hebrew",
+  "stem": "Pual",
+  "aspect": "inaccompli"
+ },
+ "H8793": {
+  "fr": "Pual infinitif",
+  "type": "hebrew",
+  "stem": "Pual",
+  "aspect": "infinitif"
+ },
+ "H8794": {
+  "fr": "Pual participe",
+  "type": "hebrew",
+  "stem": "Pual",
+  "aspect": "participe"
+ },
+ "H8795": {
+  "fr": "Pual accompli",
+  "type": "hebrew",
+  "stem": "Pual",
+  "aspect": "accompli"
+ },
+ "H8796": {
+  "fr": "Pulal participe",
+  "type": "hebrew",
+  "stem": "Pulal",
+  "aspect": "participe"
+ },
+ "H8797": {
+  "fr": "Pulal accompli",
+  "type": "hebrew",
+  "stem": "Pulal",
+  "aspect": "accompli"
+ },
+ "H8798": {
+  "fr": "Qal impératif",
+  "type": "hebrew",
+  "stem": "Qal",
+  "aspect": "impératif"
+ },
+ "H8799": {
+  "fr": "Qal inaccompli",
+  "type": "hebrew",
+  "stem": "Qal",
+  "aspect": "inaccompli"
+ },
+ "H8800": {
+  "fr": "Qal infinitif",
+  "type": "hebrew",
+  "stem": "Qal",
+  "aspect": "infinitif"
+ },
+ "H8801": {
+  "fr": "Qal participe",
+  "type": "hebrew",
+  "stem": "Qal",
+  "aspect": "participe"
+ },
+ "H8802": {
+  "fr": "Qal participe actif",
+  "type": "hebrew",
+  "stem": "Qal",
+  "aspect": "participe actif"
+ },
+ "H8803": {
+  "fr": "Qal participe passif",
+  "type": "hebrew",
+  "stem": "Qal",
+  "aspect": "participe passif"
+ },
+ "H8804": {
+  "fr": "Qal accompli",
+  "type": "hebrew",
+  "stem": "Qal",
+  "aspect": "accompli"
+ },
+ "H8805": {
+  "fr": "Shaphel infinitif",
+  "type": "hebrew",
+  "stem": "Shaphel",
+  "aspect": "infinitif"
+ },
+ "H8806": {
+  "fr": "Shaphel accompli",
+  "type": "hebrew",
+  "stem": "Shaphel",
+  "aspect": "accompli"
+ },
+ "H8807": {
+  "fr": "Tiphel inaccompli",
+  "type": "hebrew",
+  "stem": "Tiphel",
+  "aspect": "inaccompli"
+ },
+ "H8808": {
+  "fr": "Tiphel participe",
+  "type": "hebrew",
+  "stem": "Tiphel",
+  "aspect": "participe"
+ },
+ "H8809": {
+  "fr": "Tiphel accompli",
+  "type": "hebrew",
+  "stem": "Tiphel",
+  "aspect": "accompli"
+ }
+}
