@@ -1,0 +1,254 @@
+{
+  "regions": [
+    {
+      "book": "1 Ch.",
+      "chap": 12,
+      "from": 6,
+      "to": 32,
+      "delta": 1,
+      "overlap": 0.7
+    },
+    {
+      "book": "1 Ch.",
+      "chap": 12,
+      "from": 37,
+      "to": 40,
+      "delta": 1,
+      "overlap": 0.71
+    },
+    {
+      "book": "1 S.",
+      "chap": 21,
+      "from": 2,
+      "to": 15,
+      "delta": 1,
+      "overlap": 0.68
+    },
+    {
+      "book": "2 Ch.",
+      "chap": 2,
+      "from": 3,
+      "to": 18,
+      "delta": -1,
+      "overlap": 0.74
+    },
+    {
+      "book": "2 R.",
+      "chap": 12,
+      "from": 1,
+      "to": 21,
+      "delta": 1,
+      "overlap": 0.73
+    },
+    {
+      "book": "2 S.",
+      "chap": 19,
+      "from": 1,
+      "to": 41,
+      "delta": 1,
+      "overlap": 0.72
+    },
+    {
+      "book": "Da.",
+      "chap": 4,
+      "from": 6,
+      "to": 37,
+      "delta": -3,
+      "overlap": 0.67
+    },
+    {
+      "book": "Da.",
+      "chap": 6,
+      "from": 1,
+      "to": 8,
+      "delta": 1,
+      "overlap": 0.64
+    },
+    {
+      "book": "Da.",
+      "chap": 6,
+      "from": 12,
+      "to": 17,
+      "delta": 1,
+      "overlap": 0.62
+    },
+    {
+      "book": "Da.",
+      "chap": 6,
+      "from": 22,
+      "to": 28,
+      "delta": 1,
+      "overlap": 0.75
+    },
+    {
+      "book": "De.",
+      "chap": 13,
+      "from": 1,
+      "to": 7,
+      "delta": 1,
+      "overlap": 0.78
+    },
+    {
+      "book": "De.",
+      "chap": 13,
+      "from": 15,
+      "to": 18,
+      "delta": 1,
+      "overlap": 0.69
+    },
+    {
+      "book": "De.",
+      "chap": 23,
+      "from": 7,
+      "to": 20,
+      "delta": 1,
+      "overlap": 0.7
+    },
+    {
+      "book": "De.",
+      "chap": 29,
+      "from": 2,
+      "to": 26,
+      "delta": -1,
+      "overlap": 0.77
+    },
+    {
+      "book": "Ex.",
+      "chap": 22,
+      "from": 2,
+      "to": 11,
+      "delta": -1,
+      "overlap": 0.58
+    },
+    {
+      "book": "Ex.",
+      "chap": 22,
+      "from": 16,
+      "to": 31,
+      "delta": -1,
+      "overlap": 0.72
+    },
+    {
+      "book": "Ge.",
+      "chap": 32,
+      "from": 3,
+      "to": 32,
+      "delta": 1,
+      "overlap": 0.78
+    },
+    {
+      "book": "Jé.",
+      "chap": 9,
+      "from": 5,
+      "to": 26,
+      "delta": -1,
+      "overlap": 0.6
+    },
+    {
+      "book": "Né.",
+      "chap": 7,
+      "from": 71,
+      "to": 73,
+      "delta": -1,
+      "overlap": 0.86
+    },
+    {
+      "book": "Né.",
+      "chap": 10,
+      "from": 5,
+      "to": 19,
+      "delta": 1,
+      "overlap": 0.83
+    },
+    {
+      "book": "Né.",
+      "chap": 10,
+      "from": 26,
+      "to": 30,
+      "delta": 1,
+      "overlap": 0.79
+    },
+    {
+      "book": "Né.",
+      "chap": 10,
+      "from": 34,
+      "to": 39,
+      "delta": 1,
+      "overlap": 0.84
+    },
+    {
+      "book": "Os.",
+      "chap": 14,
+      "from": 1,
+      "to": 9,
+      "delta": 1,
+      "overlap": 0.78
+    }
+  ],
+  "pairs": [
+    [
+      "1 S. 20:42",
+      "1 S. 21:1"
+    ],
+    [
+      "2 Ch. 2:1",
+      "2 Ch. 1:18"
+    ],
+    [
+      "2 R. 11:21",
+      "2 R. 12:1"
+    ],
+    [
+      "2 S. 18:33",
+      "2 S. 19:1"
+    ],
+    [
+      "Da. 4:1",
+      "Da. 3:31"
+    ],
+    [
+      "Da. 4:2",
+      "Da. 3:32"
+    ],
+    [
+      "Da. 4:3",
+      "Da. 3:33"
+    ],
+    [
+      "Da. 5:31",
+      "Da. 6:1"
+    ],
+    [
+      "De. 12:32",
+      "De. 13:1"
+    ],
+    [
+      "De. 22:29",
+      "De. 23:1"
+    ],
+    [
+      "De. 29:1",
+      "De. 28:69"
+    ],
+    [
+      "Ex. 22:1",
+      "Ex. 21:37"
+    ],
+    [
+      "Ge. 31:55",
+      "Ge. 32:1"
+    ],
+    [
+      "Jé. 9:1",
+      "Jé. 8:23"
+    ],
+    [
+      "Né. 9:38",
+      "Né. 10:1"
+    ],
+    [
+      "Os. 13:16",
+      "Os. 14:1"
+    ]
+  ]
+}

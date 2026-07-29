@@ -347,6 +347,64 @@ avec Strong's embarqués dans `strong.sqlite`) alignée sur le texte BYM.
 
 ---
 
+## 📋 Audit qualité des alignements (2026-07) — en cours
+
+L'alignement auto produit deux classes de défauts systématiques, traités par
+audit de workflow d'agents + curation conservatrice → `manual_variants.json`
+(classe B) ou `overrides.json` (classe A). Pattern d'audit : scout Python
+(`/tmp/scout_codes.py`) → workflow d'agents verify → curation conservatrice →
+`make align` → vérif invariant texte + spot-check → `make deploy` (nécessite
+autorisation explicite per-instance).
+
+**Mémoire projet** : `strongs-alignment-curation.md` (mécanisme, garde-fous,
+sémantique de matching `find_match_in_words` : inclusion sous-chaîne seulement
+si variante ET token ≥ 4 caractères, sinon égalité exacte → variantes courtes
+sûres).
+
+### Classes de défauts
+
+- **Classe A** — codes LSG marqués sur du **texte vide** (mot LSG non rendu en
+  BYM, ex. article/pronon accolé) → l'aligneur les droppait. ~13 089 occ,
+  6 870 légitimes, **6 219 vrais défauts sur ~5 237 versets**.
+  👉 **Correction** : overrides par verset (`db/strongs/overrides.json`, scission
+  de segments). **Non encore traité** — voir « Reste à faire ».
+
+- **Classe B** — gloss auto = **mot-outil capturant un voisin** (cas H518 « si »
+  collé sur « pas »). ~462 candidats.
+
+### Avancement
+
+| Lot | Candidats | Codes appliqués | Statut |
+|---|---|---|---|
+| Lot 1 (classe B) | 70 vérifiés | 45 | ✅ déployé |
+| Numériques (Ge 25:7) | H7657/H3967/H2568 | 3 | ✅ déployé (+ exception `isdigit()` dans `build_strongs.py`) |
+| H8141 « ans » (Ge 25:7) | override | 1 | ✅ déployé |
+| **Lot 2 (classe B, 2 runs)** | **462 audités (100%)** | **99** (57+42) | ✅ déployé 2026-07-24 |
+
+`manual_variants.json` : 136 → **283 codes**. `overrides.json` : 13 versets.
+
+### Reste à faire (plus tard)
+
+1. **Classe A — overrides par verset** (~5 200 versets). Détecter les codes LSG
+   sur texte vide qui sont de vrais défauts (6 219 occ / 5 237 versets), générer
+   des overrides scindant les segments pour taguer le mot BYM correct. Workflow
+   d'agents : un agent par verset candidat (ou par lot) propose la scission →
+   curation → `overrides.json` → `make align` → vérif + deploy. **Choix
+   utilisateur verrouillé** : overrides par verset (précis) plutôt que
+   forçage global. ⚠️ Volume ~5 200 versets ⇒ workflow potentiellement long ;
+   reprendre par lots pour éviter la limite de débit (429) vue sur le lot 2.
+
+2. **Résidus classe B** : sur les versets où la variante manuelle n'est pas
+   adjacente, le gloss auto mot-outil persiste (ex. H2572 « avec » 12x, H3559
+   « pour » 17x, H5704 « pour » 29x). Pas une régression ; traitable au cas par
+   cas via overrides si besoin.
+
+3. **Codes polymorphes skippés** : H7761/H7760 (suwm « mettre/poser » ~600x),
+   H7761 intentionnellement non forcé (dégraderait l'alignement global). À
+   revisiter seulement avec une approche par verset.
+
+---
+
 ## ✅ Endpoint `/bym/strong/:num` — Index Strong's → versets — TERMINÉ
 
 ### Objectif
@@ -845,3 +903,55 @@ Tests :
    Si on veut la rendre générique (`/:version/strong/:num`), il faudra un index
    Strong's par version (`lsg_strong_index.json`, etc.). Pour l'instant, seul
    BYM a cet index.
+
+---
+
+## ✅ Version Darby ajoutée (2026-07-25)
+
+3ᵉ version servie : **`darby`** — Bible J.N. Darby (1885), Domaine public.
+Strong's **alignés (LSG→Darby)** depuis le 2026-07-25 (Option B livrée).
+
+- **Source** : `midvash/bible-data` (`versions/fr/darby-fr/darby-fr.json`,
+  public domain). Schéma `books[].chapters[].verses[]={number,text}`, codes
+  livres OSIS.
+- **ETL** : `scripts/build_darby.py` (table OSIS→abbr projet, fallback curl si
+  urllib échoue en SSL). Cible Makefile `make darby`. Nettoyage source :
+  retrait des `*` de début de paragraphe + rétablissement de l'espace dans le
+  composé divin « ÉternelDieu » → « Éternel Dieu » (38 occurrences, défaut
+  source midvash).
+- **Sortie texte** : `db/darby.json` (31 167 versets, 66 livres, clés `"Ge. 1:1"`).
+- **Strong's (Option B)** : pipeline LSG→Darby par retargeting de
+  `build_strongs.py` / `detect_versif_offsets.py` / `build_gloss_dict.py`
+  via `--target darby` (fichiers curations suffixés `*_darby.json`, vides au
+  départ). Cible Makefile `make align-darby`. Sorties :
+  `db/strongs/darby_strongs.json` (31167 versets, **38,6 %** segments tagués —
+  légèrement supérieur à BYM 38,4 %), `strong_to_darby.json`,
+  `darby_strong_index.json` (13 845 codes). Invariant texte 0 violation.
+- **Registry** : `index.js` `VERSIONS.darby = { data: darby,
+  strongsData: darby_strongs, strongIndex: darbyStrongIndex,
+  name: "Bible Darby (J.N. Darby, 1885)", strongs: true }`.
+- **Comportement `?strongs=1`** : retourne le texte + segments Strong's
+  (`maybe_attach_strongs`). `/darby/strong/:code` → lexique partagé + total>0
+  (ex. G2316→1157, H3068→5483).
+- **Versification** : protestante canonique = hébraïque, ~140/208 écarts vs
+  LSG (surtout 1 Chroniques). Les marqueurs « (C.V) » de strong.sqlite
+  (→numéros hébraïques) sont réutilisables tels quels pour Darby ;
+  `versif_offsets_darby.json` recalculé (342 versets + 16 bords cross-chapitre).
+- **Routes** : `/darby`, `/darby/:livre/:chap`, `/darby/:livre/:chap/:verset`,
+  `/darby/:livre/:chap/:verset?strongs=1`, `/darby/strong/:code`, etc.
+
+### Versions servies (statut)
+
+| Slug | Nom | Strong's | Source |
+|---|---|---|---|
+| `bym` | Bible de Yéhoshoua Ha Mashiah | alignés (LSG→BYM, ~38,4 %) | GitLab `bjc-source` |
+| `lsg` | Louis Segond 1910 | natifs (100 %) | `strong.sqlite` |
+| `darby` | Bible Darby (1885) | alignés (LSG→Darby, ~38,6 %) | `midvash/bible-data` (public domain) |
+
+### Suite possible (curation Darby, plus tard)
+
+Réutiliser le pattern d'audit (scout + workflow) sur `strong_to_darby.json` si
+des gloss mot-outil apparaissent (classe de défaut H518 etc.), via
+`manual_variants_darby.json` / `overrides_darby.json` / `gloss_mapping_darby.json`
+(vides pour l'instant). Quelques versets Darby-only (208 vs LSG) non alignés au
+premier passage → traitables via offsets affinés ou overrides.

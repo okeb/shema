@@ -35,6 +35,35 @@ OVERRIDES_PATH = os.path.join(BASE_DIR, "db", "strongs", "overrides.json")
 STRONG_TO_BYM_PATH = os.path.join(BASE_DIR, "db", "strongs", "strong_to_bym.json")
 VERSIF_OFFSETS_PATH = os.path.join(BASE_DIR, "db", "strongs", "versif_offsets.json")
 
+
+def target_paths(target):
+    """Renvoie les paths cibles-dépendants selon la version alignée.
+
+    `bym` (défaut) → paths historiques non suffixés (comportement inchangé).
+    `darby`        → fichiers suffixés `_darby.json` + texte cible db/darby.json.
+    Le cœur de l'alignement (align_segments, marqueurs « (C.V) », étapes 1-6) est
+    cible-agnostique ; seuls les fichiers de curation et le texte cible changent.
+    """
+    S = os.path.join(BASE_DIR, "db", "strongs")
+    T = os.path.join(BASE_DIR, "db")
+    if target == "darby":
+        return {
+            "text": os.path.join(T, "darby.json"),
+            "output": os.path.join(S, "darby_strongs.json"),
+            "gloss_mapping": os.path.join(S, "gloss_mapping_darby.json"),
+            "strong_to": os.path.join(S, "strong_to_darby.json"),
+            "overrides": os.path.join(S, "overrides_darby.json"),
+            "versif_offsets": os.path.join(S, "versif_offsets_darby.json"),
+        }
+    return {
+        "text": THEBYM_PATH,
+        "output": OUTPUT_PATH,
+        "gloss_mapping": GLOSS_MAPPING_PATH,
+        "strong_to": STRONG_TO_BYM_PATH,
+        "overrides": OVERRIDES_PATH,
+        "versif_offsets": VERSIF_OFFSETS_PATH,
+    }
+
 # Ordre Bible de Jérusalem (vérifié contre les données réelles)
 BOOK_NUM_TO_ABBR = [
     "Ge. ", "Ex. ", "Lé. ", "No. ", "De. ",
@@ -690,7 +719,12 @@ def align_segments(lsg_segments, bym_text, gloss_mapping, strong_to_bym=None, le
             if lexicon and is_proper_type(lexicon.get(strong, {}).get("type", "")):
                 candidates = [c for c in candidates if c[:1].isupper()]
             for candidate in candidates:
-                if not candidate or len(candidate) < 2:
+                # Exception numérique : un chiffre court (« 5 », « 7 ») est un candidat
+                # légitime (la BYM rend souvent les nombres en chiffres). Sans ça, le
+                # garde-fou len<2 le rejette et le code reste orphelin (ex. H2568=5 en
+                # Ge. 25:7 « 100 ans et 70 ans et 5 ans »). Un chiffre ne capture jamais
+                # un mot-outil, donc l'exception est sûre.
+                if not candidate or (len(candidate) < 2 and not candidate.isdigit()):
                     continue
                 dict_sub_words = candidate.split()
                 # D'abord chercher apres le curseur
@@ -753,6 +787,14 @@ def find_match_in_words(lsg_sub_words, tokens, word_indices, cursor, max_lookahe
     """
     Cherche une position dans word_indices où les sous-mots LSG correspondent
     aux mots BYM consécutifs. Retourne (start_wi, end_wi) ou (None, None).
+
+    Deux passes : (1) match EXACT prioritaire — évite qu'un mot court (« elle »)
+    ne vole une variante longue (« belles-filles ») par inclusion de sous-chaîne
+    (les deux ≥ 4 caractères) et ne matche la 1ʳᵉ position au lieu de l'exact
+    (ex. H3618 → « Elle » au lieu de « belles-filles »). (2) match par inclusion
+    en repli — gère les articles (« Elohîm » dans « l'Elohîm ») et variantes
+    approchantes. Exact-first ne fait que promouvoir un match exact qu'une
+    inclusion préemptait : strictement plus précis, sans régression.
     """
     n = len(lsg_sub_words)
     if n == 0:
@@ -760,27 +802,32 @@ def find_match_in_words(lsg_sub_words, tokens, word_indices, cursor, max_lookahe
 
     max_start = min(cursor + max_lookahead, len(word_indices) - n + 1)
 
-    for start in range(cursor, max_start):
-        match = True
+    def match_at(start, allow_substring):
         for j in range(n):
             wi = start + j
             if wi >= len(word_indices):
-                match = False
-                break
+                return False
             ti = word_indices[wi]
             if tokens[ti]["strong"] is not None:
-                match = False  # déjà assigné
-                break
+                return False  # déjà assigné
             norm_lsg = normalize(lsg_sub_words[j])
             norm_bym = normalize(tokens[ti]["text"])
-            if norm_lsg != norm_bym:
-                # Match par inclusion (gère les articles : "Elohîm" dans "l'Elohîm")
-                if len(norm_lsg) >= 4 and len(norm_bym) >= 4:
-                    if norm_lsg in norm_bym or norm_bym in norm_lsg:
-                        continue
-                match = False
-                break
-        if match:
+            if norm_lsg == norm_bym:
+                continue
+            if allow_substring and len(norm_lsg) >= 4 and len(norm_bym) >= 4:
+                # Inclusion (gère les articles : "Elohîm" dans "l'Elohîm")
+                if norm_lsg in norm_bym or norm_bym in norm_lsg:
+                    continue
+            return False
+        return True
+
+    # Passe 1 : exact uniquement
+    for start in range(cursor, max_start):
+        if match_at(start, allow_substring=False):
+            return start, start + n - 1
+    # Passe 2 : inclusion (repli)
+    for start in range(cursor, max_start):
+        if match_at(start, allow_substring=True):
             return start, start + n - 1
 
     return None, None
@@ -879,12 +926,17 @@ def merge_tokens(tokens):
 # ─── Main ────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="Génère db/strongs/bym_strongs.json (aligné)")
+    parser = argparse.ArgumentParser(description="Génère db/strongs/<target>_strongs.json (aligné)")
     parser.add_argument("--sqlite", help="Chemin vers strong.sqlite (évite le téléchargement)")
-    parser.add_argument("--output", default=OUTPUT_PATH)
+    parser.add_argument("--target", default="bym", choices=["bym", "darby"],
+                        help="Version cible de l'alignement (défaut: bym)")
+    parser.add_argument("--output", default=None, help="Fichier de sortie (défaut: selon --target)")
     args = parser.parse_args()
 
-    os.makedirs(os.path.dirname(args.output), exist_ok=True)
+    paths = target_paths(args.target)
+    output_path = args.output or paths["output"]
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    print(f"Cible : {args.target} — sortie : {output_path}")
 
     # 1. Charger les données
     if args.sqlite:
@@ -897,19 +949,19 @@ def main():
     print(f"\nLecture : {sqlite_path}")
     conn = sqlite3.connect(sqlite_path)
 
-    with open(THEBYM_PATH, encoding="utf-8") as f:
+    with open(paths["text"], encoding="utf-8") as f:
         bym = json.load(f)
-    print(f"BYM : {len(bym)} versets")
+    print(f"Texte cible : {len(bym)} versets")
 
-    with open(GLOSS_MAPPING_PATH, encoding="utf-8") as f:
+    with open(paths["gloss_mapping"], encoding="utf-8") as f:
         gloss_mapping = json.load(f)
     print(f"Gloss mapping : {len(gloss_mapping)} codes Strong")
 
     strong_to_bym = {}
-    if os.path.exists(STRONG_TO_BYM_PATH):
-        with open(STRONG_TO_BYM_PATH, encoding="utf-8") as f:
+    if os.path.exists(paths["strong_to"]):
+        with open(paths["strong_to"], encoding="utf-8") as f:
             strong_to_bym = json.load(f)
-        print(f"Dictionnaire Strong→BYM : {len(strong_to_bym)} codes")
+        print(f"Dictionnaire Strong→cible : {len(strong_to_bym)} codes")
 
     lexicon = {}
     lexicon_path = os.path.join(BASE_DIR, "db", "strongs", "lexicon.json")
@@ -919,8 +971,8 @@ def main():
         print(f"Lexique : {len(lexicon)} entrées")
 
     overrides = {}
-    if os.path.exists(OVERRIDES_PATH):
-        with open(OVERRIDES_PATH, encoding="utf-8") as f:
+    if os.path.exists(paths["overrides"]):
+        with open(paths["overrides"], encoding="utf-8") as f:
             overrides = json.load(f)
         print(f"Overrides : {len(overrides)} versets")
 
@@ -933,8 +985,8 @@ def main():
     #   • versif_pairs : clé_LSG complète -> clé_BYM (bords cross-chapitre, ex. Ge 31:55 -> Ge 32:1)
     versif = {}
     versif_pairs = {}
-    if os.path.exists(VERSIF_OFFSETS_PATH):
-        vo = json.load(open(VERSIF_OFFSETS_PATH, encoding="utf-8"))
+    if os.path.exists(paths["versif_offsets"]):
+        vo = json.load(open(paths["versif_offsets"], encoding="utf-8"))
         for r in vo.get("regions", []):
             for v in range(r["from"], r["to"] + 1):
                 versif[(r["book"], r["chap"], v)] = r["delta"]
@@ -1042,9 +1094,9 @@ def main():
     print(f"  Segments tagués   : {tagged_segs} ({100*tagged_segs/max(total_segs,1):.1f}%)")
 
     # 4. Écrire
-    with open(args.output, "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(strongs, f, ensure_ascii=False, indent=None, separators=(",", ":"))
-    print(f"\nÉcrit : {args.output} ({os.path.getsize(args.output)} bytes)")
+    print(f"\nÉcrit : {output_path} ({os.path.getsize(output_path)} bytes)")
 
     # Vérifications
     print("\n=== Vérifications ===")

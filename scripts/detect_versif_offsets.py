@@ -35,6 +35,18 @@ LSG_PATH = os.path.join(BASE_DIR, "db", "lsg.json")
 BYM_PATH = os.path.join(BASE_DIR, "db", "thebym.json")
 OUT_PATH = os.path.join(BASE_DIR, "db", "strongs", "versif_offsets.json")
 
+# Cibles d'alignement : texte cible + fichier d'offsets de versification.
+# `bym` (défaut) compare LSG vs thebym.json → versif_offsets.json (inchangé).
+# `darby` compare LSG vs darby.json → versif_offsets_darby.json.
+TARGET_TEXT = {
+    "bym": BYM_PATH,
+    "darby": os.path.join(BASE_DIR, "db", "darby.json"),
+}
+TARGET_OUT = {
+    "bym": OUT_PATH,
+    "darby": os.path.join(BASE_DIR, "db", "strongs", "versif_offsets_darby.json"),
+}
+
 MARKER_RE = re.compile(r"\(\d+\.\d+\)")
 KEY_RE = re.compile(r"^(.+?)\s+(\d+):(\d+)$")
 
@@ -61,8 +73,17 @@ def overlap(a, b):
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Détecte les décalages de versification LSG↔cible")
+    parser.add_argument("--target", default="bym", choices=["bym", "darby"],
+                        help="Version cible (défaut: bym)")
+    args = parser.parse_args()
+    target_text = TARGET_TEXT[args.target]
+    out_path = TARGET_OUT[args.target]
+    print(f"Cible : {args.target} — texte : {target_text} — sortie : {out_path}")
+
     lsg = json.load(open(LSG_PATH, encoding="utf-8"))
-    bym = json.load(open(BYM_PATH, encoding="utf-8"))
+    bym = json.load(open(target_text, encoding="utf-8"))
 
     # (abbr, chap) -> ensemble des versets LSG
     chapters = defaultdict(set)
@@ -182,7 +203,7 @@ def main():
     pair_list = [[lk, bk] for lk, (bk, _) in sorted(pairs.items())]
 
     out = {"regions": regions, "pairs": pair_list}
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
     total_verses = sum(r["to"] - r["from"] + 1 for r in regions)
@@ -193,8 +214,8 @@ def main():
               f"δ={r['delta']:+d}  (overlap≈{r['overlap']})")
     print(f"\nBords cross-chapitre appariés : {len(pair_list)}")
     for lk, bk in pair_list:
-        print(f"  LSG {lk}  ->  BYM {bk}")
-    print(f"\nÉcrit : {OUT_PATH}")
+        print(f"  LSG {lk}  ->  {args.target.upper()} {bk}")
+    print(f"\nÉcrit : {out_path}")
 
 
 if __name__ == "__main__":

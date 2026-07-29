@@ -7,7 +7,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # autorise le commit/push des JSON régénérés
+      contents: write
 
     steps:
       - name: Checkout du dépôt
@@ -18,15 +18,27 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Exécution du script de mise à jour
+      - name: Mise à jour des textes depuis GitLab
         run: python3 scripts/update_from_gitlab.py
+
+      - name: Alignement Strong's (make align)
+        run: make align
 
       - name: Commit et push des fichiers mis à jour
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add db/thebym.json db/books/bym_info.json  # bym_info.json suivi (utilisé par index.js pour titre/paragraphe) ; bym.json reste gitignored
-          # Ne commit que s'il y a des changements
+          git add \
+            db/thebym.json \
+            db/books/bym_info.json \
+            db/strongs/bym_strongs.json \
+            db/strongs/strong_to_bym.json \
+            db/strongs/strong_index.json \
+            db/strongs/versif_offsets.json \
+            db/strongs/occurrences.json \
+            db/strongs/gloss_mapping.json \
+            db/strongs/overrides.json \
+            db/strongs/manual_variants.json
           git diff --cached --quiet && echo "Aucun changement détecté" || \
-            git commit -m "chore: mise à jour Bible BJC depuis GitLab [automated]"
+            git commit -m "chore: mise à jour Bible BJC + alignement Strong's [automated]"
           git push

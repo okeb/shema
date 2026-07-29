@@ -1,4 +1,4 @@
-.PHONY: align deploy occurrences clean help
+.PHONY: align align-darby deploy darby occurrences clean help
 
 # Chemins
 SQLITE ?= /tmp/strong.sqlite
@@ -29,6 +29,30 @@ align:
 lexicon:
 	@echo "══️ Construction du lexique ═══"
 	python3 scripts/build_lexicon.py --sqlite $(SQLITE)
+
+# Construction de l'alignement Strong's sur la version Darby (LSG -> Darby).
+# Même flow que `align` mais cible darby (fichiers *_darby.json, db/darby.json).
+align-darby:
+	@echo "═══ Darby : détection des décalages de versification ═══"
+	python3 scripts/detect_versif_offsets.py --target darby
+	@echo ""
+	@echo "═══ Darby : reconstruction de l'alignement (1er passage) ═══"
+	python3 scripts/build_strongs.py --target darby --sqlite $(SQLITE)
+	@echo ""
+	@echo "═══ Darby : mise à jour du dictionnaire ═══"
+	python3 scripts/build_gloss_dict.py --target darby
+	@echo ""
+	@echo "══️ Darby : alignement final (2e passage, avec gloss dict) ═══"
+	python3 scripts/build_strongs.py --target darby --sqlite $(SQLITE)
+	@echo ""
+	@echo "══️ Darby : index Strong's → versets ═══"
+	python3 scripts/build_strong_index.py --strongs db/strongs/darby_strongs.json --out db/strongs/darby_strong_index.json
+	@echo "✅ Alignement Darby terminé"
+
+# Construction de la version Darby (texte seul, public domain — midvash/bible-data)
+darby:
+	@echo "══️ Construction de la version Darby ═══"
+	python3 scripts/build_darby.py
 
 # Alignement par LLM (arrière-plan)
 llm:
@@ -64,7 +88,9 @@ help:
 	@echo "Commandes disponibles:"
 	@echo ""
 	@echo "  make align     - Reconstruire l'alignement LSG→BYM + dictionnaire + index + occurrences"
+	@echo "  make align-darby - Aligner les Strong's sur la version Darby (LSG→Darby)"
 	@echo "  make lexicon   - Reconstruire le lexique Strong's depuis strong.sqlite"
+	@echo "  make darby     - Construire la version Darby (texte seul, public domain)"
 	@echo "  make llm       - Lancer l'alignement LLM en arrière-plan"
 	@echo "  make llm-stop  - Arrêter l'alignement LLM"
 	@echo "  make deploy    - Déployer sur Vercel (production)"

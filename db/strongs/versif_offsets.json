@@ -6,7 +6,7 @@
       "from": 7,
       "to": 32,
       "delta": 1,
-      "overlap": 0.64
+      "overlap": 0.65
     },
     {
       "book": "1 Ch.",
@@ -19,10 +19,10 @@
     {
       "book": "1 S.",
       "chap": 21,
-      "from": 1,
+      "from": 6,
       "to": 15,
       "delta": 1,
-      "overlap": 0.7
+      "overlap": 0.62
     },
     {
       "book": "2 Ch.",
@@ -108,9 +108,9 @@
       "book": "Ge.",
       "chap": 32,
       "from": 1,
-      "to": 32,
+      "to": 31,
       "delta": 1,
-      "overlap": 0.69
+      "overlap": 0.65
     },
     {
       "book": "Jé.",

@@ -25,6 +25,17 @@ BYM_STRONGS_PATH = os.path.join(BASE_DIR, "db", "strongs", "bym_strongs.json")
 OUTPUT_PATH = os.path.join(BASE_DIR, "db", "strongs", "strong_to_bym.json")
 MANUAL_VARIANTS_PATH = os.path.join(BASE_DIR, "db", "strongs", "manual_variants.json")
 
+# Cibles d'alignement : strongs en entrée + gloss dict en sortie + variantes manuelles.
+# `bym` (défaut) → paths historiques (inchangé). `darby` → fichiers suffixés `_darby`.
+TARGET_PATHS = {
+    "bym": (BYM_STRONGS_PATH, OUTPUT_PATH, MANUAL_VARIANTS_PATH),
+    "darby": (
+        os.path.join(BASE_DIR, "db", "strongs", "darby_strongs.json"),
+        os.path.join(BASE_DIR, "db", "strongs", "strong_to_darby.json"),
+        os.path.join(BASE_DIR, "db", "strongs", "manual_variants_darby.json"),
+    ),
+}
+
 
 def strip_accents(text):
     nfkd = unicodedata.normalize("NFD", text)
@@ -39,7 +50,15 @@ def clean_gloss(text):
 
 
 def main():
-    with open(BYM_STRONGS_PATH, encoding="utf-8") as f:
+    import argparse
+    parser = argparse.ArgumentParser(description="Construit le dictionnaire Strong's → gloss cible")
+    parser.add_argument("--target", default="bym", choices=["bym", "darby"],
+                        help="Version cible (défaut: bym)")
+    args = parser.parse_args()
+    strongs_path, output_path, manual_path = TARGET_PATHS[args.target]
+    print(f"Cible : {args.target} — strongs : {strongs_path} — sortie : {output_path}")
+
+    with open(strongs_path, encoding="utf-8") as f:
         strongs = json.load(f)
 
     print(f"Chargé: {len(strongs)} versets alignés")
@@ -88,8 +107,8 @@ def main():
     # auto : une expression curée par un humain prime sur la glose statistique, qui est
     # souvent un mot-outil court (« une », « pour », « pays ») capturant gloutonnement
     # un article au lieu de laisser la vraie expression multi-mots matcher.
-    if os.path.exists(MANUAL_VARIANTS_PATH):
-        with open(MANUAL_VARIANTS_PATH, encoding="utf-8") as f:
+    if os.path.exists(manual_path):
+        with open(manual_path, encoding="utf-8") as f:
             manual = json.load(f)
         added = 0
         for code, variants in manual.items():
@@ -107,11 +126,11 @@ def main():
         print(f"\nVariantes manuelles: {added} entrées (champ « manual », prioritaire)")
 
     # Sauvegarder
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(dictionary, f, ensure_ascii=False, indent=2)
 
     print(f"\nDictionnaire: {len(dictionary)} codes Strong's")
-    print(f"Écrit: {OUTPUT_PATH} ({os.path.getsize(OUTPUT_PATH)} bytes)")
+    print(f"Écrit: {output_path} ({os.path.getsize(output_path)} bytes)")
 
     # Statistiques
     high_conf = sum(1 for v in dictionary.values() if v["confidence"] >= 0.8)

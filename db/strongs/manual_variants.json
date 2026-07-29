@@ -1,137 +1,1285 @@
 {
-  "H7363": ["planait"],
-  "H7592": ["s'informa"],
-  "H1875": ["s'en enquiert"],
-  "H1240": ["t'enquérir"],
-  "H2714": ["d'enquête"],
-  "H3061": ["Yéhouda"],
-  "H3390": ["Yeroushalaim"],
-  "H426": ["Élahh"],
-  "H1961": ["devint"],
-  "H2232": ["semant"],
-  "H6086": ["arbre", "les arbres", "l'arbre", "de l'arbre"],
-  "H1876": ["sortir", "produire", "produise"],
-  "H834": ["lequel", "ce que", "qu"],
-  "H5315": ["âmes", "âme"],
-  "H3470": ["Yesha`yah", "de Yesha`yah"],
-  "H6635": ["Tsevaot"],
-  "H5978": ["avec", "à mes cotés"],
-  "H1931": ["il","elle","lui-même", "ce qui", "ce dont", "ce", "cet", "celui"],
-  "H3498": ["avait laissé"],
-  "H5818": ["d'Ouzyah", "Ouzyah"],
-  "H3147": ["Yotham"],
-  "H3169": ["Yehizqiyah", "de Yehizqiyah"],
-  "H2372": ["vue"],
-  "H1742": ["languissant"],
-  "H6586": ["rebellés"],
-  "H5221": ["frappés", "frappé", "frapper", "frappez", "frappent"],
-  "H18": ["crèche"],
-  "H5006": ["mépris"],
-  "H3254": ["ajouterez"],
-  "H5627": ["l'apostasie", "apostasie"],
-  "H2416": ["vivant", "vivantes", "vivants", "vivante", "vie", "vies"],
-  "H8577": ["monstres marins", "dragon", "serpent"],
-  "H6509": ["porter du fruit", "portez du fruit", "porte du fruit", "Portez du fruit"],
-  "H5776": ["créatures volantes", "volaille", "insectes", "oiseaux"],
-  "H7431": ["choses rampantes", "grouillantes", "organisme rampant", "reptile", "choses qui rampent", "choses qui glissent", "animaux aquatiques", "choses mouvantes"],
-  "H120": ["être humain", "homme", "Adam"],
-  "H428": ["telles", "Telles", "ces"],
-  "H369": ["n'y avait pas"],
-  "H2962": ["avant", "pas encore", "avant cela"],
-  "H4758": ["vue", "apparence", "vision", "phénomène", "spectacle", "apparition"],
-  "H259": ["un", "chaque", "un certain", "seul", "l'autre", "premier", "onze", "onzième"],
-  "H68": ["pierre", "poids", "projectiles"],
-  "H3568": ["koush", "noir", "brûlé par le soleil", "noire"],
-  "G2479": ["force", "puissance", "capacité"],
-  "G946": ["abominations", "d'abominations"],
-  "G932": ["pouvoir royal", "royauté", "domination", "autorité"],
-  "G2767": ["mêlé", "mêlez", "mêlée", "mêlées", "mêlés"],
-  "G2521": ["siège"],
-  "G3056": ["Logos", "le Logos"],
-  "G1831": ["Sortez", "sortez"],
-  "G190": ["joints à sa suite"],
-  "G2853": ["joints à", "se sont joints à"],
-  "G4790": ["participiez", "prendre part"],
-  "G3363": ["que", "de peur que"],
-  "G4165": ["gouvernera"],
-  "G1722": ["parmi","avec"],
-  "G615": ["tuant"],
-  "G165": ["âges"],
-  "G2064": ["Venant"],
-  "G4352": ["adorant"],
-  "G3801": ["Étant","l’Étant"],
-  "G1092": ["vignerons", "agriculteur", "laboureur", "vigneron"],
-  "G2540": ["mesure de temps", "mesure", "temps favorable et opportun", "temps convenable"],
-  "G1554": ["laissa en location","une location", "location"],
-  "G5418": ["une clôture","clôture"],
-  "G5620": ["C'est pourquoi", "c'est pourquoi"],
-  "G3361": ["non", "pas", "ne pas", "point"],
-  "G276": ["sans reproches","innocent", "ne méritant pas de censure", "libre de faute ou défaut"],
-  "G3450": ["je", "Je", "moi", "mon", "de moi"],
-  "G1754": ["fait", "faire"],
-  "G5228": ["en faveur de", "pour l'amour de", "au delà de", "plus de", "plus", "au delà", "au-dessus de"],
-  "G4060": ["mit autour","autour"],
-  "G589": ["pays lointain", "pays"],
-  "G3321": ["zénith dans le ciel"],
-  "G3952": ["parousie","la parousie", "la venue", "l'arrivée", "l'avènement"],
-  "G1799": ["en sa présence"],
-  "G3961": ["foulera aux pieds"],
-  "G4464": ["sceptre", "bâton"],
-  "G1515": ["shalôm", "Shalôm"],
-  "G2732": ["une demeure", "une habitation"],
-  "G1537": ["hors-d’","depuis", "à partir de", "à partir", "loin de", "hors de"],
-  "G2049": ["dépouilleront", "ruiner", "ruineront", "dépouillerons", "réduite en désert"],
-  "G3778": ["Ceux-ci", "Ceux-ci", "ceux-ci", "ceux-là", "ceux-là", "ces", "ce", "cette", "cet"],
-  "G3768": ["pas encore"],
-  "G4501": ["une grande épée"],
-  "G4441": ["s'enquit"],
-  "G3739": ["laquelle","qui", "lequel", "ce que", "que"],
-  "G2745": ["ce dont chacun peut se glorifier","sujet de gloire"],
-  "G3956": ["toutes sortes"],
-  "G2841": ["communion", "communions", "s'associer", "s'associer", "s'associent", "s'associeront"],
-  "G5475": ["cuivre"],
-  "G2727": ["l'enseigne", "instruire", "enseigne", "enseigner"],
-  "G444": ["un être humain", "être humain", "homme", "femme"],
-  "G4160": ["pratiquant", "pratiquer", "produire", "pratiquent", "pratiquerez", "pratiqueront", "former", "façonner"],
-  "G315": ["forcent", "forcer", "obliger", "contraindre", "contraignent", "conduire", "forceront", "obligeront"],
-  "G2146": ["avoir un bel aspect", "plaire à"],
-  "G3708": ["voyant"],
-  "G3551" : ["torah", "loi", "lois", "commandements", "commandement", "commandements"],
-  "G846": ["ceux-là même", "tous ceux","lui-même", "elle-même", "eux-mêmes", "les-mêmes", "elles-mêmes"],
-  "G1223": ["le moyen de laquelle", "le moyen par lequel","la raison pour laquelle", "en compte de", "a cause de cette raison", "en raison de", " à travers"],
-  "G2480": ["Dorénavant", "désormais"],
-  "G4742": ["stigmates", "marques", "marque"],
-  "G3427": ["moi","Je", "me"],
-  "G3930": ["cause"],
-  "G1501": ["vingt"],
-  "G5463": ["exultons"],
-  "G2192": ["a"],
-  "G3588": ["celui", "ce", "cet", "ces", "cette", "ceux", "celle", "celles"],
-  "G1492": ["connaît"],
-  "G1909": ["sur"],
-  "G1345": ["l'acte de justice", "un acte de justice"],
-  "G1135": ["Épouse"],
-  "G3718": ["Attention", "attention"],
-  "G3107": ["Heureux","Bénis", "béni", "Béni", "heureux"],
-  "G5064": ["-quatre", "quatre"],
-  "G4098": ["tombèrent", "se prosternèrent", "s'inclinèrent", "s'agenouillèrent"],
-  "G2873": ["ennuis", "d'ennuis", "de douleur", "de chagrin", "de peine", "de souffrance"],
-  "G3064": ["sont venus", "venir", "arriver", "arrivent", "arriveront"],
-  "G5100": ["quelque", "quelques temps", "quelqu'un", "un moment", "un certain temps"],
-  "G3364": ["jamais", "certainement pas", "pas du tout"],
-  "G4748": ["marcheront", "marcher", "bien se conduire", "diriger sa vie"],
-  "G4143": ["naviguent", "navigueront", "naviguer", "navigation"],
-  "G3464": ["parfum", "baumes", "baume"],
-  "G3996": ["se lamentent", "se lamenteront"],
-  "G3391": ["un seul", "une seule", "un seul", "une seule"],
-  "G3113": ["à distance"],
-  "G565": ["éloignées"],
-  "G5456": ["bruit"],
-  "G3045": ["choses qui appartiennent à", "choses qui appartiennent à un somptueux et délicat style de vie"],
-  "G3451": ["musiciens", "musicien"],
-  "G2986": ["somptueux"],
-  "G1117": ["marchandise", "marchandises"],
-  "G3754": ["Parce qu'", "Parce que", "parce que", "car", "puisque", "parce qu'"],
-  "G1520": ["un", "une", "l'un", "l'une", "un seul", "une seule"],
-  "G2296": ["étonné", "étonné de", "étonnée", "étonnés", "étonnées", "surpris", "surprise", "surpris", "surprises"]
+  "G1092": [
+    "vignerons",
+    "agriculteur",
+    "laboureur",
+    "vigneron"
+  ],
+  "G1117": [
+    "marchandise",
+    "marchandises"
+  ],
+  "G1135": [
+    "Épouse"
+  ],
+  "G1223": [
+    "le moyen de laquelle",
+    "le moyen par lequel",
+    "la raison pour laquelle",
+    "en compte de",
+    "a cause de cette raison",
+    "en raison de",
+    " à travers",
+    "au travers de"
+  ],
+  "G1239": [
+    "partage",
+    "distribua",
+    "distribuait"
+  ],
+  "G1280": [
+    "perplexe",
+    "perplexes"
+  ],
+  "G1340": [
+    "l'affirmait",
+    "affirmait"
+  ],
+  "G1345": [
+    "l'acte de justice",
+    "un acte de justice"
+  ],
+  "G142": [
+    "porteront",
+    "prends",
+    "emporte"
+  ],
+  "G1492": [
+    "connaît",
+    "vu"
+  ],
+  "G1501": [
+    "vingt"
+  ],
+  "G1515": [
+    "shalôm",
+    "Shalôm"
+  ],
+  "G1520": [
+    "un",
+    "une",
+    "l'un",
+    "l'une",
+    "un seul",
+    "une seule"
+  ],
+  "G1537": [
+    "hors-d’",
+    "depuis",
+    "à partir de",
+    "à partir",
+    "loin de",
+    "hors de"
+  ],
+  "G1554": [
+    "laissa en location",
+    "une location",
+    "location"
+  ],
+  "G1558": [
+    "vengeresse",
+    "punit"
+  ],
+  "G1576": [
+    "empêcher"
+  ],
+  "G165": [
+    "âges"
+  ],
+  "G1718": [
+    "apparurent",
+    "manifesterai",
+    "manifester"
+  ],
+  "G1722": [
+    "parmi",
+    "avec"
+  ],
+  "G1754": [
+    "fait",
+    "faire"
+  ],
+  "G177": [
+    "couverte"
+  ],
+  "G1799": [
+    "en sa présence"
+  ],
+  "G1831": [
+    "Sortez",
+    "sortez"
+  ],
+  "G190": [
+    "joints à sa suite"
+  ],
+  "G1904": [
+    "viendra",
+    "survenant",
+    "survenu"
+  ],
+  "G1909": [
+    "sur"
+  ],
+  "G1982": [
+    "couvrit",
+    "couvrant",
+    "couvrira"
+  ],
+  "G2047": [
+    "région inhabitée",
+    "régions inhabitées"
+  ],
+  "G2049": [
+    "dépouilleront",
+    "ruiner",
+    "ruineront",
+    "dépouillerons",
+    "réduite en désert"
+  ],
+  "G2064": [
+    "Venant"
+  ],
+  "G2146": [
+    "avoir un bel aspect",
+    "plaire à"
+  ],
+  "G2186": [
+    "survenant",
+    "placé",
+    "se tint"
+  ],
+  "G2192": [
+    "a"
+  ],
+  "G2206": [
+    "enviant",
+    "envie",
+    "désirez"
+  ],
+  "G2296": [
+    "étonné",
+    "étonné de",
+    "étonnée",
+    "étonnés",
+    "étonnées",
+    "surpris",
+    "surprise",
+    "surpris",
+    "surprises"
+  ],
+  "G2435": [
+    "propitiation",
+    "propitiatoire"
+  ],
+  "G2479": [
+    "force",
+    "puissance",
+    "capacité"
+  ],
+  "G2480": [
+    "Dorénavant",
+    "désormais"
+  ],
+  "G2517": [
+    "ordre",
+    "successivement"
+  ],
+  "G2521": [
+    "siège"
+  ],
+  "G2540": [
+    "mesure de temps",
+    "mesure",
+    "temps favorable et opportun",
+    "temps convenable"
+  ],
+  "G2548": [
+    "choses-là"
+  ],
+  "G2583": [
+    "limite",
+    "limite définie"
+  ],
+  "G2636": [
+    "diffamations"
+  ],
+  "G2692": [
+    "renversement"
+  ],
+  "G2723": [
+    "accuser",
+    "accusations"
+  ],
+  "G2727": [
+    "l'enseigne",
+    "instruire",
+    "enseigne",
+    "enseigner"
+  ],
+  "G2732": [
+    "une demeure",
+    "une habitation"
+  ],
+  "G2745": [
+    "ce dont chacun peut se glorifier",
+    "sujet de gloire"
+  ],
+  "G276": [
+    "sans reproches",
+    "innocent",
+    "ne méritant pas de censure",
+    "libre de faute ou défaut"
+  ],
+  "G2767": [
+    "mêlé",
+    "mêlez",
+    "mêlée",
+    "mêlées",
+    "mêlés"
+  ],
+  "G2774": [
+    "somme",
+    "principale"
+  ],
+  "G2841": [
+    "communion",
+    "communions",
+    "s'associer",
+    "s'associer",
+    "s'associent",
+    "s'associeront"
+  ],
+  "G2845": [
+    "lit",
+    "relation sexuelle",
+    "luxure"
+  ],
+  "G2853": [
+    "joints à",
+    "se sont joints à"
+  ],
+  "G2873": [
+    "ennuis",
+    "d'ennuis",
+    "de douleur",
+    "de chagrin",
+    "de peine",
+    "de souffrance"
+  ],
+  "G2922": [
+    "jugements",
+    "tribunaux"
+  ],
+  "G2961": [
+    "domination",
+    "dominent"
+  ],
+  "G2986": [
+    "somptueux"
+  ],
+  "G2990": [
+    "cachée",
+    "ignore"
+  ],
+  "G303": [
+    "chacun",
+    "au milieu"
+  ],
+  "G3045": [
+    "choses qui appartiennent à",
+    "choses qui appartiennent à un somptueux et délicat style de vie"
+  ],
+  "G3056": [
+    "Logos",
+    "le Logos"
+  ],
+  "G3064": [
+    "sont venus",
+    "venir",
+    "arriver",
+    "arrivent",
+    "arriveront"
+  ],
+  "G3107": [
+    "Heureux",
+    "Bénis",
+    "béni",
+    "Béni",
+    "heureux"
+  ],
+  "G3113": [
+    "à distance"
+  ],
+  "G315": [
+    "forcent",
+    "forcer",
+    "obliger",
+    "contraindre",
+    "contraignent",
+    "conduire",
+    "forceront",
+    "obligeront"
+  ],
+  "G3199": [
+    "considères",
+    "inquiètes",
+    "soucies"
+  ],
+  "G3305": [
+    "Toutefois"
+  ],
+  "G3321": [
+    "zénith dans le ciel"
+  ],
+  "G3361": [
+    "non",
+    "pas",
+    "ne pas",
+    "point"
+  ],
+  "G3363": [
+    "que",
+    "de peur que"
+  ],
+  "G3364": [
+    "jamais",
+    "certainement pas",
+    "pas du tout"
+  ],
+  "G3366": [
+    "et ne"
+  ],
+  "G3381": [
+    "de peur que",
+    "peut-être"
+  ],
+  "G3391": [
+    "un seul",
+    "une seule",
+    "un seul",
+    "une seule"
+  ],
+  "G3421": [
+    "Rappelez-vous",
+    "rappelez"
+  ],
+  "G3427": [
+    "moi",
+    "Je",
+    "me"
+  ],
+  "G3449": [
+    "travail dur et difficile",
+    "difficile"
+  ],
+  "G3450": [
+    "je",
+    "Je",
+    "moi",
+    "mon",
+    "de moi"
+  ],
+  "G3451": [
+    "musiciens",
+    "musicien"
+  ],
+  "G3464": [
+    "parfum",
+    "baumes",
+    "baume"
+  ],
+  "G3474": [
+    "Fou",
+    "insensé",
+    "Insensés"
+  ],
+  "G3539": [
+    "comprenez-vous",
+    "compris"
+  ],
+  "G3551": [
+    "torah",
+    "loi",
+    "lois",
+    "commandements",
+    "commandement",
+    "commandements"
+  ],
+  "G3588": [
+    "celui",
+    "ce",
+    "cet",
+    "ces",
+    "cette",
+    "ceux",
+    "celle",
+    "celles"
+  ],
+  "G3654": [
+    "tout à fait"
+  ],
+  "G3701": [
+    "apparition"
+  ],
+  "G3708": [
+    "voyant"
+  ],
+  "G3718": [
+    "Attention",
+    "attention"
+  ],
+  "G3739": [
+    "laquelle",
+    "qui",
+    "lequel",
+    "ce que",
+    "que"
+  ],
+  "G3754": [
+    "Parce qu'",
+    "Parce que",
+    "parce que",
+    "car",
+    "puisque",
+    "parce qu'"
+  ],
+  "G3768": [
+    "pas encore"
+  ],
+  "G3778": [
+    "Ceux-ci",
+    "Ceux-ci",
+    "ceux-ci",
+    "ceux-là",
+    "ceux-là",
+    "ces",
+    "ce",
+    "cette",
+    "cet",
+    "Celui-ci"
+  ],
+  "G3785": [
+    "Si seulement"
+  ],
+  "G3801": [
+    "Étant",
+    "l’Étant"
+  ],
+  "G387": [
+    "agité",
+    "agitent"
+  ],
+  "G3875": [
+    "parakletos"
+  ],
+  "G3908": [
+    "proposa",
+    "mettent"
+  ],
+  "G3924": [
+    "excepté",
+    "l'exception",
+    "Outre"
+  ],
+  "G3930": [
+    "cause"
+  ],
+  "G3952": [
+    "parousie",
+    "la parousie",
+    "la venue",
+    "l'arrivée",
+    "l'avènement"
+  ],
+  "G3956": [
+    "toutes sortes"
+  ],
+  "G3961": [
+    "foulera aux pieds"
+  ],
+  "G3996": [
+    "se lamentent",
+    "se lamenteront"
+  ],
+  "G4012": [
+    "au sujet de"
+  ],
+  "G4013": [
+    "allait",
+    "parcourez"
+  ],
+  "G4060": [
+    "mit autour",
+    "autour"
+  ],
+  "G4098": [
+    "tombèrent",
+    "se prosternèrent",
+    "s'inclinèrent",
+    "s'agenouillèrent"
+  ],
+  "G4120": [
+    "tressèrent",
+    "tressée"
+  ],
+  "G4143": [
+    "naviguent",
+    "navigueront",
+    "naviguer",
+    "navigation"
+  ],
+  "G4160": [
+    "pratiquant",
+    "pratiquer",
+    "produire",
+    "pratiquent",
+    "pratiquerez",
+    "pratiqueront",
+    "former",
+    "façonner"
+  ],
+  "G4165": [
+    "gouvernera"
+  ],
+  "G4185": [
+    "coûteux",
+    "précieux"
+  ],
+  "G4229": [
+    "événements",
+    "dessein"
+  ],
+  "G4238": [
+    "fais"
+  ],
+  "G4270": [
+    "auparavant",
+    "dépeint",
+    "écrit"
+  ],
+  "G4295": [
+    "placée"
+  ],
+  "G4342": [
+    "persévérants",
+    "constamment prompt"
+  ],
+  "G4352": [
+    "adorant"
+  ],
+  "G4363": [
+    "tombaient",
+    "tomba",
+    "précipités"
+  ],
+  "G4374": [
+    "amena",
+    "présentèrent",
+    "apportes"
+  ],
+  "G444": [
+    "un être humain",
+    "être humain",
+    "homme",
+    "femme"
+  ],
+  "G4441": [
+    "s'enquit"
+  ],
+  "G4464": [
+    "sceptre",
+    "bâton"
+  ],
+  "G4501": [
+    "une grande épée"
+  ],
+  "G4521": [
+    "shabbat",
+    "shabbats"
+  ],
+  "G4574": [
+    "culte",
+    "adore"
+  ],
+  "G4684": [
+    "luxe",
+    "luxes"
+  ],
+  "G4704": [
+    "empressé",
+    "efforçant"
+  ],
+  "G4714": [
+    "insurrection"
+  ],
+  "G4742": [
+    "stigmates",
+    "marques",
+    "marque"
+  ],
+  "G4748": [
+    "marcheront",
+    "marcher",
+    "bien se conduire",
+    "diriger sa vie"
+  ],
+  "G4790": [
+    "participiez",
+    "prendre part"
+  ],
+  "G4814": [
+    "s'entretenant",
+    "parlaient",
+    "parler"
+  ],
+  "G4912": [
+    "saisis",
+    "oppressés"
+  ],
+  "G5064": [
+    "-quatre",
+    "quatre"
+  ],
+  "G5100": [
+    "quelque",
+    "quelques temps",
+    "quelqu'un",
+    "un moment",
+    "un certain temps"
+  ],
+  "G5228": [
+    "en faveur de",
+    "pour l'amour de",
+    "au delà de",
+    "plus de",
+    "plus",
+    "au delà",
+    "au-dessus de"
+  ],
+  "G5235": [
+    "transcendante",
+    "excellente"
+  ],
+  "G5256": [
+    "servi",
+    "servir"
+  ],
+  "G5305": [
+    "ensuite"
+  ],
+  "G5316": [
+    "apparut",
+    "apparaît",
+    "apparue"
+  ],
+  "G5418": [
+    "une clôture",
+    "clôture"
+  ],
+  "G5456": [
+    "bruit"
+  ],
+  "G5463": [
+    "exultons"
+  ],
+  "G5475": [
+    "cuivre"
+  ],
+  "G5620": [
+    "C'est pourquoi",
+    "c'est pourquoi"
+  ],
+  "G565": [
+    "éloignées"
+  ],
+  "G569": [
+    "crurent",
+    "cru"
+  ],
+  "G589": [
+    "pays lointain",
+    "pays"
+  ],
+  "G615": [
+    "tuant"
+  ],
+  "G749": [
+    "prêtres"
+  ],
+  "G807": [
+    "agit"
+  ],
+  "G846": [
+    "ceux-là même",
+    "tous ceux",
+    "lui-même",
+    "elle-même",
+    "eux-mêmes",
+    "les-mêmes",
+    "elles-mêmes"
+  ],
+  "G868": [
+    "s'éloignait",
+    "retira",
+    "se retirent"
+  ],
+  "G932": [
+    "pouvoir royal",
+    "royauté",
+    "domination",
+    "autorité"
+  ],
+  "G946": [
+    "abominations",
+    "d'abominations"
+  ],
+  "H1100": [
+    "Bélial",
+    "méchant"
+  ],
+  "H1166": [
+    "l'épouseras",
+    "épousée"
+  ],
+  "H117": [
+    "puissants",
+    "chefs"
+  ],
+  "H120": [
+    "être humain",
+    "homme",
+    "Adam"
+  ],
+  "H1240": [
+    "t'enquérir"
+  ],
+  "H1432": [
+    "augmentant",
+    "grandissant"
+  ],
+  "H1540": [
+    "découvrit",
+    "découverts",
+    "découverte"
+  ],
+  "H1580": [
+    "rendre",
+    "rendra"
+  ],
+  "H1742": [
+    "languissant"
+  ],
+  "H1767": [
+    "faut",
+    "suffisant"
+  ],
+  "H18": [
+    "crèche"
+  ],
+  "H1809": [
+    "appauvri",
+    "détresse"
+  ],
+  "H1811": [
+    "pleure"
+  ],
+  "H1814": [
+    "poursuite"
+  ],
+  "H1875": [
+    "s'en enquiert"
+  ],
+  "H1876": [
+    "sortir",
+    "produire",
+    "produise"
+  ],
+  "H1931": [
+    "il",
+    "elle",
+    "lui-même",
+    "ce qui",
+    "ce dont",
+    "ce",
+    "cet",
+    "celui"
+  ],
+  "H1961": [
+    "devint"
+  ],
+  "H2007": [
+    "celles"
+  ],
+  "H2102": [
+    "orgueil",
+    "arrogance",
+    "cuire"
+  ],
+  "H2232": [
+    "semant"
+  ],
+  "H2256": [
+    "région"
+  ],
+  "H2263": [
+    "embrassa",
+    "l'embrassa"
+  ],
+  "H2372": [
+    "vue"
+  ],
+  "H2404": [
+    "couper",
+    "coupeurs"
+  ],
+  "H2416": [
+    "vivant",
+    "vivantes",
+    "vivants",
+    "vivante",
+    "vie",
+    "vies"
+  ],
+  "H2568": [
+    "5",
+    "cinq",
+    "cinquième"
+  ],
+  "H2572": [
+    "cinquante",
+    "cinquantième",
+    "cinquantaines",
+    "cinquantaine"
+  ],
+  "H259": [
+    "un",
+    "chaque",
+    "un certain",
+    "seul",
+    "l'autre",
+    "premier",
+    "onze",
+    "onzième"
+  ],
+  "H2659": [
+    "confondus",
+    "honteux",
+    "confus"
+  ],
+  "H2714": [
+    "d'enquête"
+  ],
+  "H2750": [
+    "enflammé",
+    "enflammées"
+  ],
+  "H2904": [
+    "jeta",
+    "lança"
+  ],
+  "H2962": [
+    "avant",
+    "pas encore",
+    "avant cela"
+  ],
+  "H2973": [
+    "follement",
+    "fous",
+    "insensée"
+  ],
+  "H3029": [
+    "rends grâces"
+  ],
+  "H3061": [
+    "Yéhouda"
+  ],
+  "H3147": [
+    "Yotham"
+  ],
+  "H3169": [
+    "Yehizqiyah",
+    "de Yehizqiyah"
+  ],
+  "H3254": [
+    "ajouterez"
+  ],
+  "H3259": [
+    "fiancée",
+    "rencontrerai"
+  ],
+  "H3390": [
+    "Yeroushalaim"
+  ],
+  "H3470": [
+    "Yesha`yah",
+    "de Yesha`yah"
+  ],
+  "H3498": [
+    "avait laissé"
+  ],
+  "H3502": [
+    "richesses",
+    "biens"
+  ],
+  "H3525": [
+    "ceps"
+  ],
+  "H3559": [
+    "préparèrent",
+    "prépare-la,",
+    "établie"
+  ],
+  "H3568": [
+    "koush",
+    "noir",
+    "brûlé par le soleil",
+    "noire"
+  ],
+  "H3669": [
+    "Kena'ânéens"
+  ],
+  "H369": [
+    "n'y avait pas"
+  ],
+  "H389": [
+    "seulement",
+    "En effet"
+  ],
+  "H3967": [
+    "100",
+    "cent",
+    "cents",
+    "centaines"
+  ],
+  "H410": [
+    "El"
+  ],
+  "H4161": [
+    "départs",
+    "sort"
+  ],
+  "H426": [
+    "Élahh"
+  ],
+  "H428": [
+    "telles",
+    "Telles",
+    "ces"
+  ],
+  "H4456": [
+    "printemps",
+    "du printemps"
+  ],
+  "H4522": [
+    "servitude",
+    "tributaire"
+  ],
+  "H4603": [
+    "commis",
+    "délit",
+    "délits"
+  ],
+  "H4609": [
+    "marches"
+  ],
+  "H4758": [
+    "vue",
+    "apparence",
+    "vision",
+    "phénomène",
+    "spectacle",
+    "apparition"
+  ],
+  "H4876": [
+    "précipices",
+    "dévastés"
+  ],
+  "H4899": [
+    "oint"
+  ],
+  "H4994": [
+    "S'il te plaît",
+    "s'il vous plaît"
+  ],
+  "H4996": [
+    "No"
+  ],
+  "H5006": [
+    "mépris"
+  ],
+  "H518": [
+    "si"
+  ],
+  "H5203": [
+    "laissé",
+    "laissa",
+    "abandonné"
+  ],
+  "H5221": [
+    "frappés",
+    "frappé",
+    "frapper",
+    "frappez",
+    "frappent"
+  ],
+  "H5254": [
+    "éprouva",
+    "l'éprouva",
+    "l'éprouve"
+  ],
+  "H5303": [
+    "Nephilim"
+  ],
+  "H5308": [
+    "tomba"
+  ],
+  "H5315": [
+    "âmes",
+    "âme"
+  ],
+  "H5327": [
+    "querella",
+    "battaient",
+    "battant"
+  ],
+  "H5331": [
+    "sans cesse",
+    "l'éternité"
+  ],
+  "H5413": [
+    "tombent",
+    "tombèrent",
+    "fondu"
+  ],
+  "H5493": [
+    "détournèrent",
+    "détournez-vous"
+  ],
+  "H5627": [
+    "l'apostasie",
+    "apostasie"
+  ],
+  "H5704": [
+    "jusqu'à",
+    "jusqu'au",
+    "jusqu'aux"
+  ],
+  "H5747": [
+    "Og"
+  ],
+  "H5776": [
+    "créatures volantes",
+    "volaille",
+    "insectes",
+    "oiseaux"
+  ],
+  "H5818": [
+    "d'Ouzyah",
+    "Ouzyah"
+  ],
+  "H5857": [
+    "Aï"
+  ],
+  "H5891": [
+    "Eyphah"
+  ],
+  "H5945": [
+    "Élyon"
+  ],
+  "H5947": [
+    "réjouissent",
+    "joyeuse",
+    "exultation"
+  ],
+  "H5978": [
+    "avec",
+    "à mes cotés"
+  ],
+  "H5980": [
+    "côté"
+  ],
+  "H6001": [
+    "misérable",
+    "misérables",
+    "ouvriers"
+  ],
+  "H6086": [
+    "arbre",
+    "les arbres",
+    "l'arbre",
+    "de l'arbre"
+  ],
+  "H6094": [
+    "douleurs",
+    "plaies"
+  ],
+  "H6140": [
+    "pervertit",
+    "tortueuses"
+  ],
+  "H6292": [
+    "infâme",
+    "infâmes"
+  ],
+  "H6357": [
+    "topaze"
+  ],
+  "H650": [
+    "canal",
+    "canaux"
+  ],
+  "H6509": [
+    "porter du fruit",
+    "portez du fruit",
+    "porte du fruit",
+    "Portez du fruit"
+  ],
+  "H6561": [
+    "briseras"
+  ],
+  "H6586": [
+    "rebellés"
+  ],
+  "H6633": [
+    "rassemblaient"
+  ],
+  "H6635": [
+    "Tsevaot"
+  ],
+  "H68": [
+    "pierre",
+    "poids",
+    "projectiles"
+  ],
+  "H6848": [
+    "vipère"
+  ],
+  "H6903": [
+    "puisque"
+  ],
+  "H6966": [
+    "levèrent",
+    "établirent",
+    "établit"
+  ],
+  "H7185": [
+    "difficile",
+    "cruelle",
+    "peine"
+  ],
+  "H7250": [
+    "s'accoupler",
+    "n'accoupleras"
+  ],
+  "H7363": [
+    "planait"
+  ],
+  "H7378": [
+    "contestèrent"
+  ],
+  "H7431": [
+    "choses rampantes",
+    "grouillantes",
+    "organisme rampant",
+    "reptile",
+    "choses qui rampent",
+    "choses qui glissent",
+    "animaux aquatiques",
+    "choses mouvantes"
+  ],
+  "H7585": [
+    "shéol"
+  ],
+  "H7592": [
+    "s'informa"
+  ],
+  "H7657": [
+    "70",
+    "soixante-dix"
+  ],
+  "H7677": [
+    "shabatôn"
+  ],
+  "H7682": [
+    "élevé",
+    "élevés",
+    "haute"
+  ],
+  "H8178": [
+    "d'horreur"
+  ],
+  "H8317": [
+    "grouilleront",
+    "grouillèrent",
+    "grouillaient"
+  ],
+  "H8321": [
+    "de choix"
+  ],
+  "H834": [
+    "lequel",
+    "ce que",
+    "qu"
+  ],
+  "H8438": [
+    "l'écarlate",
+    "écarlate"
+  ],
+  "H8480": [
+    "Tahath"
+  ],
+  "H8552": [
+    "fini",
+    "fin",
+    "épuisé"
+  ],
+  "H8562": [
+    "onguents",
+    "toilettes"
+  ],
+  "H8577": [
+    "monstres marins",
+    "dragon",
+    "serpent"
+  ],
+  "H8582": [
+    "erra",
+    "errant",
+    "errer"
+  ],
+  "H909": [
+    "s'isole"
+  ],
+  "G4100": [
+    "croient",
+    "crois"
+  ],
+  "G2443": [
+    "afin que"
+  ],
+  "G5213": [
+    "vous"
+  ],
+  "G2532": [
+    "et"
+  ],
+  "G2036": [
+    "dit",
+    "repondit"
+  ],
+  "G4571": [
+    "t'"
+  ],
+  "G4671": [
+    "t'"
+  ],
+  "G3187": [
+    "plus grandes"
+  ],
+  "H3618": [
+    "belles-filles"
+  ],
+  "G575": [
+    "Désormais"
+  ]
 }

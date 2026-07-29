@@ -79,6 +79,33 @@ try {
   console.log("Strong's index LSG: fichier non trouvé");
 }
 
+// Darby (J.N. Darby, 1885) — texte seul, pas de Strong's natifs.
+// Source : midvash/bible-data (public domain), construit par scripts/build_darby.py.
+let darby = {};
+try {
+  darby = require("./db/darby.json");
+  console.log(`Darby: ${Object.keys(darby).length} versets chargés`);
+} catch (e) {
+  console.log("Darby: fichier non trouvé");
+}
+
+// Strong's alignés sur Darby (LSG→Darby, pipeline build_strongs.py --target darby).
+let darby_strongs = {};
+try {
+  darby_strongs = require("./db/strongs/darby_strongs.json");
+  console.log(`Darby Strong's: ${Object.keys(darby_strongs).length} versets alignés`);
+} catch (e) {
+  console.log("Darby Strong's: fichier non trouvé");
+}
+
+let darbyStrongIndex = {};
+try {
+  darbyStrongIndex = require("./db/strongs/darby_strong_index.json");
+  console.log(`Strong's index Darby: ${Object.keys(darbyStrongIndex).length} codes chargés`);
+} catch (e) {
+  console.log("Strong's index Darby: fichier non trouvé");
+}
+
 // ═══════════════════════════════════════════════════════════════
 //  Registre des versions
 // ═══════════════════════════════════════════════════════════════
@@ -97,6 +124,13 @@ const VERSIONS = {
     strongIndex: lsgStrongIndex,
     name: "Louis Segond 1910",
     strongs: Object.keys(lsg_strongs).length > 0,
+  },
+  darby: {
+    data: darby,
+    strongsData: darby_strongs,
+    strongIndex: darbyStrongIndex,
+    name: "Bible Darby (J.N. Darby, 1885)",
+    strongs: Object.keys(darby_strongs).length > 0,
   },
 };
 
