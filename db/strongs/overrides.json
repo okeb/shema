@@ -1,4 +1,464 @@
 {
+  "1 Ti. 3:1": [
+    {
+      "text": "La",
+      "strong": null
+    },
+    {
+      "text": " parole",
+      "strong": "G3056"
+    },
+    {
+      "text": " est",
+      "strong": null
+    },
+    {
+      "text": " sûre,",
+      "strong": "G4103"
+    },
+    {
+      "text": " si",
+      "strong": null
+    },
+    {
+      "text": " quelqu'un",
+      "strong": "G1536"
+    },
+    {
+      "text": " désire",
+      "strong": "G3713"
+    },
+    {
+      "text": " la fonction de surveillant,",
+      "strong": "G1984"
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " désire",
+      "strong": "G1937"
+    },
+    {
+      "text": " une",
+      "strong": null
+    },
+    {
+      "text": " œuvre",
+      "strong": "G2041"
+    },
+    {
+      "text": " excellente.",
+      "strong": "G2570"
+    }
+  ],
+  "1 Ti. 3:10": [
+    {
+      "text": "Mais",
+      "strong": null
+    },
+    {
+      "text": " qu'eux",
+      "strong": "G3778"
+    },
+    {
+      "text": " aussi",
+      "strong": "G2532"
+    },
+    {
+      "text": " soient",
+      "strong": null
+    },
+    {
+      "text": " d'abord",
+      "strong": "G4412"
+    },
+    {
+      "text": " testés,",
+      "strong": "G1381"
+    },
+    {
+      "text": " et",
+      "strong": "G1161"
+    },
+    {
+      "text": " qu'ensuite",
+      "strong": "G1534"
+    },
+    {
+      "text": " ils",
+      "strong": null
+    },
+    {
+      "text": " servent",
+      "strong": "G1247"
+    },
+    {
+      "text": " en",
+      "strong": null
+    },
+    {
+      "text": " étant",
+      "strong": "G5607"
+    },
+    {
+      "text": " irréprochables.",
+      "strong": "G410"
+    }
+  ],
+  "1 Ti. 3:14": [
+    {
+      "text": "Je",
+      "strong": null
+    },
+    {
+      "text": " t'",
+      "strong": "G4671"
+    },
+    {
+      "text": "écris",
+      "strong": "G1125"
+    },
+    {
+      "text": " ces",
+      "strong": null
+    },
+    {
+      "text": " choses",
+      "strong": "G5023"
+    },
+    {
+      "text": " en",
+      "strong": null
+    },
+    {
+      "text": " espérant",
+      "strong": "G1679"
+    },
+    {
+      "text": " venir",
+      "strong": "G2064"
+    },
+    {
+      "text": " plus vite",
+      "strong": "G5032"
+    },
+    {
+      "text": " vers",
+      "strong": "G4314"
+    },
+    {
+      "text": " toi,",
+      "strong": "G4571"
+    }
+  ],
+  "1 Ti. 3:2": [
+    {
+      "text": "Il",
+      "strong": null
+    },
+    {
+      "text": " faut",
+      "strong": "G1163"
+    },
+    {
+      "text": " donc",
+      "strong": "G3767"
+    },
+    {
+      "text": " que le",
+      "strong": null
+    },
+    {
+      "text": " surveillant",
+      "strong": "G1985"
+    },
+    {
+      "text": " soit",
+      "strong": "G1511"
+    },
+    {
+      "text": " irréprochable,",
+      "strong": "G423"
+    },
+    {
+      "text": " mari",
+      "strong": "G435"
+    },
+    {
+      "text": " d'",
+      "strong": null
+    },
+    {
+      "text": "une seule",
+      "strong": "G3391"
+    },
+    {
+      "text": " femme,",
+      "strong": "G1135"
+    },
+    {
+      "text": " modéré,",
+      "strong": "G3524"
+    },
+    {
+      "text": " limitant ses désirs et impulsions,",
+      "strong": "G4998"
+    },
+    {
+      "text": " décent,",
+      "strong": "G2887"
+    },
+    {
+      "text": " hospitalier,",
+      "strong": "G5382"
+    },
+    {
+      "text": " capable d'enseigner,",
+      "strong": "G1317"
+    }
+  ],
+  "1 Ti. 3:3": [
+    {
+      "text": "non",
+      "strong": "G3361"
+    },
+    {
+      "text": " adonné au vin,",
+      "strong": "G3943"
+    },
+    {
+      "text": " ni",
+      "strong": "G3361"
+    },
+    {
+      "text": " cogneur,",
+      "strong": "G4131"
+    },
+    {
+      "text": " ni avide d'argent,",
+      "strong": null
+    },
+    {
+      "text": " mais",
+      "strong": "G235"
+    },
+    {
+      "text": " doux,",
+      "strong": "G1933"
+    },
+    {
+      "text": " non agressif,",
+      "strong": "G269"
+    },
+    {
+      "text": " n'aimant pas l'argent,",
+      "strong": "G866"
+    }
+  ],
+  "1 Ti. 3:6": [
+    {
+      "text": "Que",
+      "strong": null
+    },
+    {
+      "text": " ce ne soit ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3361"
+    },
+    {
+      "text": " un ",
+      "strong": null
+    },
+    {
+      "text": "nouveau converti,",
+      "strong": "G3504"
+    },
+    {
+      "text": " de ",
+      "strong": null
+    },
+    {
+      "text": "peur",
+      "strong": "G3363"
+    },
+    {
+      "text": " qu’étant ",
+      "strong": null
+    },
+    {
+      "text": "enflé d'orgueil,",
+      "strong": "G5187"
+    },
+    {
+      "text": " il ne ",
+      "strong": null
+    },
+    {
+      "text": "tombe",
+      "strong": "G1706"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sous",
+      "strong": "G1519"
+    },
+    {
+      "text": " le ",
+      "strong": null
+    },
+    {
+      "text": "jugement",
+      "strong": "G2917"
+    },
+    {
+      "text": " du ",
+      "strong": null
+    },
+    {
+      "text": "diable.",
+      "strong": "G1228"
+    }
+  ],
+  "1 Ti. 3:8": [
+    {
+      "text": "De même,",
+      "strong": "G5615"
+    },
+    {
+      "text": " que les ",
+      "strong": null
+    },
+    {
+      "text": "diacres",
+      "strong": "G1249"
+    },
+    {
+      "text": " soient ",
+      "strong": null
+    },
+    {
+      "text": "honorables,",
+      "strong": "G4586"
+    },
+    {
+      "text": " n'étant ",
+      "strong": null
+    },
+    {
+      "text": "ni",
+      "strong": "G3361"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "doubles en paroles,",
+      "strong": "G1351"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ni",
+      "strong": "G3361"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "adonnés",
+      "strong": "G4337"
+    },
+    {
+      "text": " à ",
+      "strong": null
+    },
+    {
+      "text": "beaucoup",
+      "strong": "G4183"
+    },
+    {
+      "text": " de ",
+      "strong": null
+    },
+    {
+      "text": "vin,",
+      "strong": "G3631"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ni",
+      "strong": "G3361"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "avides d'argent,",
+      "strong": "G146"
+    }
+  ],
+  "Ge. 1:15": [
+    {
+      "text": "et ils deviendront des luminaires",
+      "strong": "H3974"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dans le firmament",
+      "strong": "H7549"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "des cieux",
+      "strong": "H8064"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et la lumière",
+      "strong": "H215"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sur la Terre.",
+      "strong": "H776"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Il en fut ainsi.",
+      "strong": null
+    }
+  ],
   "Ge. 1:4": [
     {
       "text": "Elohîm",
@@ -89,6 +549,120 @@
       "strong": "H2822"
     }
   ],
+  "Ge. 25:7": [
+    {
+      "text": "Voici",
+      "strong": null
+    },
+    {
+      "text": " les",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "jours",
+      "strong": "H3117"
+    },
+    {
+      "text": " des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "années",
+      "strong": "H8141"
+    },
+    {
+      "text": " des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vies",
+      "strong": "H2416"
+    },
+    {
+      "text": " d'Abraham qu’il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vécut",
+      "strong": "H2425"
+    },
+    {
+      "text": " :",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "100",
+      "strong": "H3967"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ans",
+      "strong": "H8141"
+    },
+    {
+      "text": " et",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "70",
+      "strong": "H7657"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ans",
+      "strong": "H8141"
+    },
+    {
+      "text": " et ",
+      "strong": null
+    },
+    {
+      "text": "5",
+      "strong": "H2568"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ans",
+      "strong": "H8141"
+    },
+    {
+      "text": ".",
+      "strong": null
+    }
+  ],
   "Ge. 2:11": [
     {
       "text": "Le ",
@@ -161,52 +735,6 @@
     {
       "text": "l’or.",
       "strong": "H2091"
-    }
-  ],
-  "Ge. 1:15": [
-    {
-      "text": "et ils deviendront des luminaires",
-      "strong": "H3974"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "dans le firmament",
-      "strong": "H7549"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "des cieux",
-      "strong": "H8064"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "et la lumière",
-      "strong": "H215"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "sur la Terre.",
-      "strong": "H776"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "Il en fut ainsi.",
-      "strong": null
     }
   ],
   "Ge. 2:17": [
@@ -477,84 +1005,6 @@
       "strong": "H954"
     }
   ],
-  "Ge. 3:3": [
-    {
-      "text": "Mais quant au fruit",
-      "strong": "H6529"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "de l'arbre",
-      "strong": "H6086"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "qui est au milieu",
-      "strong": "H8432"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "du jardin,",
-      "strong": "H1588"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "Elohîm",
-      "strong": "H430"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "a dit",
-      "strong": "H559"
-    },
-    {
-      "text": " : ",
-      "strong": null
-    },
-    {
-      "text": "Vous n'en mangerez",
-      "strong": "H398"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "pas, vous n’y toucherez",
-      "strong": "H5060"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "pas, de peur",
-      "strong": "H6435"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "que vous ne mouriez !",
-      "strong": "H4191"
-    }
-  ],
   "Ge. 3:11": [
     {
       "text": "Il dit",
@@ -733,6 +1183,84 @@
     {
       "text": ".",
       "strong": null
+    }
+  ],
+  "Ge. 3:3": [
+    {
+      "text": "Mais quant au fruit",
+      "strong": "H6529"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "de l'arbre",
+      "strong": "H6086"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "qui est au milieu",
+      "strong": "H8432"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "du jardin,",
+      "strong": "H1588"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Elohîm",
+      "strong": "H430"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "a dit",
+      "strong": "H559"
+    },
+    {
+      "text": " : ",
+      "strong": null
+    },
+    {
+      "text": "Vous n'en mangerez",
+      "strong": "H398"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas, vous n’y toucherez",
+      "strong": "H5060"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas, de peur",
+      "strong": "H6435"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "que vous ne mouriez !",
+      "strong": "H4191"
     }
   ],
   "Ge. 4:11": [
@@ -1051,10 +1579,18 @@
       "strong": "H4191"
     }
   ],
-  "Ge. 25:7": [
+  "Lu. 1:5": [
     {
-      "text": "Voici",
+      "text": "Il y eut",
+      "strong": "G1096"
+    },
+    {
+      "text": " ",
       "strong": null
+    },
+    {
+      "text": "dans",
+      "strong": "G1722"
     },
     {
       "text": " les",
@@ -1066,10 +1602,50 @@
     },
     {
       "text": "jours",
-      "strong": "H3117"
+      "strong": "G2250"
     },
     {
-      "text": " des",
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'Hérode,",
+      "strong": "G2264"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "roi",
+      "strong": "G935"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "de",
+      "strong": "G1537"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Judée,",
+      "strong": "G2449"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "un",
+      "strong": "G5100"
+    },
+    {
+      "text": " certain",
       "strong": null
     },
     {
@@ -1077,11 +1653,15 @@
       "strong": null
     },
     {
-      "text": "années",
-      "strong": "H8141"
+      "text": "prêtre",
+      "strong": "G2409"
     },
     {
-      "text": " des",
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "du",
       "strong": null
     },
     {
@@ -1089,11 +1669,15 @@
       "strong": null
     },
     {
-      "text": "vies",
-      "strong": "H2416"
+      "text": "nom",
+      "strong": "G3686"
     },
     {
-      "text": " d'Abraham qu’il",
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "de",
       "strong": null
     },
     {
@@ -1101,8 +1685,112 @@
       "strong": null
     },
     {
-      "text": "vécut",
-      "strong": "H2425"
+      "text": "Zekaryah,",
+      "strong": "G2197"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "issu de",
+      "strong": "G1537"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "classe",
+      "strong": "G2183"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'Abiyah,",
+      "strong": "G7"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sa",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "femme,",
+      "strong": "G1135"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "issue des",
+      "strong": "G1537"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "filles",
+      "strong": "G2364"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'Aaron,",
+      "strong": "G2"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "son",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "nom",
+      "strong": "G3686"
     },
     {
       "text": " :",
@@ -1113,470 +1801,8 @@
       "strong": null
     },
     {
-      "text": "100",
-      "strong": "H3967"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "ans",
-      "strong": "H8141"
-    },
-    {
-      "text": " et",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "70",
-      "strong": "H7657"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "ans",
-      "strong": "H8141"
-    },
-    {
-      "text": " et ",
-      "strong": null
-    },
-    {
-      "text": "5",
-      "strong": "H2568"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "ans",
-      "strong": "H8141"
-    },
-    {
-      "text": ".",
-      "strong": null
-    }
-  ],
-  "1 Ti. 3:3": [
-    {
-      "text": "non",
-      "strong": "G3361"
-    },
-    {
-      "text": " adonné au vin,",
-      "strong": "G3943"
-    },
-    {
-      "text": " ni",
-      "strong": "G3361"
-    },
-    {
-      "text": " cogneur,",
-      "strong": "G4131"
-    },
-    {
-      "text": " ni avide d'argent,",
-      "strong": null
-    },
-    {
-      "text": " mais",
-      "strong": "G235"
-    },
-    {
-      "text": " doux,",
-      "strong": "G1933"
-    },
-    {
-      "text": " non agressif,",
-      "strong": "G269"
-    },
-    {
-      "text": " n'aimant pas l'argent,",
-      "strong": "G866"
-    }
-  ],
-  "1 Ti. 3:1": [
-    {
-      "text": "La",
-      "strong": null
-    },
-    {
-      "text": " parole",
-      "strong": "G3056"
-    },
-    {
-      "text": " est",
-      "strong": null
-    },
-    {
-      "text": " sûre,",
-      "strong": "G4103"
-    },
-    {
-      "text": " si",
-      "strong": null
-    },
-    {
-      "text": " quelqu'un",
-      "strong": "G1536"
-    },
-    {
-      "text": " désire",
-      "strong": "G3713"
-    },
-    {
-      "text": " la fonction de surveillant,",
-      "strong": "G1984"
-    },
-    {
-      "text": " il",
-      "strong": null
-    },
-    {
-      "text": " désire",
-      "strong": "G1937"
-    },
-    {
-      "text": " une",
-      "strong": null
-    },
-    {
-      "text": " œuvre",
-      "strong": "G2041"
-    },
-    {
-      "text": " excellente.",
-      "strong": "G2570"
-    }
-  ],
-  "1 Ti. 3:2": [
-    {
-      "text": "Il",
-      "strong": null
-    },
-    {
-      "text": " faut",
-      "strong": "G1163"
-    },
-    {
-      "text": " donc",
-      "strong": "G3767"
-    },
-    {
-      "text": " que le",
-      "strong": null
-    },
-    {
-      "text": " surveillant",
-      "strong": "G1985"
-    },
-    {
-      "text": " soit",
-      "strong": "G1511"
-    },
-    {
-      "text": " irréprochable,",
-      "strong": "G423"
-    },
-    {
-      "text": " mari",
-      "strong": "G435"
-    },
-    {
-      "text": " d'",
-      "strong": null
-    },
-    {
-      "text": "une seule",
-      "strong": "G3391"
-    },
-    {
-      "text": " femme,",
-      "strong": "G1135"
-    },
-    {
-      "text": " modéré,",
-      "strong": "G3524"
-    },
-    {
-      "text": " limitant ses désirs et impulsions,",
-      "strong": "G4998"
-    },
-    {
-      "text": " décent,",
-      "strong": "G2887"
-    },
-    {
-      "text": " hospitalier,",
-      "strong": "G5382"
-    },
-    {
-      "text": " capable d'enseigner,",
-      "strong": "G1317"
-    }
-  ],
-  "1 Ti. 3:10": [
-    {
-      "text": "Mais",
-      "strong": null
-    },
-    {
-      "text": " qu'eux",
-      "strong": "G3778"
-    },
-    {
-      "text": " aussi",
-      "strong": "G2532"
-    },
-    {
-      "text": " soient",
-      "strong": null
-    },
-    {
-      "text": " d'abord",
-      "strong": "G4412"
-    },
-    {
-      "text": " testés,",
-      "strong": "G1381"
-    },
-    {
-      "text": " et",
-      "strong": "G1161"
-    },
-    {
-      "text": " qu'ensuite",
-      "strong": "G1534"
-    },
-    {
-      "text": " ils",
-      "strong": null
-    },
-    {
-      "text": " servent",
-      "strong": "G1247"
-    },
-    {
-      "text": " en",
-      "strong": null
-    },
-    {
-      "text": " étant",
-      "strong": "G5607"
-    },
-    {
-      "text": " irréprochables.",
-      "strong": "G410"
-    }
-  ],
-  "1 Ti. 3:14": [
-    {
-      "text": "Je",
-      "strong": null
-    },
-    {
-      "text": " t'",
-      "strong": "G4671"
-    },
-    {
-      "text": "écris",
-      "strong": "G1125"
-    },
-    {
-      "text": " ces",
-      "strong": null
-    },
-    {
-      "text": " choses",
-      "strong": "G5023"
-    },
-    {
-      "text": " en",
-      "strong": null
-    },
-    {
-      "text": " espérant",
-      "strong": "G1679"
-    },
-    {
-      "text": " venir",
-      "strong": "G2064"
-    },
-    {
-      "text": " plus vite",
-      "strong": "G5032"
-    },
-    {
-      "text": " vers",
-      "strong": "G4314"
-    },
-    {
-      "text": " toi,",
-      "strong": "G4571"
-    }
-  ],
-  "1 Ti. 3:6": [
-    {
-      "text": "Que",
-      "strong": null
-    },
-    {
-      "text": " ce ne soit ",
-      "strong": null
-    },
-    {
-      "text": "pas",
-      "strong": "G3361"
-    },
-    {
-      "text": " un ",
-      "strong": null
-    },
-    {
-      "text": "nouveau converti,",
-      "strong": "G3504"
-    },
-    {
-      "text": " de ",
-      "strong": null
-    },
-    {
-      "text": "peur",
-      "strong": "G3363"
-    },
-    {
-      "text": " qu’étant ",
-      "strong": null
-    },
-    {
-      "text": "enflé d'orgueil,",
-      "strong": "G5187"
-    },
-    {
-      "text": " il ne ",
-      "strong": null
-    },
-    {
-      "text": "tombe",
-      "strong": "G1706"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "sous",
-      "strong": "G1519"
-    },
-    {
-      "text": " le ",
-      "strong": null
-    },
-    {
-      "text": "jugement",
-      "strong": "G2917"
-    },
-    {
-      "text": " du ",
-      "strong": null
-    },
-    {
-      "text": "diable.",
-      "strong": "G1228"
-    }
-  ],
-  "1 Ti. 3:8": [
-    {
-      "text": "De même,",
-      "strong": "G5615"
-    },
-    {
-      "text": " que les ",
-      "strong": null
-    },
-    {
-      "text": "diacres",
-      "strong": "G1249"
-    },
-    {
-      "text": " soient ",
-      "strong": null
-    },
-    {
-      "text": "honorables,",
-      "strong": "G4586"
-    },
-    {
-      "text": " n'étant ",
-      "strong": null
-    },
-    {
-      "text": "ni",
-      "strong": "G3361"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "doubles en paroles,",
-      "strong": "G1351"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "ni",
-      "strong": "G3361"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "adonnés",
-      "strong": "G4337"
-    },
-    {
-      "text": " à ",
-      "strong": null
-    },
-    {
-      "text": "beaucoup",
-      "strong": "G4183"
-    },
-    {
-      "text": " de ",
-      "strong": null
-    },
-    {
-      "text": "vin,",
-      "strong": "G3631"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "ni",
-      "strong": "G3361"
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "avides d'argent,",
-      "strong": "G146"
+      "text": "Éliysheba.",
+      "strong": "G1665"
     }
   ]
 }

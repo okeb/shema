@@ -1,9 +1,107 @@
 {
+  "G142": [
+    "porteront",
+    "prends",
+    "emporte"
+  ],
+  "G165": [
+    "âges"
+  ],
+  "G177": [
+    "couverte"
+  ],
+  "G190": [
+    "joints à sa suite"
+  ],
+  "G276": [
+    "sans reproches",
+    "innocent",
+    "ne méritant pas de censure",
+    "libre de faute ou défaut"
+  ],
+  "G303": [
+    "chacun",
+    "au milieu"
+  ],
+  "G315": [
+    "forcent",
+    "forcer",
+    "obliger",
+    "contraindre",
+    "contraignent",
+    "conduire",
+    "forceront",
+    "obligeront"
+  ],
+  "G387": [
+    "agité",
+    "agitent"
+  ],
+  "G444": [
+    "un être humain",
+    "être humain",
+    "homme",
+    "femme"
+  ],
+  "G565": [
+    "éloignées"
+  ],
+  "G569": [
+    "crurent",
+    "cru"
+  ],
+  "G575": [
+    "Désormais"
+  ],
+  "G589": [
+    "pays lointain",
+    "pays"
+  ],
+  "G615": [
+    "tuant"
+  ],
+  "G749": [
+    "prêtres"
+  ],
+  "G807": [
+    "agit"
+  ],
+  "G846": [
+    "ceux-là même",
+    "tous ceux",
+    "lui-même",
+    "elle-même",
+    "eux-mêmes",
+    "les-mêmes",
+    "elles-mêmes"
+  ],
+  "G868": [
+    "s'éloignait",
+    "retira",
+    "se retirent"
+  ],
+  "G932": [
+    "pouvoir royal",
+    "royauté",
+    "domination",
+    "autorité"
+  ],
+  "G946": [
+    "abominations",
+    "d'abominations"
+  ],
   "G1092": [
     "vignerons",
     "agriculteur",
     "laboureur",
     "vigneron"
+  ],
+  "G1096": [
+    "il y eut",
+    "y eut",
+    "eut",
+    "fut",
+    "arriva"
   ],
   "G1117": [
     "marchandise",
@@ -38,11 +136,6 @@
   "G1345": [
     "l'acte de justice",
     "un acte de justice"
-  ],
-  "G142": [
-    "porteront",
-    "prends",
-    "emporte"
   ],
   "G1492": [
     "connaît",
@@ -83,8 +176,9 @@
   "G1576": [
     "empêcher"
   ],
-  "G165": [
-    "âges"
+  "G1665": [
+    "Éliysheba",
+    "Élisabeth"
   ],
   "G1718": [
     "apparurent",
@@ -99,18 +193,12 @@
     "fait",
     "faire"
   ],
-  "G177": [
-    "couverte"
-  ],
   "G1799": [
     "en sa présence"
   ],
   "G1831": [
     "Sortez",
     "sortez"
-  ],
-  "G190": [
-    "joints à sa suite"
   ],
   "G1904": [
     "viendra",
@@ -124,6 +212,10 @@
     "couvrit",
     "couvrant",
     "couvrira"
+  ],
+  "G2036": [
+    "dit",
+    "repondit"
   ],
   "G2047": [
     "région inhabitée",
@@ -171,6 +263,9 @@
     "propitiation",
     "propitiatoire"
   ],
+  "G2443": [
+    "afin que"
+  ],
   "G2479": [
     "force",
     "puissance",
@@ -186,6 +281,9 @@
   ],
   "G2521": [
     "siège"
+  ],
+  "G2532": [
+    "et"
   ],
   "G2540": [
     "mesure de temps",
@@ -223,12 +321,6 @@
   "G2745": [
     "ce dont chacun peut se glorifier",
     "sujet de gloire"
-  ],
-  "G276": [
-    "sans reproches",
-    "innocent",
-    "ne méritant pas de censure",
-    "libre de faute ou défaut"
   ],
   "G2767": [
     "mêlé",
@@ -281,10 +373,6 @@
     "cachée",
     "ignore"
   ],
-  "G303": [
-    "chacun",
-    "au milieu"
-  ],
   "G3045": [
     "choses qui appartiennent à",
     "choses qui appartiennent à un somptueux et délicat style de vie"
@@ -310,15 +398,8 @@
   "G3113": [
     "à distance"
   ],
-  "G315": [
-    "forcent",
-    "forcer",
-    "obliger",
-    "contraindre",
-    "contraignent",
-    "conduire",
-    "forceront",
-    "obligeront"
+  "G3187": [
+    "plus grandes"
   ],
   "G3199": [
     "considères",
@@ -465,10 +546,6 @@
     "Étant",
     "l’Étant"
   ],
-  "G387": [
-    "agité",
-    "agitent"
-  ],
   "G3875": [
     "parakletos"
   ],
@@ -517,6 +594,10 @@
     "se prosternèrent",
     "s'inclinèrent",
     "s'agenouillèrent"
+  ],
+  "G4100": [
+    "croient",
+    "crois"
   ],
   "G4120": [
     "tressèrent",
@@ -577,12 +658,6 @@
     "présentèrent",
     "apportes"
   ],
-  "G444": [
-    "un être humain",
-    "être humain",
-    "homme",
-    "femme"
-  ],
   "G4441": [
     "s'enquit"
   ],
@@ -597,9 +672,15 @@
     "shabbat",
     "shabbats"
   ],
+  "G4571": [
+    "t'"
+  ],
   "G4574": [
     "culte",
     "adore"
+  ],
+  "G4671": [
+    "t'"
   ],
   "G4684": [
     "luxe",
@@ -647,6 +728,9 @@
     "un moment",
     "un certain temps"
   ],
+  "G5213": [
+    "vous"
+  ],
   "G5228": [
     "en faveur de",
     "pour l'amour de",
@@ -689,57 +773,13 @@
     "C'est pourquoi",
     "c'est pourquoi"
   ],
-  "G565": [
-    "éloignées"
+  "H18": [
+    "crèche"
   ],
-  "G569": [
-    "crurent",
-    "cru"
-  ],
-  "G589": [
-    "pays lointain",
-    "pays"
-  ],
-  "G615": [
-    "tuant"
-  ],
-  "G749": [
-    "prêtres"
-  ],
-  "G807": [
-    "agit"
-  ],
-  "G846": [
-    "ceux-là même",
-    "tous ceux",
-    "lui-même",
-    "elle-même",
-    "eux-mêmes",
-    "les-mêmes",
-    "elles-mêmes"
-  ],
-  "G868": [
-    "s'éloignait",
-    "retira",
-    "se retirent"
-  ],
-  "G932": [
-    "pouvoir royal",
-    "royauté",
-    "domination",
-    "autorité"
-  ],
-  "G946": [
-    "abominations",
-    "d'abominations"
-  ],
-  "H1100": [
-    "Bélial",
-    "méchant"
-  ],
-  "H1166": [
-    "l'épouseras",
-    "épousée"
+  "H68": [
+    "pierre",
+    "poids",
+    "projectiles"
   ],
   "H117": [
     "puissants",
@@ -749,6 +789,57 @@
     "être humain",
     "homme",
     "Adam"
+  ],
+  "H259": [
+    "un",
+    "chaque",
+    "un certain",
+    "seul",
+    "l'autre",
+    "premier",
+    "onze",
+    "onzième"
+  ],
+  "H369": [
+    "n'y avait pas"
+  ],
+  "H389": [
+    "seulement",
+    "En effet"
+  ],
+  "H410": [
+    "El"
+  ],
+  "H426": [
+    "Élahh"
+  ],
+  "H428": [
+    "telles",
+    "Telles",
+    "ces"
+  ],
+  "H518": [
+    "si"
+  ],
+  "H650": [
+    "canal",
+    "canaux"
+  ],
+  "H834": [
+    "lequel",
+    "ce que",
+    "qu"
+  ],
+  "H909": [
+    "s'isole"
+  ],
+  "H1100": [
+    "Bélial",
+    "méchant"
+  ],
+  "H1166": [
+    "l'épouseras",
+    "épousée"
   ],
   "H1240": [
     "t'enquérir"
@@ -772,9 +863,6 @@
   "H1767": [
     "faut",
     "suffisant"
-  ],
-  "H18": [
-    "crèche"
   ],
   "H1809": [
     "appauvri",
@@ -851,16 +939,6 @@
     "cinquantaines",
     "cinquantaine"
   ],
-  "H259": [
-    "un",
-    "chaque",
-    "un certain",
-    "seul",
-    "l'autre",
-    "premier",
-    "onze",
-    "onzième"
-  ],
   "H2659": [
     "confondus",
     "honteux",
@@ -935,15 +1013,11 @@
     "brûlé par le soleil",
     "noire"
   ],
+  "H3618": [
+    "belles-filles"
+  ],
   "H3669": [
     "Kena'ânéens"
-  ],
-  "H369": [
-    "n'y avait pas"
-  ],
-  "H389": [
-    "seulement",
-    "En effet"
   ],
   "H3967": [
     "100",
@@ -951,20 +1025,9 @@
     "cents",
     "centaines"
   ],
-  "H410": [
-    "El"
-  ],
   "H4161": [
     "départs",
     "sort"
-  ],
-  "H426": [
-    "Élahh"
-  ],
-  "H428": [
-    "telles",
-    "Telles",
-    "ces"
   ],
   "H4456": [
     "printemps",
@@ -1006,9 +1069,6 @@
   ],
   "H5006": [
     "mépris"
-  ],
-  "H518": [
-    "si"
   ],
   "H5203": [
     "laissé",
@@ -1124,10 +1184,6 @@
   "H6357": [
     "topaze"
   ],
-  "H650": [
-    "canal",
-    "canaux"
-  ],
   "H6509": [
     "porter du fruit",
     "portez du fruit",
@@ -1145,11 +1201,6 @@
   ],
   "H6635": [
     "Tsevaot"
-  ],
-  "H68": [
-    "pierre",
-    "poids",
-    "projectiles"
   ],
   "H6848": [
     "vipère"
@@ -1216,11 +1267,6 @@
   "H8321": [
     "de choix"
   ],
-  "H834": [
-    "lequel",
-    "ce que",
-    "qu"
-  ],
   "H8438": [
     "l'écarlate",
     "écarlate"
@@ -1246,40 +1292,5 @@
     "erra",
     "errant",
     "errer"
-  ],
-  "H909": [
-    "s'isole"
-  ],
-  "G4100": [
-    "croient",
-    "crois"
-  ],
-  "G2443": [
-    "afin que"
-  ],
-  "G5213": [
-    "vous"
-  ],
-  "G2532": [
-    "et"
-  ],
-  "G2036": [
-    "dit",
-    "repondit"
-  ],
-  "G4571": [
-    "t'"
-  ],
-  "G4671": [
-    "t'"
-  ],
-  "G3187": [
-    "plus grandes"
-  ],
-  "H3618": [
-    "belles-filles"
-  ],
-  "G575": [
-    "Désormais"
   ]
 }
