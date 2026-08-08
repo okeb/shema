@@ -1,91 +1,370 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShemaProject - Pour l'édification du peuple d'Elohim</title>
+    <meta name="description" content="ShemaProject — Une API ouverte pour explorer la Parole d'Elohim, verset par verset. Obtenez les textes bibliques en JSON.">
+    <title>ShemaProject — Bible API pour l'édification du peuple d'Elohim</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel = "préconnecter" href = "https://fonts.gstatic.com" origine croisée>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/logo/shema_reader-favicon_light.svg" type="image/svg+xml">
 </head>
 <body>
-    <div class="topbar">
-        <div class="topbar__grid">
-            <div class="topbar__logo">
-                ShemaProject<sup style="font-size:x-small; margin: 0px 3px">&trade;</sup>
+    <!-- ════════ NAVBAR (dark) ════════ -->
+    <header class="navbar" id="navbar">
+        <div class="navbar__inner">
+            <a href="/" class="navbar__logo">
+                <img src="/assets/logo/shema_reader-logo_dark.webp" alt="ShemaProject" class="navbar__logo-img" />
+            </a>
+            <nav class="navbar__nav" id="navbarNav">
+                <a href="/bym" class="navbar__link">
+                    Références API
+                    <svg width="14" height="14" viewBox="0 0 24 24" class="navbar__link-icon"><path fill="currentColor" d="M12 14.975q-.2 0-.387-.075q-.188-.075-.313-.2l-4.6-4.6q-.275-.275-.275-.7q0-.425.275-.7q.275-.275.7-.275q.425 0 .7.275l3.9 3.9l3.9-3.9q.275-.275.7-.275q.425 0 .7.275q.275.275.275.7q0 .425-.275.7l-4.6 4.6q-.15.15-.325.212q-.175.063-.375.063Z"/></svg>
+                </a>
+                <a href="/docs.html" class="navbar__link">Documentation</a>
+                <a href="/contact.html" class="navbar__link">Contact</a>
+                <button class="navbar__cta">S'inscrire</button>
+            </nav>
+            <button class="navbar__burger" id="burgerBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ════════ HERO (dark bg — bg-black-600) ════════ -->
+        <section class="hero">
+            <div class="hero__inner">
+                <h1 class="hero__title">Nous connaissons<br>la Parole</h1>
+                <p class="hero__subtitle">
+                    Au service des communautés et des développeurs depuis 2019.
+                    Nous construisons les outils qui rendent la Bible accessible,
+                    verset par verset, en JSON.
+                </p>
             </div>
-            <div class="topbar__navigation">
-                <ul class="topbar__list">
-                    <li><a href="/bym" class="topbar__link">Références&nbsp;API</a></li>
-                    <li><a href="/docs.html" class="topbar__link">Documentation</a></li>
-                    <li><a href="/contact.html" class="topbar__link">Contact</a></li>
-                </ul>
-                <div class="topbar__buttons">
-                    <button>s'inscrire</button>
+            <!-- Logos marquee -->
+            <div class="hero__marquee">
+                <div class="marquee__track">
+                    <span class="marquee__item">Bible de Yéhoshoua Ha Mashiah</span>
+                    <span class="marquee__sep">·</span>
+                    <span class="marquee__item">Louis Segond 1910</span>
+                    <span class="marquee__sep">·</span>
+                    <span class="marquee__item">Darby 1885</span>
+                    <span class="marquee__sep">·</span>
+                    <span class="marquee__item">Strong's Lexicon</span>
+                    <span class="marquee__sep">·</span>
+                    <span class="marquee__item">Open Source</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ════════ STATS (dark bg, white text) ════════ -->
+        <section class="stats">
+            <div class="stats__inner">
+                <div class="stat">
+                    <span class="stat__number">66</span>
+                    <span class="stat__text">livres bibliques</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">31k+</span>
+                    <span class="stat__text">versets disponibles (et plus)</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">3</span>
+                    <span class="stat__text">versions supportées</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">100%</span>
+                    <span class="stat__text">open source, gratuit à vie</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ════════ PRODUCTS (white bg) ════════ -->
+        <section class="products">
+            <div class="products__inner">
+                <h2 class="products__headline">La différence entre un bon verset et un grand verset&nbsp;? Le contexte.</h2>
+
+                <!-- Product: Bible API -->
+                <div class="product-card">
+                    <div class="product-card__left">
+                        <div class="product-card__stat">
+                            <span class="product-card__stat-num">100%</span>
+                            <span class="product-card__stat-label">gratuit, sans clé API<br>ni limite de débit</span>
+                        </div>
+                        <h3 class="product-card__name">Bible API</h3>
+                        <p class="product-card__desc">
+                            Mettez la Parole d'Elohim directement dans vos workflows de développement.
+                            Pas de clé API, pas de configuration — juste des réponses JSON fiables
+                            pour vos applications web, mobiles et d'étude.
+                        </p>
+                        <a href="/docs.html" class="s-btn s-btn--bright">Voir la documentation</a>
+                    </div>
+                    <div class="product-card__right">
+                        <div class="code-block">
+                            <div class="code-block__bar">
+                                <span class="code-dot code-dot--red"></span>
+                                <span class="code-dot code-dot--yellow"></span>
+                                <span class="code-dot code-dot--green"></span>
+                                <span class="code-block__url">GET /bym/jean/3/16</span>
+                            </div>
+                            <pre class="code-block__body"><span class="c-key">{</span>
+  <span class="c-str">"Jn. 3:16"</span>: <span class="c-key">{</span>
+    <span class="c-prop">"livre"</span>: <span class="c-str">"Jn. "</span>,
+    <span class="c-prop">"chapitre"</span>: <span class="c-num">3</span>,
+    <span class="c-prop">"verset"</span>: <span class="c-num">16</span>,
+    <span class="c-prop">"ecrit"</span>: <span class="c-str">"Car Elohîm a tant aimé le monde…"</span>
+  <span class="c-key">}</span>
+<span class="c-key">}</span></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sub-features (blue-extra-light bg) -->
+                <div class="subfeatures">
+                    <div class="subfeature">
+                        <svg width="32" height="32" viewBox="0 0 20 20" class="subfeature__icon"><path d="M10 1a9 9 0 1 1 0 18 9 9 0 0 1 0-18m0 1.5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 0-15m4.8 4.82-6.43 6.42-.53-.53-2.1-2.11-.54-.53L6.26 9.5l2.12 2.1L13.2 6.8l.53-.53z"></path></svg>
+                        <h3 class="subfeature__title">Accès simple</h3>
+                        <p class="subfeature__text">Récupérez les versets avec une simple requête HTTP. Un verset, un chapitre ou un livre complet en une seule URL.</p>
+                    </div>
+                    <div class="subfeature">
+                        <svg width="32" height="32" viewBox="0 0 20 20" class="subfeature__icon"><path d="M12.22 1.17 6.44 3.03l-.36.22v7.73l.38.21 9.66 5.55.38.22.38-.23 6.85-4.07.37-.22v-7.4l-.39-.21L12.6 1.38zM9.25 11.94v4.9l2-1.14v-4.89zM2.5 13.58l5.25 3.13v-4.79L2.5 8.77zm10.25-3.6v4.86l1.75-1V9zM16 8.14v4.83l1.52-.87V7.29zM3.28 7.48l5.24 3.15 8.54-4.8-5.24-3.15z"></path></svg>
+                        <h3 class="subfeature__title">Confiance</h3>
+                        <p class="subfeature__text">Textes vérifiés et fidèles. Trois versions bibliques : Bible de Yéhoshoua Ha Mashiah, Louis Segond 1910 et Darby 1885.</p>
+                    </div>
+                    <div class="subfeature">
+                        <svg width="32" height="32" viewBox="0 0 20 20" class="subfeature__icon"><path d="M10.3.89 5.52 2.96v1.78H3.84V10c0 2.87 1.9 5.17 3.62 6.67a19 19 0 0 1 3.42 2.36l.06.04h.02l.38-.74.37.75-.37.19-.37-.2H9.6l-.06-.04a12 12 0 0 1-1.02-.59c-.65-.4-1.53-1-2.4-1.77C4.4 15.17 2.5 12.87 2.5 10V3.59l.54-.2L9.71.89 10 .78zM4.16 4.74V10c0 2.13 1.43 4 3.04 5.41A17 17 0 0 0 10 17.38a16 16 0 0 0 2.78-1.96c1.62-1.42 3.05-3.3 3.05-5.42V4.74L10 2.56zm9.92 2.85-4.33 4.33-.6.6-.58-.6L6.4 9.76l.59-.6.59-.58 1.58 1.57 3.74-3.74z"></path></svg>
+                        <h3 class="subfeature__title">Approfondir</h3>
+                        <p class="subfeature__text">Codes Strong's intégrés, lexique hébreu/grec et morphologie pour aller plus loin dans l'étude des mots originaux.</p>
+                    </div>
+                </div>
+
+                <!-- Other ways -->
+                <h2 class="products__headline products__headline--sm">D'autres façons d'utiliser l'API</h2>
+                <div class="other-ways">
+                    <div class="other-ways__card">
+                        <div class="other-ways__stat">
+                            <span class="other-ways__stat-num">/bym</span>
+                            <span class="other-ways__stat-label">route principale<br>de l'API</span>
+                        </div>
+                        <h3 class="other-ways__name">Références API</h3>
+                        <p class="other-ways__desc">Explorez chaque livre, chapitre et verset via une URL simple et lisible.</p>
+                        <a href="/bym" class="s-btn s-btn--bright">Découvrir</a>
+                    </div>
+                    <div class="other-ways__card">
+                        <div class="other-ways__stat">
+                            <span class="other-ways__stat-num">?strongs=1</span>
+                            <span class="other-ways__stat-label">paramètre<br>pour le lexique</span>
+                        </div>
+                        <h3 class="other-ways__name">Strong's</h3>
+                        <p class="other-ways__desc">Lexique hébreu et grec avec index inversé. Chaque verset peut être enrichi avec les codes Strong's.</p>
+                        <a href="/docs.html" class="s-btn s-btn--bright">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ════════ MISSION (white bg) ════════ -->
+        <section class="mission">
+            <div class="mission__inner">
+                <h2 class="mission__headline">Nous voulons être la source la plus vitale pour l'étude de la Parole</h2>
+                <p class="mission__intro">Pour y parvenir, nous travaillons à cultiver la communauté, soutenir l'apprentissage et libérer la croissance — pour les développeurs, les équipes et les communautés à travers le monde.</p>
+
+                <div class="solutions">
+                    <!-- Solution 1 (active) -->
+                    <div class="solution solution--active">
+                        <div class="solution__header">
+                            <div class="solution__icon">
+                                <svg width="140" height="140" viewBox="0 0 140 140" fill="none"><path fill="#5074EF" d="M82 21.83V24H8v-2.17A3.95 3.95 0 0 1 12.05 18h65.9a3.94 3.94 0 0 1 4.04 3.83z"/><path fill="#c8d4fa" d="M82 24v56.76c0 1.1-1.31 1.65-2.1.89l-7.92-9.27H12.05A4.05 4.05 0 0 1 8 68.33V24z"/><path fill="#f0efed" d="M76 29H14v15h62zM76 47H34v18h42z"/><path fill="#9d9cff" d="M29 47H14v15h15z"/><path fill="#5074ef" d="M132 84.87v33.18c0 1.6-1.29 2.89-2.89 2.89H72.14l-5.77 5.82a.8.8 0 0 1-1.37-.56V84.88c0-1.6 1.29-2.88 2.89-2.88h61.22c1.6 0 2.89 1.29 2.89 2.88"/></svg>
+                            </div>
+                            <div class="solution__head-row">
+                                <h3 class="solution__title">Des communautés durables</h3>
+                                <svg width="24" height="24" viewBox="0 0 20 20" class="solution__chevron" style="transform:rotate(-180deg)"><path fill="currentColor" d="M11.06 14.25 9.31 12.5 2.03 5.22l-.53-.53L.44 5.75l.53.53 8.5 8.5.53.53zm7.97-7.97.53-.53-1.06-1.06-.53.53-6.91 6.91 1.06 1.06z"/></svg>
+                            </div>
+                        </div>
+                        <p class="solution__subhead">La technologie évolue vite. Mais les technologistes auront toujours besoin de vraies connexions, de soutien mutuel et de lieux pour résoudre des problèmes ensemble. Nous cultivons ces communautés depuis le premier jour.</p>
+                        <div class="solution__stat">
+                            <div class="solution__stat-num">3 versions</div>
+                            <div class="solution__stat-body">
+                                <div class="solution__stat-desc">bibliques disponibles et gratuites pour tous.</div>
+                                <a class="solution__stat-link" href="/docs.html">Lire la documentation →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Solution 2 -->
+                    <div class="solution">
+                        <div class="solution__header">
+                            <div class="solution__icon">
+                                <svg width="140" height="140" viewBox="0 0 140 140" fill="none"><path fill="#ff5e00" d="M57.49 129.94h-42.3a7.2 7.2 0 0 1 0-14.38h6.74l-4.23-4.18c-4.33-4.03-3.13-10.92 1.34-14.78a9.94 9.94 0 0 1 14.21 1.28l3.74 4.63-.48-5.51a11.2 11.2 0 0 1 11.17-12.19 15 15 0 0 1 13.24 7.94 32 32 0 0 1 .53 29.09z"/><path fill="#c8d4fa" d="M57.49 129.94h41.2l-.23-21.05 7.38-49.67A16.5 16.5 0 0 0 89.53 40.3H57.64a15.2 15.2 0 0 0-15.18 15.53l.21 9.4a6.9 6.9 0 0 1-4.54 6.64l-.21.08a3.97 3.97 0 0 0 .41 7.57 6.9 6.9 0 0 1 5.27 6.81l-.17 10.66a13.83 13.83 0 0 0 12.8 14l5.33.4z"/><path fill="#ffcc01" d="M101.64 77.56v3.27H88.48v-3.25a17.97 17.97 0 1 1 13.14-.02z"/></svg>
+                            </div>
+                            <div class="solution__head-row">
+                                <h3 class="solution__title">L'apprentissage pour l'avenir</h3>
+                                <svg width="24" height="24" viewBox="0 0 20 20" class="solution__chevron"><path fill="currentColor" d="M11.06 14.25 9.31 12.5 2.03 5.22l-.53-.53L.44 5.75l.53.53 8.5 8.5.53.53zm7.97-7.97.53-.53-1.06-1.06-.53.53-6.91 6.91 1.06 1.06z"/></svg>
+                            </div>
+                        </div>
+                        <p class="solution__subhead solution__subhead--hidden">L'intelligence artificielle est là pour rester. Mais comment elle va changer les choses, c'est encore en débat. Quoi qu'il arrive, les développeurs devront rester curieux et acquérir de nouvelles compétences.</p>
+                        <div class="solution__stat solution__stat--hidden">
+                            <div class="solution__stat-num">31 102 versets</div>
+                            <div class="solution__stat-body">
+                                <div class="solution__stat-desc">accessibles en une seule requête HTTP.</div>
+                                <a class="solution__stat-link" href="/docs.html">Lire la documentation →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Solution 3 -->
+                    <div class="solution">
+                        <div class="solution__header">
+                            <div class="solution__icon">
+                                <svg width="140" height="140" viewBox="0 0 140 140" fill="none"><path fill="#ff5e00" d="M78.13 87.27V130H13.5a3.5 3.5 0 0 1-3.5-3.41V78.17c0-1.04 1.35-1.56 2.08-.82l6.4 6.65 56.23.07c1.89 0 3.42 1.32 3.42 3.2"/><path fill="#5074ef" d="M50.11 21.8a4.7 4.7 0 0 1 4.78-4.57h70.44a4.7 4.7 0 0 1 4.78 4.57v70.04c0 1.24-1.57 1.86-2.48.98l-7.22-8.34a.8.8 0 0 0-.55-.18L54.9 84c-2.65 0-4.78-1.78-4.78-4.3z"/><path fill="#9d9cff" d="M87.45 59.83q-.87-.01-1.52-.63l-5.94-5.94 3.03-3.03 4.38 4.38 11.86-12.54 3.12 2.95L89 59.16c-.4.42-.95.66-1.53.67z"/></svg>
+                            </div>
+                            <div class="solution__head-row">
+                                <h3 class="solution__title">La croissance fondée sur la connaissance</h3>
+                                <svg width="24" height="24" viewBox="0 0 20 20" class="solution__chevron"><path fill="currentColor" d="M11.06 14.25 9.31 12.5 2.03 5.22l-.53-.53L.44 5.75l.53.53 8.5 8.5.53.53zm7.97-7.97.53-.53-1.06-1.06-.53.53-6.91 6.91 1.06 1.06z"/></svg>
+                            </div>
+                        </div>
+                        <p class="solution__subhead solution__subhead--hidden">Nous croyons que la véritable croissance doit reposer sur une connaissance solide et vérifiable — pas sur n'importe quelle donnée. Cet éthos est dans le code de notre projet.</p>
+                        <div class="solution__stat solution__stat--hidden">
+                            <div class="solution__stat-num">100% open source</div>
+                            <div class="solution__stat-body">
+                                <div class="solution__stat-desc">aucune clé API, aucune limite de débit.</div>
+                                <a class="solution__stat-link" href="/docs.html">Lire la documentation →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ════════ KNOWLEDGE SHARED (dark bg — bg-black-600) ════════ -->
+        <section class="knowledge">
+            <div class="knowledge__inner">
+                <h2 class="knowledge__headline">Notre API, en pratique</h2>
+                <div class="knowledge__buttons">
+                    <a href="/docs.html" class="s-btn s-btn--bright">Voir la documentation</a>
+                    <a href="#demo" class="s-btn s-btn__tonal">Tester l'API</a>
+                </div>
+            </div>
+            <div class="knowledge__articles">
+                <article class="article-card">
+                    <a href="/docs.html" class="article-card__link">
+                        <time class="article-card__date">Exemple 01</time>
+                        <h3 class="article-card__title">Un verset précis — <code>/bym/ap/3/5</code></h3>
+                        <p class="article-card__desc">Affichez un seul verset avec son livre, chapitre et numéro en une seule requête HTTP.</p>
+                        <div class="article-card__cta">Lire l'exemple →</div>
+                    </a>
+                </article>
+                <article class="article-card">
+                    <a href="/docs.html" class="article-card__link">
+                        <time class="article-card__date">Exemple 02</time>
+                        <h3 class="article-card__title">Une plage de versets — <code>/bym/genèse/1/3-7</code></h3>
+                        <p class="article-card__desc">Récupérez une séquence de versets dans un chapitre, du verset de début au verset de fin.</p>
+                        <div class="article-card__cta">Lire l'exemple →</div>
+                    </a>
+                </article>
+                <article class="article-card">
+                    <a href="/docs.html" class="article-card__link">
+                        <time class="article-card__date">Exemple 03</time>
+                        <h3 class="article-card__title">Un chapitre complet — <code>/bym/romains/8</code></h3>
+                        <p class="article-card__desc">Obtenez tous les versets d'un chapitre en une seule requête, sans paramètres de verset.</p>
+                        <div class="article-card__cta">Lire l'exemple →</div>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ════════ DEMO ════════ -->
+        <section id="demo" class="demo">
+            <div class="demo__inner">
+                <h2 class="demo__headline">Tester l'API en direct</h2>
+                <p class="demo__intro">Entrez une référence biblique et voyez la réponse JSON en temps réel.</p>
+                <div class="demo__form">
+                    <input type="text" id="reference" class="demo__input" placeholder="Exemple : Jean 3 16" autocomplete="off" />
+                    <button id="fetchBtn" class="s-btn s-btn--bright">Rechercher</button>
+                </div>
+                <div class="demo__chips">
+                    <span>Essayer&nbsp;:</span>
+                    <button class="demo__chip" data-ref="Jean 3 16">Jean 3:16</button>
+                    <button class="demo__chip" data-ref="Psaumes 23 1">Psaumes 23:1</button>
+                    <button class="demo__chip" data-ref="Genèse 1 1-5">Genèse 1:1-5</button>
+                    <button class="demo__chip" data-ref="Romains 8 28">Romains 8:28</button>
+                </div>
+                <div class="demo__result-wrap">
+                    <div class="demo__result-bar">
+                        <span class="demo__result-label">Réponse JSON</span>
+                        <span class="demo__result-status" id="resultStatus"></span>
+                    </div>
+                    <pre id="result" class="demo__result">Les résultats apparaîtront ici…</pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ════════ FOOTER (off-white bg — structuré comme Todoist) ════════ -->
+    <footer class="footer">
+        <!-- Section haute : logo + slogan + colonnes de liens -->
+        <div class="footer__top">
+            <div class="footer__header">
+                <a href="/" class="footer__logo">
+                    <img src="/assets/logo/shema_reader-logo_light.webp" alt="ShemaProject" />
+                </a>
+                <p class="footer__tagline">Pour l'édification du peuple d'Elohim — API, versions bibliques et guides.</p>
+            </div>
+            <div class="footer__columns">
+                <div class="footer__group">
+                    <h3 class="footer__subheading">Plateforme</h3>
+                    <ol class="footer__links">
+                        <li><a href="/bym">Références API</a></li>
+                        <li><a href="/docs.html">Documentation</a></li>
+                        <li><a href="#demo">Tester l'API</a></li>
+                        <li><a href="/docs.html">Guides</a></li>
+                    </ol>
+                </div>
+                <div class="footer__group">
+                    <h3 class="footer__subheading">Versions</h3>
+                    <ol class="footer__links">
+                        <li><a href="/bym">Bible de Yéhoshoua Ha Mashiah</a></li>
+                        <li><a href="/lsg">Louis Segond 1910</a></li>
+                        <li><a href="/darby">Darby 1885</a></li>
+                    </ol>
+                </div>
+                <div class="footer__group">
+                    <h3 class="footer__subheading">Ressources</h3>
+                    <ol class="footer__links">
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/docs.html">Aide</a></li>
+                        <li><a href="/docs.html">Blog</a></li>
+                    </ol>
+                </div>
+                <div class="footer__social">
+                    <ul class="footer__social-list">
+                        <li>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="ShemaProject sur GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.2 3.44 9.61 8.21 11.16.6.11.82-.25.82-.57 0-.28-.01-1.03-.02-2.02-3.34.71-4.04-1.58-4.04-1.58-.55-1.37-1.34-1.74-1.34-1.74-1.09-.73.08-.72.08-.72 1.21.08 1.84 1.22 1.84 1.22 1.07 1.8 2.81 1.28 3.5.98.11-.76.42-1.28.76-1.57-2.67-.3-5.47-1.31-5.47-5.83 0-1.29.47-2.34 1.24-3.17-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.21a11.6 11.6 0 0 1 6.01 0c2.29-1.53 3.3-1.21 3.3-1.21.66 1.66.25 2.88.12 3.18.77.83 1.24 1.88 1.24 3.17 0 4.53-2.81 5.53-5.49 5.82.43.36.82 1.08.82 2.18 0 1.57-.02 2.84-.02 3.23 0 .32.22.69.83.57C20.57 21.9 24 17.49 24 12.29 24 5.78 18.63.5 12 .5z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <main>
-        <!-- SECTION HERO -->
-        <section class="hero">
-            <div class="hero__content">
-                <h1>ShemaProject<span class="accent"> — Bible API</span></h1>
-                <p class="hero__subtitle">
-                    Une API ouverte pour explorer la Parole d’Elohim, verset par verset.
-                    Obtenez facilement les textes bibliques en JSON pour vos projets web, mobiles ou d’étude.
-                </p>
-                <div class="hero__buttons">
-                    <a href="/docs.html" class="btn btn--primary">Voir la documentation</a>
-                    <a href="#demo" class="btn btn--secondary">Essayer l’API</a>
-                </div>
+        <!-- Section basse : liens légaux + copyright -->
+        <div class="footer__bottom">
+            <div class="footer__bottom-links">
+                <ul class="footer__legal-list">
+                    <li><a href="/docs.html">Sécurité</a></li>
+                    <li><a href="/docs.html">Confidentialité</a></li>
+                    <li><a href="/docs.html">CGU</a></li>
+                </ul>
+                <p class="footer__copyright">© ShemaProject · Conçu avec ❤️ pour l'édification du peuple d'Elohim · <span id="footerYear"></span></p>
             </div>
-            <div class="hero__image">
-                <img src="/assets/book-icon.svg" alt="Bible illustration" />
-            </div>
-        </section>
+        </div>
+    </footer>
 
-        <!-- SECTION FONCTIONNALITÉS -->
-        <section class="features">
-            <h2>Pourquoi cette API&nbsp;?</h2>
-            <div class="features__grid">
-                <div class="feature">
-                    <h3>📖 Accès simple</h3>
-                    <p>Récupérez les versets avec une simple requête HTTP. Ex. :<br>
-                        <code>GET /api/v1/verse/Jean/3/16</code></p>
-                </div>
-                <div class="feature">
-                    <h3>⚡ Format JSON clair</h3>
-                    <p>Chaque réponse contient le texte, la référence et des informations sur le livre pour une intégration rapide.</p>
-                </div>
-                <div class="feature">
-                    <h3>🌍 Multiversions</h3>
-                    <p>Accédez à plusieurs traductions selon les besoins des utilisateurs (Louis Segond, KJV, etc.).</p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- SECTION DEMO -->
-        <section id="demo" class="demo">
-            <h2>Tester l’API</h2>
-            <p>Entrez une référence biblique pour voir la réponse JSON.</p>
-            <div class="demo__input">
-                <input type="text" id="reference" placeholder="Exemple : Jean 3 16">
-                <button id="fetchBtn">Rechercher</button>
-            </div>
-            <pre id="result" class="demo__result">Résultat JSON...</pre>
-        </section>
-
-        <!-- SECTION FOOTER -->
-        <footer class="footer">
-            <p>Conçu avec ❤️ par <strong>ShemaProject — Pour l’édification du peuple d’Elohim</p>
-
-        </footer>
-    </main>
-
-    <script src="js/script.js"></script>
-
+    <script src="/js/script.js"></script>
+    <script src="/js/home.js"></script>
 </body>
 </html>
