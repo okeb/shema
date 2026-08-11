@@ -488,8 +488,16 @@ function strongIndexHandler(req, res, index, source) {
     total,
     page,
     size,
+    // Lexique complet du code : la page détail d'un code Strong tire toutes ses métadonnées
+    // (lemme, langue, phonétique, origine, type, translittération, définition) de ce seul fetch,
+    // cohérent avec le modèle « une page par code » (pas de second appel à /strong/:code).
     lexicon: {
+      lemma: lex.lemma || null,
+      lang: lex.lang || null,
       translit: lex.translit || null,
+      phonetique: lex.phonetique || null,
+      origine: lex.origine || null,
+      type: lex.type || null,
       definition: lex.definition || null
     },
     items
