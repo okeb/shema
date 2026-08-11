@@ -5893,7 +5893,7 @@
       "strong": "G1096"
     },
     {
-      "text": " pas",
+      "text": " jamais",
       "strong": null
     },
     {
@@ -7105,20 +7105,8 @@
       "strong": null
     },
     {
-      "text": " par",
+      "text": " par le moyen de",
       "strong": "G1223"
-    },
-    {
-      "text": " le",
-      "strong": null
-    },
-    {
-      "text": " moyen",
-      "strong": null
-    },
-    {
-      "text": " de",
-      "strong": null
     },
     {
       "text": " la",
@@ -7429,20 +7417,8 @@
       "strong": "G5485"
     },
     {
-      "text": " par",
+      "text": " par le moyen de",
       "strong": "G1223"
-    },
-    {
-      "text": " le",
-      "strong": null
-    },
-    {
-      "text": " moyen",
-      "strong": null
-    },
-    {
-      "text": " de",
-      "strong": null
     },
     {
       "text": " la",
@@ -8105,20 +8081,8 @@
       "strong": "G203"
     },
     {
-      "text": " par",
+      "text": " par le moyen de",
       "strong": "G1223"
-    },
-    {
-      "text": " le",
-      "strong": null
-    },
-    {
-      "text": " moyen",
-      "strong": null
-    },
-    {
-      "text": " de",
-      "strong": null
     },
     {
       "text": " la",
@@ -8147,20 +8111,8 @@
       "strong": "G3551"
     },
     {
-      "text": " par",
+      "text": " par le moyen de",
       "strong": "G1223"
-    },
-    {
-      "text": " le",
-      "strong": null
-    },
-    {
-      "text": " moyen",
-      "strong": null
-    },
-    {
-      "text": " de",
-      "strong": null
     },
     {
       "text": " la",
@@ -8225,6 +8177,350 @@
     {
       "text": " torah.",
       "strong": "G3551"
+    }
+  ],
+  "Jn. 1:17": [
+    {
+      "text": "Parce que",
+      "strong": "G3754"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " torah,",
+      "strong": "G3551"
+    },
+    {
+      "text": " c'est",
+      "strong": null
+    },
+    {
+      "text": " par le moyen de",
+      "strong": "G1223"
+    },
+    {
+      "text": " Moshé",
+      "strong": "G3475"
+    },
+    {
+      "text": " qu'elle a été",
+      "strong": null
+    },
+    {
+      "text": " donnée",
+      "strong": "G1325"
+    },
+    {
+      "text": " ; la",
+      "strong": null
+    },
+    {
+      "text": " grâce",
+      "strong": "G5485"
+    },
+    {
+      "text": " et",
+      "strong": "G2532"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " vérité,",
+      "strong": "G225"
+    },
+    {
+      "text": " c'est",
+      "strong": null
+    },
+    {
+      "text": " par le moyen de",
+      "strong": "G1223"
+    },
+    {
+      "text": " Yéhoshoua",
+      "strong": "G2424"
+    },
+    {
+      "text": " Mashiah",
+      "strong": "G5547"
+    },
+    {
+      "text": " qu'elle est",
+      "strong": null
+    },
+    {
+      "text": " arrivée.",
+      "strong": "G1096"
+    }
+  ],
+  "1 Co. 3:5": [
+    {
+      "text": "Qui",
+      "strong": "G5101"
+    },
+    {
+      "text": " donc",
+      "strong": "G3767"
+    },
+    {
+      "text": " est",
+      "strong": "G2076"
+    },
+    {
+      "text": " Paulos,",
+      "strong": "G3972"
+    },
+    {
+      "text": " et qui est",
+      "strong": null
+    },
+    {
+      "text": " Apollos",
+      "strong": "G625"
+    },
+    {
+      "text": " ?",
+      "strong": null
+    },
+    {
+      "text": " Mais",
+      "strong": "G1161"
+    },
+    {
+      "text": " l'un ou l'autre des",
+      "strong": null
+    },
+    {
+      "text": " serviteurs",
+      "strong": "G1249"
+    },
+    {
+      "text": " par le moyen",
+      "strong": "G1223"
+    },
+    {
+      "text": " desquels",
+      "strong": "G3739"
+    },
+    {
+      "text": " vous avez",
+      "strong": null
+    },
+    {
+      "text": " cru,",
+      "strong": "G4100"
+    },
+    {
+      "text": " selon",
+      "strong": "G5613"
+    },
+    {
+      "text": " que le",
+      "strong": null
+    },
+    {
+      "text": " Seigneur",
+      "strong": "G2962"
+    },
+    {
+      "text": " l'a",
+      "strong": null
+    },
+    {
+      "text": " donné",
+      "strong": "G1325"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " chacun.",
+      "strong": "G1538"
+    }
+  ],
+  "2 Co. 4:15": [
+    {
+      "text": "Car",
+      "strong": "G1063"
+    },
+    {
+      "text": " toutes",
+      "strong": "G3956"
+    },
+    {
+      "text": " choses sont à",
+      "strong": null
+    },
+    {
+      "text": " cause de",
+      "strong": "G1223"
+    },
+    {
+      "text": " vous,",
+      "strong": "G5209"
+    },
+    {
+      "text": " afin que",
+      "strong": "G2443"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " grâce,",
+      "strong": "G5485"
+    },
+    {
+      "text": " étant",
+      "strong": null
+    },
+    {
+      "text": " multipliée,",
+      "strong": "G4121"
+    },
+    {
+      "text": " abonde",
+      "strong": "G4052"
+    },
+    {
+      "text": " à la",
+      "strong": null
+    },
+    {
+      "text": " gloire",
+      "strong": "G1391"
+    },
+    {
+      "text": " d'Elohîm",
+      "strong": "G2316"
+    },
+    {
+      "text": " par le moyen de l'action de",
+      "strong": "G1223"
+    },
+    {
+      "text": " grâce",
+      "strong": "G2169"
+    },
+    {
+      "text": " d'un grand",
+      "strong": null
+    },
+    {
+      "text": " nombre.",
+      "strong": "G4119"
+    }
+  ],
+  "Mt. 26:24": [
+    {
+      "text": "Le",
+      "strong": null
+    },
+    {
+      "text": " Fils",
+      "strong": "G5207"
+    },
+    {
+      "text": " d'humain",
+      "strong": "G444"
+    },
+    {
+      "text": " s'en",
+      "strong": null
+    },
+    {
+      "text": " va,",
+      "strong": "G5217"
+    },
+    {
+      "text": " selon",
+      "strong": "G2531"
+    },
+    {
+      "text": " qu'il est",
+      "strong": null
+    },
+    {
+      "text": " écrit",
+      "strong": "G1125"
+    },
+    {
+      "text": " de",
+      "strong": "G4012"
+    },
+    {
+      "text": " lui,",
+      "strong": "G846"
+    },
+    {
+      "text": " mais",
+      "strong": "G1161"
+    },
+    {
+      "text": " malheur",
+      "strong": "G3759"
+    },
+    {
+      "text": " à cet",
+      "strong": null
+    },
+    {
+      "text": " humain",
+      "strong": "G444"
+    },
+    {
+      "text": " par le moyen de",
+      "strong": "G1223"
+    },
+    {
+      "text": " qui",
+      "strong": "G3739"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " Fils",
+      "strong": "G5207"
+    },
+    {
+      "text": " d'humain",
+      "strong": "G444"
+    },
+    {
+      "text": " est",
+      "strong": null
+    },
+    {
+      "text": " livré",
+      "strong": "G3860"
+    },
+    {
+      "text": " ! Mieux vaudrait pour cet",
+      "strong": null
+    },
+    {
+      "text": " humain",
+      "strong": "G846"
+    },
+    {
+      "text": " qu'il ne soit",
+      "strong": null
+    },
+    {
+      "text": " pas",
+      "strong": "G3756"
+    },
+    {
+      "text": " né.",
+      "strong": "G1080"
     }
   ]
 }
