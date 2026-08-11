@@ -389,6 +389,9 @@ function resolve_strongs(verseKey, strongsData) {
     if (entry) {
       result.lemma = entry.lemma;
       result.translit = entry.translit;
+      result.phonetique = entry.phonetique;
+      result.origine = entry.origine;
+      result.type = entry.type;
       result.definition = entry.definition;
       result.lang = entry.lang;
     }
