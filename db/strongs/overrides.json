@@ -4365,7 +4365,11 @@
       "strong": null
     },
     {
-      "text": "l'Assemblée",
+      "text": "l'",
+      "strong": "G3588"
+    },
+    {
+      "text": "Assemblée",
       "strong": "G1577"
     },
     {
@@ -4382,7 +4386,7 @@
     },
     {
       "text": " au",
-      "strong": null
+      "strong": "G3588"
     },
     {
       "text": " ",
@@ -4397,8 +4401,12 @@
       "strong": "G3779"
     },
     {
-      "text": " que les",
+      "text": " que",
       "strong": null
+    },
+    {
+      "text": " les",
+      "strong": "G3588"
     },
     {
       "text": " ",
@@ -4426,11 +4434,11 @@
     },
     {
       "text": "leurs",
-      "strong": "G2398"
+      "strong": "G3588"
     },
     {
       "text": " propres",
-      "strong": null
+      "strong": "G2398"
     },
     {
       "text": " ",
