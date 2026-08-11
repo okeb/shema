@@ -28,8 +28,16 @@ Lance un script Python qui charge en mémoire :
 4. **Reconstituer le texte grec** à partir du lexique et de la LSG
 5. **Comparer** :
 
-   a. **Complétude** : le nombre de strongs BYM = nombre de strongs LSG ?
-      Lister les strongs manquants (présents en LSG mais pas en BYM).
+   a. **Complétude (contre le grec, pas seulement la LSG)** : reconstituer le texte
+      grec mot par mot avec leurs Strong's (y compris les articles G3588). Le comptage
+      LSG est un point de départ mais **ne fait pas foi** — la LSG omet systématiquement
+      les articles (G3588) et parfois d'autres mots. Le comptage de référence est le
+      **texte grec reconstitué**. Lister TOUS les strongs manquants (présents en grec
+      mais pas en BYM), en distinguant :
+      - **Plaçables** : un mot visible existe dans le BYM (ex: G3588 sur « le », « la »,
+        « les », « d' », « l' »)
+      - **Non plaçables** : le mot grec n'a pas d'équivalent visible dans le BYM
+        (absorbé dans la traduction, rendu par une virgule, non traduit)
 
    b. **Strong's en texte nul** : segments avec `text: null` + `strong: Gxxx` (mal placés
       à la fin du verset). Ce sont des strongs tombés de l'alignement automatique.
@@ -43,7 +51,11 @@ Lance un script Python qui charge en mémoire :
         au lieu de "pauvrement vêtus")
       - Strong sur un mot trop restreint : étendre vers l'expression complète qui
         capture le sens du mot composé ou nuancé (voir règle ci-dessous)
-      - Strong manquant sur un mot visible (ex: article G3588 sur "le"/"les")
+      - Strong manquant sur un mot visible (ex: article G3588 sur "le"/"les"/"d'"/"l'")
+      - **Articles G3588 systématiques** : vérifier chaque article grec (ὁ/ἡ/τό/τῶν/τοῦ/τῇ/τὴν
+        etc.) et le placer sur le mot visible correspondant du BYM (« le », « la », « les »,
+        « d' », « l' », « un », « une »). La LSG omet presque toujours les articles —
+        il faut donc les ajouter manuellement à partir du grec reconstitué.
 
    d. **Présenter un tableau récapitulatif** :
       | # | Strong | Grec | Sens | Texte BYM | Correct ? |
@@ -134,8 +146,11 @@ Un Strong doit être **étendu** sur l'expression complète lorsque :
 - **overrides.json** : ajouter le verset corrigé à ce fichier (clé = référence verset,
   valeur = liste complète des segments). Ne pas écraser les autres versets déjà présents.
 - **bym_strongs.json** : fichier compact, ne pas reformater (garder `separators=(",", ":")`).
-- **Articles G3588** : la source LSG omet souvent les articles. Si l'utilisateur les signale
-  ou si on les détecte dans le grec, les ajouter sur le mot visible (« le », « la », « les »).
+- **Articles G3588 (systématique)** : la LSG omet presque toujours les articles grecs.
+  La skill doit reconstituer le texte grec et ajouter chaque G3588 sur le mot visible
+  du BYM qui le rend (« le », « la », « les », « d' », « l' », « un », « une »).
+  Exemples : τῷ λουτρῷ → « **le** bain » (G3588 sur « le »), τοῦ ὕδατος → « **d'**eau »
+  (G3588 sur « d' », G5204 sur « eau »). Toujours compter le grec, pas seulement la LSG.
 - **Typo potentielle** : si un strong demandé n'existe pas dans le verset (ex: G732 au lieu
   de G737), signaler la discrepancy mais injecter ce que l'utilisateur demande (il a confirmé
   vouloir l'injection). Noter clairement la discrepancy dans le rapport.
