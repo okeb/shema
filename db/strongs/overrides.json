@@ -5231,8 +5231,12 @@
       "strong": "G2511"
     },
     {
-      "text": " et en la lavant par le",
+      "text": " et en la lavant par ",
       "strong": null
+    },
+    {
+      "text": "le",
+      "strong": "G3588"
     },
     {
       "text": " ",
@@ -5247,7 +5251,11 @@
       "strong": null
     },
     {
-      "text": "d'eau",
+      "text": "d'",
+      "strong": "G3588"
+    },
+    {
+      "text": "eau",
       "strong": "G5204"
     },
     {
