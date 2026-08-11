@@ -89,8 +89,11 @@ Présenter :
   pas pour les autres (Ep., Ro., Mt.).
 - **Apostrophes** : vérifier le type exact d'apostrophe dans le texte BYM source
   (curly ' U+2019 ou straight ') avant de reconstruire des segments.
-- **Ne jamais modifier le texte BYM** — seuls les strongs (placements) changent.
-  La concaténation des segments doit toujours reproduire le texte source à l'identique.
+- **⚠️ CONTRAINTE STRICTE : NE JAMAIS MODIFIER LE TEXTE BYM** — c'est une règle absolue.
+  Seuls les strongs (placements) changent. La concaténation des segments doit TOUJOURS
+  reproduire le texte source à l'identique. Si un strong grec n'a pas de mot visible dans
+  le BYM (rendu par une virgule, absorbé dans une paraphrase, non traduit), il reste non
+  placé — on n'ajoute jamais de mot au texte BYM pour accommoder un strong.
 - **overrides.json** : ajouter le verset corrigé à ce fichier (clé = référence verset,
   valeur = liste complète des segments). Ne pas écraser les autres versets déjà présents.
 - **bym_strongs.json** : fichier compact, ne pas reformater (garder `separators=(",", ":")`).
