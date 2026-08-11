@@ -35,11 +35,14 @@ Lance un script Python qui charge en mémoire :
       à la fin du verset). Ce sont des strongs tombés de l'alignement automatique.
 
    c. **Correction sémantique** : pour chaque strong présent, vérifier que le texte BYM
-      porteé correspond au sens du mot grec/hébreu (via `lexicon.json`).
-      Détecter :
-      - Strong sur le mauvais mot (ex: G3956 sur "qui" au lieu de "tout")
+      correspond au sens du mot grec/hébreu (via `lexicon.json`). **La définition prime** —
+      le Strong doit être placé sur le mot ou l'expression qui capture au mieux le sens
+      du mot grec. Détecter :
+      - Strong sur le mauvais mot (ex: G2980 λαλέω="parler" sur "entre" au lieu de "parlant")
       - Strong sur un fragment au lieu du mot complet (ex: G1130 sur "pauvrement"
         au lieu de "pauvrement vêtus")
+      - Strong sur un mot trop restreint : étendre vers l'expression complète qui
+        capture le sens du mot composé ou nuancé (voir règle ci-dessous)
       - Strong manquant sur un mot visible (ex: article G3588 sur "le"/"les")
 
    d. **Présenter un tableau récapitulatif** :
@@ -81,6 +84,40 @@ Présenter :
 - Le tableau récapitulatif final (tous les strongs avec ✅/❌)
 - Le statut : X/Y strongs, texte vérifié, déployé en prod
 - Les éventuelles questions/doutes (strongs ambigus, typos potentiels)
+
+## Règle clé : la définition prime
+
+**Le Strong doit capturer l'expression qui rend au mieux le sens (définition) du mot grec/hébreu.**
+Un mot grec composé ou nuancé doit couvrir toute l'expression BYM qui traduit ce sens,
+ pas seulement un fragment.
+
+### Quand étendre un Strong sur une expression plus large
+
+Un Strong doit être **étendu** sur l'expression complète lorsque :
+
+1. **Le mot grec est un composé** dont un élément est rendu séparément en français :
+   - G2017 ἐπιφαύσκω (ἐπί=sur + φαύω=briller) → « brillera sur » (pas juste « brillera »)
+   - G2175 εὐωδία (εὖ=bon + ὀδή=odeur) → « bonne odeur » (pas juste « odeur »)
+
+2. **Le mot grec a un sens réciproque/réfléchi** rendu par plusieurs mots français :
+   - G1438 ἑαυτοῖς = « à vous-mêmes / entre vous » → « entre vous » (pas juste « vous »)
+
+3. **Le mot grec est une construction négative** (ne...pas, ne...pas même) :
+   - G3366 μηδὲ = « ne...pas même » → « ne soient pas même » (pas juste « même »)
+   - G3361 μή = « ne...pas » → étendre si possible (voir contraintes ci-dessous)
+
+4. **Le verbe grec implique un état/condition** rendu par une expression française :
+   - G1130 γυμνιτεύω = « être pauvrement vêtu » → « pauvrement vêtus » (pas juste « pauvrement »)
+   - G790 ἀστατέω = « être sans domicile fixe » → « sans domiciles fixes » (pas juste « domiciles »)
+
+### Contraintes pour l'extension
+
+- **Ne JAMAIS modifier le texte BYM** (règle absolue).
+- **Ne pas absorber un autre Strong** : si un mot entre « ne » et « pas » a son propre
+  Strong (ex: un verbe G1096), on ne peut pas fusionner. L'extension n'est possible que
+  si les mots intermédiaires n'ont pas de Strong grec propre (ex: auxiliaire français « soient »).
+- Vérifier systématiquement la définition dans `lexicon.json` avant de placer ou d'étendre.
+- La concaténation des segments doit toujours reproduire le texte source à l'identique.
 
 ## Règles importantes
 
