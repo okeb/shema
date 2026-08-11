@@ -4760,7 +4760,7 @@
     },
     {
       "text": " sa",
-      "strong": null
+      "strong": "G3588"
     },
     {
       "text": " ",
@@ -4791,7 +4791,11 @@
       "strong": null
     },
     {
-      "text": "il la",
+      "text": "il",
+      "strong": null
+    },
+    {
+      "text": " la",
       "strong": "G846"
     },
     {
@@ -4835,7 +4839,11 @@
       "strong": "G2531"
     },
     {
-      "text": " le Seigneur",
+      "text": " le",
+      "strong": "G3588"
+    },
+    {
+      "text": " Seigneur",
       "strong": "G5547"
     },
     {
@@ -4847,7 +4855,11 @@
       "strong": null
     },
     {
-      "text": "l'Assemblée,",
+      "text": "l'",
+      "strong": "G3588"
+    },
+    {
+      "text": "Assemblée,",
       "strong": "G1577"
     }
   ],
