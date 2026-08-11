@@ -2327,7 +2327,11 @@
       "strong": null
     },
     {
-      "text": "qu'aucun",
+      "text": "qu'",
+      "strong": "G3754"
+    },
+    {
+      "text": "aucun",
       "strong": "G3756"
     },
     {
@@ -2929,8 +2933,12 @@
       "strong": null
     },
     {
-      "text": "qu'ils",
+      "text": "qu'",
       "strong": "G5259"
+    },
+    {
+      "text": "ils",
+      "strong": "G846"
     },
     {
       "text": " ",
@@ -5154,7 +5162,7 @@
     },
     {
       "text": " sa",
-      "strong": null
+      "strong": "G1438"
     },
     {
       "text": " ",
