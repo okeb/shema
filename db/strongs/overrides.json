@@ -2092,7 +2092,7 @@
     },
     {
       "text": " parce que",
-      "strong": "G3734"
+      "strong": "G3754"
     },
     {
       "text": " cela n'est",
@@ -2863,8 +2863,20 @@
       "strong": null
     },
     {
-      "text": "condamnez-les en effet !",
+      "text": "condamnez-les",
       "strong": "G1651"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "en effet",
+      "strong": "G2532"
+    },
+    {
+      "text": " !",
+      "strong": null
     }
   ],
   "Ep. 5:12": [
@@ -2931,6 +2943,88 @@
     {
       "text": "en secret.",
       "strong": "G2931"
+    }
+  ],
+  "Ep. 6:11": [
+    {
+      "text": "Revêtez-vous",
+      "strong": "G1746"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'armure",
+      "strong": "G3833"
+    },
+    {
+      "text": " complète",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'Elohîm,",
+      "strong": "G2316"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "afin de",
+      "strong": "G4314"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pouvoir",
+      "strong": "G1410"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "résister",
+      "strong": "G2476"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "aux",
+      "strong": "G4314"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ruses",
+      "strong": "G3180"
+    },
+    {
+      "text": " du",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "diable.",
+      "strong": "G1228"
     }
   ]
 }
