@@ -18,6 +18,26 @@ La skill reconstitue donc le texte source de chaque verset à partir de la conna
 grec/hébreu, fiabilisée par `lexicon.json` (définitions, origines, types). La LSG n'est gardée
 que comme contre-vérification secondaire (repérer d'éventuels désaccords de code Strong choisi).
 
+## Base textuelle : la BYM suit le Textus Receptus (NT), pas Nestle-Aland
+
+**La base grecque de référence pour la BYM (NT) est le Textus Receptus** (Stephanus 1550 /
+Scrivener 1894), **et non le Nestle-Aland (NA28/NA30)**. C'est un fait établi qui affecte
+chaque verset du NT.
+
+Conséquence critique : **NA28 et le TR divergent sur la présence de nombreux articles et
+pronoms**. NA28 omet systématiquement des articles (οἱ, τῷ, τὸν…) et pronoms (αὐτῶν, αὐτοῦ…)
+que le TR conserve. Les interlignes en ligne (BibleHub, StepHub, etc.) affichent souvent
+NA28 — donc un verset NA28 anarthre peut avoir **plusieurs G3588 / G846 de plus** dans le TR.
+
+- **Toujours reconstituer le source contre le TR**, pas contre NA28. Ne pas se fier à un
+  interlinaire NA28 affiché en ligne pour le comptage.
+- En cas de doute sur la lecture TR exacte d'un verset (présence d'un article / pronom /
+  particule), le **vérifier explicitement** (WebSearch/WebFetch ciblé « Textus Receptus » /
+  Scrivener, ou cross-check TR vs NA28) plutôt que d'inventer — et signaler la lecture retenue.
+- Un verset peut avoir **plusieurs G3588** (ex: Mt 15:1 TR = « τῷ Ἰησοῦ οἱ ἀπὸ Ἱεροσολύμων » →
+  G3588×2 : τῷ sur « auprès de » + οἱ sur « des »). Compter chaque occurrence du TR.
+- Ne jamais supprimer un G3588/G846 présent dans le TR sous prétexte qu'il est absent de NA28.
+
 ## Arguments
 
 $ARGUMENTS
@@ -123,6 +143,9 @@ Présenter :
   - strongs ambigus ou source incertaine (le dire franchement)
   - typos potentielles (code Strong inexistant dans le verset)
   - divergences de code entre source reconstituée et convention LSG/BYM (ex: G1531 vs G1525)
+  - divergences TR vs NA28 (articles/pronoms présents dans le TR mais absents de NA28) —
+    noter les mots ajoutés depuis le TR (ex: « +οἱ, +τῷ, +αὐτῶν ») et les non-plaçables qui en
+    résultent (pronom possessif absorbé), pour traçabilité.
 
 ## Règle clé : la définition prime
 
@@ -195,3 +218,17 @@ Un Strong doit être **étendu** sur l'expression complète lorsque :
   incertaine (verset long, forme verbale rare, lecture textuelle variantes), le dire dans le
   rapport et ne pas inventer de strongs. Mieux vaut un alignement partiel honnête qu'un
   alignement complet inventé.
+- **Pronoms possessifs non-plaçables (TR αὐτῶν / αὐτοῦ / αὐτῆς = G846)** : le TR conserve
+  souvent un pronom possessif que le français rend par l'article possessif intégré à un
+  syntagme corps/partie du corps (idiome français). Ex: « τὰς χεῖρας **αὐτῶν** » (litt. « les
+  mains **de eux** ») → BYM « **les** mains » (pas « *leurs* mains ») ; « τὸ πρόσωπον
+  **αὐτοῦ** » → BYM « **son** visage » (le « son » n'existe pas comme mot séparé, il est
+  porté par l'article « le/la/son » qui rend déjà τὸν/τὴν). Dans ce cas, **G846 est
+  non-plaçable** : ne pas le forcer sur un mot visible qui porte déjà un autre Strong
+  (typiquement « les »/« le »/« la » qui portent déjà G3588 pour τὰς/τὸν/τὴν). Ne jamais
+  déplacer un G3588 d'article pour y loger un G846. Laisser G846 non placé et le signaler
+  explicitement comme « non-plaçable (pronom possessif absorbé) » dans le tableau récapitulatif.
+- **Ne pas déplacer un Strong pour en loger un autre** : règle générale. Quand un mot visible
+  du BYM rend deux mots grecs (ex: « les » rend τὰς + αὐτῶν), le Strong du mot fonctionnel
+  principal (l'article τὰς G3588) reste placé sur ce mot ; le second (αὐτῶν G846) est
+  non-plaçable. On n'inverse jamais pour privilégier le pronom sur l'article.
