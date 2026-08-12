@@ -48,6 +48,42 @@ pris la lecture NA28 au lieu du TR. **Toujours vérifier la lecture TR quand le 
   G3588×2 : τῷ sur « auprès de » + οἱ sur « des »). Compter chaque occurrence du TR.
 - Ne jamais supprimer un G3588/G846 présent dans le TR sous prétexte qu'il est absent de NA28.
 
+## Obligation : vérification sémantique systématique
+
+**Pour chaque Strong placé, on DOIT vérifier que la définition du mot grec/hébreu (via
+`lexicon.json`) concorde avec le sens du mot BYM sur lequel il est posé.** Ce n'est pas
+optionnel — c'est une étape obligatoire du traitement de chaque verset, au même titre que
+la vérification d'intégrité du texte.
+
+Procédure (pour chaque segment portant un Strong) :
+1. Lire la définition `lexicon.json[code]['definition']` du code placé.
+2. Comparer cette définition au sens du texte BYM du segment.
+3. **Si la définition ne correspond pas au sens BYM** (ex: code « dire » posé sur
+   « commandé », code « parole » posé sur « commandement », code « courir » posé sur
+   « marche ») → **ne pas laisser le mismatch en l'état**. C'est presque toujours le signe
+   qu'on a adopté la lecture NA28 au lieu du TR (substitution de lexème, voir section
+   précédente) OU qu'un Strong est posé sur le mauvais mot.
+4. Action correctrice : **vérifier la lecture TR** du verset (WebSearch/WebFetch « Textus
+   Receptus » / Scrivener) et replacer le code du TR qui concilie source ET sens. Si le
+   mismatch vient d'un mauvais placement (pas d'une variante textuelle), déplacer le Strong
+   sur le bon mot BYM.
+5. Consigner le résultat dans le tableau récapitulatif (colonne « Correct ? ») — un
+   mismatch non résolu ne doit jamais rester silencieux.
+
+**Cas particuliers de concordance par le mode/la fonction (à accepter, pas à corriger) :**
+- Une particule conditionnelle (G1437 ἐάν « si », G302 ἄν) posée sur un mot de mode
+  conditionnel français (« pourrais », « Si ») : la concordance est au niveau du mode
+  conditionnel/potentiel, pas du lexème. C'est valide — la définition de ἐάν est « si » et
+  le français rend ἐάν + subjonctif par le conditionnel. Le noter comme « concordance de
+  mode » dans le rapport.
+- Une négation (G3756 οὐ, G3361 μή, G3364 οὐ μή) rendue par « ne…pas » : la concordance
+  est sur la fonction négative, même si « ne » ou « pas » seul ne porte pas tout le sens.
+
+**Règle de fond : la définition prime, mais le code doit être celui du TR.** Quand les deux
+concordent (TR = mot dont la définition correspond au sens BYM), c'est l'alignement idéal.
+Quand ils divergent, c'est qu'on s'est trompé de base textuelle (NA28 au lieu du TR) —
+corriger vers le TR.
+
 ## Arguments
 
 $ARGUMENTS

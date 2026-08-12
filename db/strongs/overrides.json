@@ -12098,7 +12098,12 @@
       "gloss": null
     },
     {
-      "text": " : Si quelqu'un",
+      "text": " : Si",
+      "strong": "G302",
+      "gloss": null
+    },
+    {
+      "text": " quelqu'un",
       "strong": "G3739",
       "gloss": null
     },
