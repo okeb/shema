@@ -11951,7 +11951,7 @@
     },
     {
       "text": "commandé,",
-      "strong": "G1781"
+      "strong": "G2036"
     },
     {
       "text": " disant :",
@@ -12203,7 +12203,12 @@
       "gloss": null
     },
     {
-      "text": " est une",
+      "text": " est",
+      "strong": "G1510",
+      "gloss": null
+    },
+    {
+      "text": " une",
       "strong": null,
       "gloss": null
     },
@@ -12306,7 +12311,7 @@
     },
     {
       "text": "commandement",
-      "strong": "G1785",
+      "strong": "G3056",
       "gloss": null
     },
     {
