@@ -29,6 +29,16 @@ pronoms**. NA28 omet systématiquement des articles (οἱ, τῷ, τὸν…) e
 que le TR conserve. Les interlignes en ligne (BibleHub, StepHub, etc.) affichent souvent
 NA28 — donc un verset NA28 anarthre peut avoir **plusieurs G3588 / G846 de plus** dans le TR.
 
+**⚠️ Les divergences TR vs NA28 ne se limitent pas aux articles/pronoms : elles peuvent
+substituer un LEXÈME entier**, ce qui change le code Strong ET le sens rendu. Exemples concrets
+(Mt 15) :
+- Mt 15:4 : TR **ἐνετείλατο** (G1781 « commander ») vs NA28 **εἶπεν** (G2036 « dire »).
+  BYM rend « a **commandé** » → seul G1781 (TR) concilie source ET sens.
+- Mt 15:6 : TR **τὴν ἐντολὴν** (G1785 « commandement ») vs NA28 **τὸν λόγον** (G3056 « parole »).
+  BYM rend « **commandement** » → seul G1785 (TR) concilie source ET sens.
+=> Un Strong dont la définition ne correspond pas au mot BYM est souvent le signe qu'on a
+pris la lecture NA28 au lieu du TR. **Toujours vérifier la lecture TR quand le sens cloche.**
+
 - **Toujours reconstituer le source contre le TR**, pas contre NA28. Ne pas se fier à un
   interlinaire NA28 affiché en ligne pour le comptage.
 - En cas de doute sur la lecture TR exacte d'un verset (présence d'un article / pronom /
@@ -232,3 +242,18 @@ Un Strong doit être **étendu** sur l'expression complète lorsque :
   du BYM rend deux mots grecs (ex: « les » rend τὰς + αὐτῶν), le Strong du mot fonctionnel
   principal (l'article τὰς G3588) reste placé sur ce mot ; le second (αὐτῶν G846) est
   non-plaçable. On n'inverse jamais pour privilégier le pronom sur l'article.
+- **Possessifs de parenté (ton/ta/tes/votre = adjectif possessif français)** : quand le BYM
+  rend un syntagme de parenté par un adjectif possessif (« ton père », « tes disciples »,
+  « votre tradition »), regarder si le TR a un pronom possessif explicite (σου G4675,
+  ὑμῶν G5216) en plus de l'article :
+  - **Pronom présent** (ex: TR « τὸν πατέρα **σου** » → « ton père » ; « οἱ μαθηταί **σου** » →
+    « tes disciples » ; « τὴν παράδοσιν **ὑμῶν** » → « votre tradition ») : l'adjectif possessif
+    BYM (« ton »/« tes »/« votre ») porte le **pronom** (G4675/G5216) ; l'article grec
+    (τὸν/οἱ/τὴν = G3588) est **non-plaçable** (absorbé par l'adjectif possessif français, qui
+    remplace l'article). Cohérent avec la règle ci-dessus.
+  - **Pronom absent** (ex: TR « **τὴν** μητέρα » sans σου, σου distribué depuis le père ;
+    « **τῷ** πατρὶ » sans αὐτοῦ en Mt 15:5) : l'adjectif possessif BYM (« ta »/« son ») rend
+    alors l'**article** grec (G3588) via l'idiome de parenté (français : possessif là où le
+    grec met l'article). G3588 sur « ta »/« son » est correct.
+  - L'asymétrie « ton »→G4675 / « ta »→G3588 dans un même verset (Mt 15:4) est **normale** :
+    elle reflète la présence/absence du pronom dans le TR. Ne pas forcer la symétrie.
