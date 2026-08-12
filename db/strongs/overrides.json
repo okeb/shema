@@ -11620,8 +11620,14 @@
       "strong": "G575"
     },
     {
-      "text": " Yeroushalaim auprès de",
-      "strong": "G2414"
+      "text": " Yeroushalaim",
+      "strong": "G2414",
+      "gloss": null
+    },
+    {
+      "text": " auprès de",
+      "strong": null,
+      "gloss": null
     },
     {
       "text": " ",
@@ -11650,152 +11656,169 @@
   ],
   "Mt. 15:2": [
     {
-      "text": "En",
-      "strong": null
-    },
-    {
-      "text": " raison de",
-      "strong": null
+      "text": "En raison de quoi",
+      "strong": "G1302",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
-    },
-    {
-      "text": "quoi",
-      "strong": "G1302"
-    },
-    {
-      "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "tes",
-      "strong": "G4675"
+      "strong": "G4675",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "disciples",
-      "strong": "G3101"
+      "strong": "G3101",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "transgressent-ils",
-      "strong": "G3845"
+      "strong": "G3845",
+      "gloss": null
     },
     {
       "text": " la",
-      "strong": "G3588"
+      "strong": "G3588",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "tradition",
-      "strong": "G3862"
+      "strong": "G3862",
+      "gloss": null
     },
     {
       "text": " des",
-      "strong": "G3588"
+      "strong": "G3588",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "anciens",
-      "strong": "G4245"
+      "strong": "G4245",
+      "gloss": null
     },
     {
       "text": " ?",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "Car",
-      "strong": "G1063"
+      "strong": "G1063",
+      "gloss": null
     },
     {
       "text": " ils",
-      "strong": null
+      "strong": "G846",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
-      "text": "ne se",
-      "strong": "G846"
+      "text": "ne",
+      "strong": "G3756",
+      "gloss": null
+    },
+    {
+      "text": " se lavent",
+      "strong": "G3538",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
-    },
-    {
-      "text": "lavent",
-      "strong": "G3538"
-    },
-    {
-      "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "pas",
-      "strong": "G3756"
+      "strong": "G3756",
+      "gloss": null
     },
     {
       "text": " les",
-      "strong": "G3588"
+      "strong": "G3588",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "mains",
-      "strong": "G5495"
+      "strong": "G5495",
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "quand",
-      "strong": "G3752"
+      "strong": "G3752",
+      "gloss": null
     },
     {
       "text": " ils",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "mangent",
-      "strong": "G2068"
+      "strong": "G2068",
+      "gloss": null
     },
     {
       "text": " du",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": " ",
-      "strong": null
+      "strong": null,
+      "gloss": null
     },
     {
       "text": "pain.",
-      "strong": "G740"
+      "strong": "G740",
+      "gloss": null
     }
   ],
   "Mt. 15:3": [
@@ -11844,16 +11867,9 @@
       "strong": "G5210"
     },
     {
-      "text": " en raison de",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "quoi",
-      "strong": "G1302"
+      "text": " en raison de quoi",
+      "strong": "G1302",
+      "gloss": null
     },
     {
       "text": " ",
