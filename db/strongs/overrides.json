@@ -13511,23 +13511,15 @@
   ],
   "Mt. 6:1": [
     {
-      "text": "Prenez",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "garde",
+      "text": "Prenez garde",
       "strong": "G4337"
     },
     {
-      "text": " de ne ",
+      "text": " de ",
       "strong": null
     },
     {
-      "text": "pas",
+      "text": "ne pas",
       "strong": "G3361"
     },
     {
@@ -13737,15 +13729,7 @@
       "strong": "G3361"
     },
     {
-      "text": " sonner la",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "trompette",
+      "text": " sonner la trompette",
       "strong": "G4537"
     },
     {
@@ -13849,15 +13833,11 @@
       "strong": "G3704"
     },
     {
-      "text": " d'être",
+      "text": " d'",
       "strong": null
     },
     {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "glorifiés",
+      "text": "être glorifiés",
       "strong": "G1392"
     },
     {
@@ -13913,15 +13893,7 @@
       "strong": "G3004"
     },
     {
-      "text": " ils",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "reçoivent",
+      "text": " ils reçoivent",
       "strong": "G568"
     },
     {
@@ -14031,15 +14003,7 @@
       "strong": "G3361"
     },
     {
-      "text": " ce",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "que",
+      "text": " ce que",
       "strong": "G5101"
     },
     {
@@ -14065,15 +14029,7 @@
   ],
   "Mt. 6:4": [
     {
-      "text": "afin",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "que",
+      "text": "afin que",
       "strong": "G3704"
     },
     {
@@ -14275,11 +14231,11 @@
       "strong": null
     },
     {
-      "text": "aiment",
+      "text": "aiment faire",
       "strong": "G5368"
     },
     {
-      "text": " faire leurs",
+      "text": " leurs",
       "strong": null
     },
     {
@@ -14291,15 +14247,11 @@
       "strong": "G4336"
     },
     {
-      "text": " en se tenant",
+      "text": " en ",
       "strong": null
     },
     {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "debout",
+      "text": "se tenant debout",
       "strong": "G2476"
     },
     {
@@ -14423,15 +14375,7 @@
       "strong": "G3754"
     },
     {
-      "text": "ils",
-      "strong": null
-    },
-    {
-      "text": " ",
-      "strong": null
-    },
-    {
-      "text": "reçoivent",
+      "text": "ils reçoivent",
       "strong": "G568"
     },
     {
@@ -14699,8 +14643,12 @@
       "strong": "G4336"
     },
     {
-      "text": " ne multipliez",
+      "text": " ne ",
       "strong": null
+    },
+    {
+      "text": "multipliez",
+      "strong": "G945"
     },
     {
       "text": " ",
@@ -14720,7 +14668,7 @@
     },
     {
       "text": "paroles",
-      "strong": "G945"
+      "strong": null
     },
     {
       "text": " ",
