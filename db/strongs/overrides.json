@@ -12443,7 +12443,8 @@
       "strong": "G3778"
     },
     {
-      "text": " "
+      "text": " ",
+      "strong": null
     },
     {
       "text": "peuple",
@@ -12454,14 +12455,16 @@
       "strong": "G1448"
     },
     {
-      "text": " de"
+      "text": " de",
+      "strong": null
     },
     {
       "text": " moi",
       "strong": "G3427"
     },
     {
-      "text": " de"
+      "text": " de",
+      "strong": null
     },
     {
       "text": " sa",
@@ -12526,7 +12529,8 @@
       "strong": "G1161"
     },
     {
-      "text": " ils"
+      "text": " ils",
+      "strong": null
     },
     {
       "text": " m'",
@@ -12537,28 +12541,32 @@
       "strong": "G4576"
     },
     {
-      "text": " en"
+      "text": " en",
+      "strong": null
     },
     {
       "text": " vain,",
       "strong": "G3155"
     },
     {
-      "text": " en"
+      "text": " en",
+      "strong": null
     },
     {
       "text": " enseignant",
       "strong": "G1321"
     },
     {
-      "text": " des"
+      "text": " des",
+      "strong": null
     },
     {
       "text": " doctrines",
       "strong": "G1319"
     },
     {
-      "text": " qui sont des"
+      "text": " qui sont des",
+      "strong": null
     },
     {
       "text": " commandements",
