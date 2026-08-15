@@ -106,6 +106,24 @@ try {
   console.log("Strong's index Darby: fichier non trouvé");
 }
 
+// Texte original WLC/MorphHB (AT) + Textus Receptus Scrivener 1894 (NT).
+let orig_strongs = {};
+let origStrongIndex = {};
+try {
+  orig_strongs = require("./db/strongs/orig_strongs.json");
+  console.log(`Original: ${Object.keys(orig_strongs).length} versets chargés`);
+} catch (e) {
+  console.log("Original: orig_strongs.json non trouvé");
+}
+try {
+  origStrongIndex = require("./db/strongs/orig_strong_index.json");
+} catch (e) {
+  console.log("Original: index Strong's non trouvé");
+}
+const orig = Object.fromEntries(Object.entries(orig_strongs).map(([key, segments]) =>
+  [key, segments.map(segment => segment.text || "").join("")]
+));
+
 // ═══════════════════════════════════════════════════════════════
 //  Registre des versions
 // ═══════════════════════════════════════════════════════════════
@@ -132,6 +150,14 @@ const VERSIONS = {
     name: "Bible Darby (J.N. Darby, 1885)",
     strongs: Object.keys(darby_strongs).length > 0,
   },
+  orig: {
+    data: orig,
+    strongsData: orig_strongs,
+    strongIndex: origStrongIndex,
+    name: "Texte original (Hébreu / Araméen / Grec TR)",
+    strongs: Object.keys(orig_strongs).length > 0,
+    isOriginal: true,
+  },
 };
 
 function resolveVersion(req, res, next) {
@@ -142,6 +168,10 @@ function resolveVersion(req, res, next) {
   req.supportsStrongs = v.strongs;
   req.strongsData = v.strongsData;
   req.strongIndex = v.strongIndex || {};
+  req.isOriginal = Boolean(v.isOriginal);
+  if (req.isOriginal && req.query.mode && !["orig", "interlinear"].includes(req.query.mode)) {
+    return res.status(400).json({ error: "Mode invalide; valeurs acceptées: orig, interlinear" });
+  }
   next();
 }
 
@@ -171,7 +201,7 @@ function get_book_info_key(abbr) {
   return trimmed;
 }
 
-const BOOK_NAMES = {
+const LEGACY_BOOK_NAMES = {
   "Ge.": "Genese", "Ex.": "Exode", "Lé.": "Levitique", "No.": "Nombres",
   "De.": "Deuteronome", "Jos.": "Josue", "Jg.": "Juges",
   "1 S.": "1 Samuel", "2 S.": "2 Samuel", "1 R.": "1 Rois", "2 R.": "2 Rois",
@@ -206,7 +236,7 @@ const ABBR_LIST = [
   "2 Pi. ", "2 Ti. ", "Jud. ", "Hé. ", "1 Jn. ", "2 Jn. ", "3 Jn. ", "Ap. "
 ];
 
-const BOOK_ALIASES = {
+const LEGACY_BOOK_ALIASES = {
   "ge": "Ge. ", "gen": "Ge. ", "genese": "Ge. ", "genesis": "Ge. ",
   "ex": "Ex. ", "exo": "Ex. ", "exode": "Ex. ", "exodus": "Ex. ",
   "le": "Lé. ", "lev": "Lé. ", "levitique": "Lé. ",
@@ -273,6 +303,18 @@ const BOOK_ALIASES = {
   "2jn": "2 Jn. ", "2je": "2 Jn. ", "2jean": "2 Jn. ", "2john": "2 Jn. ",
   "3jn": "3 Jn. ", "3je": "3 Jn. ", "3jean": "3 Jn. ", "3john": "3 Jn. ",
   "ap": "Ap. ", "apo": "Ap. ", "apocalypse": "Ap. ", "revelation": "Ap. ",
+};
+
+// Source partagée avec les scripts Python. Les tables historiques restent en
+// repli afin de préserver strictement tous les anciens alias publics.
+const BOOK_META = require("./db/books_meta.json");
+const BOOK_NAMES = {
+  ...LEGACY_BOOK_NAMES,
+  ...Object.fromEntries(BOOK_META.map(book => [book.abbr, book.name])),
+};
+const BOOK_ALIASES = {
+  ...LEGACY_BOOK_ALIASES,
+  ...Object.fromEntries(BOOK_META.flatMap(book => book.aliases.map(alias => [alias, `${book.abbr} `]))),
 };
 
 // ═══════════════════════════════════════════════════════════════
@@ -377,23 +419,27 @@ function enrich_result(result) {
   return result;
 }
 
-function resolve_strongs(verseKey, strongsData) {
+function resolve_strongs(verseKey, strongsData, options = {}) {
   const data = strongsData || bym_strongs;
   const segments = data[verseKey];
   if (!segments) return null;
   return segments.map(seg => {
     const entry = seg.strong ? lexicon[seg.strong] : null;
     const result = { text: seg.text, strong: seg.strong };
-    if (seg.gloss) result.gloss = seg.gloss;
+    if (seg.gloss && options.interlinear !== false) result.gloss = seg.gloss;
     if (seg.morph) result.morph = seg.morph;
+    if (seg.morph_fr) result.morph_fr = seg.morph_fr;
+    if (seg.lang) result.lang = seg.lang;
     if (entry) {
       result.lemma = entry.lemma;
-      result.translit = entry.translit;
-      result.phonetique = entry.phonetique;
+      if (options.translit !== false) {
+        result.translit = entry.translit;
+        result.phonetique = entry.phonetique;
+      }
       result.origine = entry.origine;
       result.type = entry.type;
       result.definition = entry.definition;
-      result.lang = entry.lang;
+      if (!result.lang) result.lang = entry.lang;
     }
     return result;
   });
@@ -401,11 +447,14 @@ function resolve_strongs(verseKey, strongsData) {
 
 function maybe_attach_strongs(result, req) {
   if (!result || typeof result !== "object") return result;
-  if (!req || req.query.strongs !== "1") return result;
+  if (!req || (req.query.strongs !== "1" && !req.isOriginal)) return result;
   const strongsData = req.strongsData || bym_strongs;
   if (!strongsData || Object.keys(strongsData).length === 0) return result;
   for (const key of Object.keys(result)) {
-    const segs = resolve_strongs(key, strongsData);
+    const segs = resolve_strongs(key, strongsData, {
+      interlinear: !req.isOriginal || req.query.mode === "interlinear",
+      translit: !req.isOriginal || req.query.translit === "1",
+    });
     if (segs) result[key].strongs = segs;
   }
   return result;
@@ -419,7 +468,7 @@ function return_result(res, result, req) {
     return res.status(404).json({ error: "Aucun résultat trouvé" });
   }
   const enriched = enrich_result(result);
-  if (req && req.query.strongs === "1") {
+  if (req && (req.query.strongs === "1" || req.isOriginal)) {
     maybe_attach_strongs(enriched, req);
   }
   res.status(200).json(enriched);
@@ -548,8 +597,11 @@ app.get("/:version", resolveVersion, (req, res) => {
     version: req.versionName,
     APIinfo: "https://www.shemaproject.org/bibleapi"
   };
-  if (req.query.strongs === "1" && req.supportsStrongs) {
-    const segs = resolve_strongs(key, req.strongsData);
+  if ((req.query.strongs === "1" || req.isOriginal) && req.supportsStrongs) {
+    const segs = resolve_strongs(key, req.strongsData, {
+      interlinear: !req.isOriginal || req.query.mode === "interlinear",
+      translit: !req.isOriginal || req.query.translit === "1",
+    });
     if (segs) response.strongs = segs;
   }
   res.status(200).json(response);
@@ -674,8 +726,16 @@ app.get("/", (req, res) => {
 
 app.use(express.static("public"));
 
-app.listen(process.env.PORT || 8080, () => {
-  console.log("Que Yehowshuw`a Ha-Mashiyah soit glorifié. Amen 🙏🏾");
-});
+if (require.main === module) {
+  app.listen(process.env.PORT || 8080, () => {
+    console.log("Que Yehowshuw`a Ha-Mashiyah soit glorifié. Amen 🙏🏾");
+  });
+}
 
 module.exports = app;
+module.exports._internals = {
+  VERSIONS,
+  get_all_of_selection,
+  maybe_attach_strongs,
+  resolve_strongs,
+};
