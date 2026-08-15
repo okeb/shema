@@ -1,7 +1,7 @@
 # Pipeline de données — shema (API BJC)
 
 > Doc de référence sur **d'où vient le texte servi** et **comment il est régénéré**.
-> But : éviter de re-explorer le code à chaque fois. Mise à jour : 2026-06-22.
+> But : éviter de re-explorer le code à chaque fois. Mise à jour : 2026-08-15.
 
 ## Source de vérité
 
@@ -80,3 +80,21 @@ node -e "console.log(Object.keys(require('./db/thebym.json')).length)"
 # Couverture des tags Strong's dans la source
 grep -roh 'strong:[HG][0-9]*' /tmp/bjc-source/*.md | wc -l
 ```
+
+## Version originale (`orig`)
+
+La version `orig` est indépendante des alignements français :
+
+- AT : WLC vocalisé + Strong's + morphologie MorphHB/OSHB (hébreu et araméen) ;
+- NT : Textus Receptus Scrivener 1894 accentué + Strong's + morphologie Robinson ;
+- sorties : `orig_strongs.json`, `orig_strong_index.json` et rapport de build ;
+- sources mises en cache dans `/tmp`, jamais commitées.
+
+```bash
+make original-sources
+make original
+pnpm test
+```
+
+Le build est déterministe et peut reconstruire séparément l'AT ou le NT. Les gloses sont
+reprises par occurrence depuis l'alignement BYM lorsqu'un même code Strong's est disponible.
