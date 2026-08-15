@@ -1,8 +1,25 @@
-.PHONY: align align-darby deploy darby occurrences clean help
+.PHONY: align align-darby original original-sources deploy darby occurrences clean help
 
 # Chemins
 SQLITE ?= /tmp/strong.sqlite
 MODEL ?= glm-5.2:cloud
+MORPHHB ?= /tmp/shema-morphhb/wlc
+SCRIVENER ?= /tmp/shema-scrivener/data/gnt.flat.json
+
+# Sources ouvertes, mises en cache hors du dépôt.
+original-sources:
+	test -d /tmp/shema-morphhb || git clone --depth 1 https://github.com/openscriptures/morphhb.git /tmp/shema-morphhb
+	test -f $(SCRIVENER) || git clone --depth 1 https://github.com/honza/textus-receptus.git /tmp/shema-scrivener
+
+# Version originale : WLC/MorphHB pour l'AT, TR Scrivener 1894 pour le NT.
+original:
+	@echo "═══ Texte original : AT (WLC/MorphHB) ═══"
+	python3 scripts/build_original.py --lang ot --ot-source $(MORPHHB) --sqlite $(SQLITE)
+	@echo "═══ Texte original : NT (TR Scrivener 1894) ═══"
+	python3 scripts/build_original.py --lang nt --nt-source $(SCRIVENER) --sqlite $(SQLITE)
+	@echo "═══ Index Strong's → versets ═══"
+	python3 scripts/build_strong_index.py --strongs db/strongs/orig_strongs.json --out db/strongs/orig_strong_index.json
+	@echo "✅ Version 'orig' construite"
 
 # Construction de l'alignement (LSG -> BYM)
 align:
@@ -91,6 +108,8 @@ help:
 	@echo "  make align-darby - Aligner les Strong's sur la version Darby (LSG→Darby)"
 	@echo "  make lexicon   - Reconstruire le lexique Strong's depuis strong.sqlite"
 	@echo "  make darby     - Construire la version Darby (texte seul, public domain)"
+	@echo "  make original-sources - Télécharger les sources ouvertes dans /tmp"
+	@echo "  make original  - Construire le texte original WLC + TR et son index"
 	@echo "  make llm       - Lancer l'alignement LLM en arrière-plan"
 	@echo "  make llm-stop  - Arrêter l'alignement LLM"
 	@echo "  make deploy    - Déployer sur Vercel (production)"
