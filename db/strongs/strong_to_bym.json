@@ -1,7 +1,7 @@
 {
   "H3068": {
     "gloss": "YHWH",
-    "count": 6407,
+    "count": 6408,
     "confidence": 0.99,
     "variants": [
       "YHWH"
@@ -9,7 +9,7 @@
   },
   "G2532": {
     "gloss": "et",
-    "count": 6096,
+    "count": 6095,
     "confidence": 0.74,
     "variants": [
       "et",
@@ -38,7 +38,7 @@
   },
   "G846": {
     "gloss": "lui",
-    "count": 3584,
+    "count": 3578,
     "confidence": 0.31,
     "variants": [
       "lui",
@@ -93,7 +93,7 @@
   },
   "G1722": {
     "gloss": "dans",
-    "count": 2256,
+    "count": 2261,
     "confidence": 0.45,
     "variants": [
       "dans",
@@ -177,7 +177,7 @@
   },
   "H3027": {
     "gloss": "main",
-    "count": 1447,
+    "count": 1446,
     "confidence": 0.53,
     "variants": [
       "main",
@@ -186,7 +186,7 @@
   },
   "G1161": {
     "gloss": "Mais",
-    "count": 1336,
+    "count": 1335,
     "confidence": 0.41,
     "variants": [
       "Mais",
@@ -197,7 +197,7 @@
   },
   "G1519": {
     "gloss": "dans",
-    "count": 1324,
+    "count": 1328,
     "confidence": 0.38,
     "variants": [
       "dans",
@@ -207,7 +207,7 @@
   },
   "G3756": {
     "gloss": "pas",
-    "count": 1308,
+    "count": 1307,
     "confidence": 0.84,
     "variants": [
       "pas"
@@ -248,7 +248,7 @@
   },
   "G3004": {
     "gloss": "dit",
-    "count": 1081,
+    "count": 1079,
     "confidence": 0.33,
     "variants": [
       "dit",
@@ -332,7 +332,7 @@
   },
   "G3739": {
     "gloss": "qui",
-    "count": 895,
+    "count": 894,
     "confidence": 0.36,
     "variants": [
       "qui",
@@ -348,8 +348,8 @@
   },
   "G3588": {
     "gloss": "qui",
-    "count": 868,
-    "confidence": 0.32,
+    "count": 872,
+    "confidence": 0.31,
     "variants": [
       "qui",
       "la"
@@ -375,7 +375,7 @@
   },
   "H3045": {
     "gloss": "sais",
-    "count": 843,
+    "count": 844,
     "confidence": 0.09,
     "variants": []
   },
@@ -451,7 +451,7 @@
   },
   "H8085": {
     "gloss": "entendu",
-    "count": 761,
+    "count": 762,
     "confidence": 0.17,
     "variants": [
       "entendu"
@@ -513,7 +513,7 @@
   "G3754": {
     "gloss": "que",
     "count": 742,
-    "confidence": 0.52,
+    "confidence": 0.51,
     "variants": [
       "que",
       "parce que"
@@ -538,7 +538,7 @@
   },
   "G2076": {
     "gloss": "est",
-    "count": 717,
+    "count": 720,
     "confidence": 0.69,
     "variants": [
       "est"
@@ -546,7 +546,7 @@
   },
   "G2962": {
     "gloss": "Seigneur",
-    "count": 714,
+    "count": 715,
     "confidence": 0.91,
     "variants": [
       "Seigneur"
@@ -641,8 +641,8 @@
   },
   "G2064": {
     "gloss": "vient",
-    "count": 587,
-    "confidence": 0.14,
+    "count": 589,
+    "confidence": 0.15,
     "variants": [
       "vient",
       "venu"
@@ -664,7 +664,7 @@
   },
   "G1492": {
     "gloss": "voyant",
-    "count": 576,
+    "count": 573,
     "confidence": 0.13,
     "variants": [
       "voyant"
@@ -723,19 +723,9 @@
       "Lève-toi"
     ]
   },
-  "H4325": {
-    "gloss": "eaux",
-    "count": 555,
-    "confidence": 0.48,
-    "variants": [
-      "eaux",
-      "l'eau",
-      "d'eau"
-    ]
-  },
   "G3361": {
     "gloss": "pas",
-    "count": 553,
+    "count": 557,
     "confidence": 0.76,
     "variants": [
       "pas"
@@ -745,6 +735,16 @@
       "pas",
       "ne pas",
       "point"
+    ]
+  },
+  "H4325": {
+    "gloss": "eaux",
+    "count": 555,
+    "confidence": 0.48,
+    "variants": [
+      "eaux",
+      "l'eau",
+      "d'eau"
     ]
   },
   "H5375": {
@@ -865,7 +865,7 @@
   },
   "G235": {
     "gloss": "mais",
-    "count": 506,
+    "count": 507,
     "confidence": 0.71,
     "variants": [
       "mais",
@@ -890,7 +890,7 @@
   },
   "G2192": {
     "gloss": "des",
-    "count": 505,
+    "count": 504,
     "confidence": 0.11,
     "variants": [
       "des"
@@ -910,7 +910,7 @@
   },
   "G1096": {
     "gloss": "arriva",
-    "count": 497,
+    "count": 499,
     "confidence": 0.11,
     "variants": [
       "arriva"
@@ -925,8 +925,8 @@
   },
   "G3450": {
     "gloss": "mon",
-    "count": 491,
-    "confidence": 0.45,
+    "count": 490,
+    "confidence": 0.46,
     "variants": [
       "mon",
       "mes",
@@ -961,7 +961,7 @@
   },
   "G4314": {
     "gloss": "vers",
-    "count": 479,
+    "count": 480,
     "confidence": 0.31,
     "variants": [
       "vers",
@@ -1010,6 +1010,19 @@
       "frappent"
     ]
   },
+  "G2443": {
+    "gloss": "afin que",
+    "count": 455,
+    "confidence": 0.46,
+    "variants": [
+      "afin que",
+      "que",
+      "afin"
+    ],
+    "manual": [
+      "afin que"
+    ]
+  },
   "H8147": {
     "gloss": "deux",
     "count": 454,
@@ -1020,7 +1033,7 @@
   },
   "G4160": {
     "gloss": "fait",
-    "count": 454,
+    "count": 453,
     "confidence": 0.23,
     "variants": [
       "fait",
@@ -1043,19 +1056,6 @@
     "confidence": 0.35,
     "variants": [
       "ordonné"
-    ]
-  },
-  "G2443": {
-    "gloss": "afin que",
-    "count": 450,
-    "confidence": 0.46,
-    "variants": [
-      "afin que",
-      "que",
-      "afin"
-    ],
-    "manual": [
-      "afin que"
     ]
   },
   "H6310": {
@@ -1207,8 +1207,8 @@
   },
   "G5613": {
     "gloss": "comme",
-    "count": 403,
-    "confidence": 0.82,
+    "count": 402,
+    "confidence": 0.83,
     "variants": [
       "comme"
     ]
@@ -1342,7 +1342,7 @@
   },
   "G191": {
     "gloss": "entendu",
-    "count": 377,
+    "count": 376,
     "confidence": 0.29,
     "variants": [
       "entendu"
@@ -1476,7 +1476,7 @@
   "G4151": {
     "gloss": "l'Esprit",
     "count": 333,
-    "confidence": 0.39,
+    "confidence": 0.37,
     "variants": [
       "l'Esprit",
       "esprit"
@@ -1527,12 +1527,12 @@
     ]
   },
   "H1288": {
-    "gloss": "bénit",
+    "gloss": "béni",
     "count": 319,
     "confidence": 0.16,
     "variants": [
-      "bénit",
       "béni",
+      "bénit",
       "Béni",
       "bénira"
     ]
@@ -1556,28 +1556,11 @@
   },
   "G1473": {
     "gloss": "je",
-    "count": 311,
+    "count": 312,
     "confidence": 0.59,
     "variants": [
       "je",
       "moi"
-    ]
-  },
-  "G5100": {
-    "gloss": "quelqu'un",
-    "count": 310,
-    "confidence": 0.21,
-    "variants": [
-      "quelqu'un",
-      "un",
-      "quelques-uns"
-    ],
-    "manual": [
-      "quelque",
-      "quelques temps",
-      "quelqu'un",
-      "un moment",
-      "un certain temps"
     ]
   },
   "H6086": {
@@ -1603,6 +1586,23 @@
     "variants": [
       "prophète",
       "prophètes"
+    ]
+  },
+  "G5100": {
+    "gloss": "quelqu'un",
+    "count": 307,
+    "confidence": 0.21,
+    "variants": [
+      "quelqu'un",
+      "un",
+      "quelques-uns"
+    ],
+    "manual": [
+      "quelque",
+      "quelques temps",
+      "quelqu'un",
+      "un moment",
+      "un certain temps"
     ]
   },
   "G3056": {
@@ -1715,6 +1715,14 @@
       "peur"
     ]
   },
+  "G2228": {
+    "gloss": "ou",
+    "count": 276,
+    "confidence": 0.76,
+    "variants": [
+      "ou"
+    ]
+  },
   "H1285": {
     "gloss": "alliance",
     "count": 275,
@@ -1731,14 +1739,6 @@
     "variants": [
       "ciel",
       "cieux"
-    ]
-  },
-  "G2228": {
-    "gloss": "ou",
-    "count": 274,
-    "confidence": 0.76,
-    "variants": [
-      "ou"
     ]
   },
   "H3627": {
@@ -1788,7 +1788,7 @@
   },
   "H3899": {
     "gloss": "pain",
-    "count": 265,
+    "count": 266,
     "confidence": 0.83,
     "variants": [
       "pain"
@@ -1887,6 +1887,7 @@
     "confidence": 0.12,
     "variants": [
       "Celui-ci",
+      "celui-ci",
       "ce"
     ],
     "manual": [
@@ -1912,8 +1913,8 @@
   },
   "G2980": {
     "gloss": "parle",
-    "count": 248,
-    "confidence": 0.15,
+    "count": 249,
+    "confidence": 0.14,
     "variants": [
       "parle",
       "dit",
@@ -1950,24 +1951,24 @@
       "terre"
     ]
   },
-  "G4012": {
-    "gloss": "de",
-    "count": 243,
-    "confidence": 0.45,
-    "variants": [
-      "de",
-      "au sujet de"
-    ],
-    "manual": [
-      "au sujet de"
-    ]
-  },
   "G4102": {
     "gloss": "foi",
     "count": 243,
     "confidence": 0.97,
     "variants": [
       "foi"
+    ]
+  },
+  "G4012": {
+    "gloss": "de",
+    "count": 242,
+    "confidence": 0.43,
+    "variants": [
+      "de",
+      "au sujet de"
+    ],
+    "manual": [
+      "au sujet de"
     ]
   },
   "H2388": {
@@ -1978,7 +1979,7 @@
   },
   "G2983": {
     "gloss": "reçu",
-    "count": 238,
+    "count": 237,
     "confidence": 0.18,
     "variants": [
       "reçu",
@@ -2122,6 +2123,32 @@
       "Yéhoshoua"
     ]
   },
+  "G1438": {
+    "gloss": "lui-même",
+    "count": 218,
+    "confidence": 0.37,
+    "variants": [
+      "lui-même"
+    ]
+  },
+  "G1520": {
+    "gloss": "un",
+    "count": 218,
+    "confidence": 0.29,
+    "variants": [
+      "un",
+      "l'un",
+      "un seul"
+    ],
+    "manual": [
+      "un",
+      "une",
+      "l'un",
+      "l'une",
+      "un seul",
+      "une seule"
+    ]
+  },
   "H517": {
     "gloss": "mère",
     "count": 217,
@@ -2154,32 +2181,6 @@
     "variants": [
       "héritage",
       "l'héritage"
-    ]
-  },
-  "G1438": {
-    "gloss": "lui-même",
-    "count": 217,
-    "confidence": 0.37,
-    "variants": [
-      "lui-même"
-    ]
-  },
-  "G1520": {
-    "gloss": "un",
-    "count": 217,
-    "confidence": 0.29,
-    "variants": [
-      "un",
-      "l'un",
-      "un seul"
-    ],
-    "manual": [
-      "un",
-      "une",
-      "l'un",
-      "l'une",
-      "un seul",
-      "une seule"
     ]
   },
   "H8451": {
@@ -2236,19 +2237,6 @@
       "sol"
     ]
   },
-  "G4100": {
-    "gloss": "cru",
-    "count": 209,
-    "confidence": 0.22,
-    "variants": [
-      "cru",
-      "croit"
-    ],
-    "manual": [
-      "croient",
-      "crois"
-    ]
-  },
   "H1366": {
     "gloss": "frontière",
     "count": 208,
@@ -2269,6 +2257,27 @@
       "saint"
     ]
   },
+  "G3686": {
+    "gloss": "nom",
+    "count": 208,
+    "confidence": 0.92,
+    "variants": [
+      "nom"
+    ]
+  },
+  "G4100": {
+    "gloss": "cru",
+    "count": 208,
+    "confidence": 0.22,
+    "variants": [
+      "cru",
+      "croit"
+    ],
+    "manual": [
+      "croient",
+      "crois"
+    ]
+  },
   "H4639": {
     "gloss": "œuvres",
     "count": 207,
@@ -2279,12 +2288,12 @@
       "ouvrage"
     ]
   },
-  "G3686": {
-    "gloss": "nom",
+  "G5023": {
+    "gloss": "choses",
     "count": 207,
-    "confidence": 0.93,
+    "confidence": 0.84,
     "variants": [
-      "nom"
+      "choses"
     ]
   },
   "H3789": {
@@ -2295,14 +2304,6 @@
       "écrit",
       "écrites",
       "écrivit"
-    ]
-  },
-  "G5023": {
-    "gloss": "choses",
-    "count": 206,
-    "confidence": 0.84,
-    "variants": [
-      "choses"
     ]
   },
   "H4397": {
@@ -2375,7 +2376,7 @@
   "H5337": {
     "gloss": "délivrer",
     "count": 201,
-    "confidence": 0.15,
+    "confidence": 0.14,
     "variants": [
       "délivrer",
       "délivré"
@@ -2418,7 +2419,7 @@
   },
   "G3762": {
     "gloss": "personne",
-    "count": 200,
+    "count": 199,
     "confidence": 0.35,
     "variants": [
       "personne",
@@ -2718,6 +2719,22 @@
       "jurer"
     ]
   },
+  "H3967": {
+    "gloss": "100",
+    "count": 177,
+    "confidence": 0.47,
+    "variants": [
+      "100",
+      "une",
+      "centaines"
+    ],
+    "manual": [
+      "100",
+      "cent",
+      "cents",
+      "centaines"
+    ]
+  },
   "H352": {
     "gloss": "bélier",
     "count": 177,
@@ -2734,22 +2751,6 @@
     "variants": [
       "d'Éphraïm",
       "Éphraïm"
-    ]
-  },
-  "H3967": {
-    "gloss": "100",
-    "count": 176,
-    "confidence": 0.47,
-    "variants": [
-      "100",
-      "une",
-      "centaines"
-    ],
-    "manual": [
-      "100",
-      "cent",
-      "cents",
-      "centaines"
     ]
   },
   "H5612": {
@@ -2800,21 +2801,21 @@
       "écrit"
     ]
   },
+  "G5259": {
+    "gloss": "par",
+    "count": 172,
+    "confidence": 0.62,
+    "variants": [
+      "par",
+      "sous"
+    ]
+  },
   "H4430": {
     "gloss": "roi",
     "count": 171,
     "confidence": 0.87,
     "variants": [
       "roi"
-    ]
-  },
-  "G5259": {
-    "gloss": "par",
-    "count": 171,
-    "confidence": 0.62,
-    "variants": [
-      "par",
-      "sous"
     ]
   },
   "H7311": {
@@ -2892,10 +2893,19 @@
   "G266": {
     "gloss": "péché",
     "count": 167,
-    "confidence": 0.55,
+    "confidence": 0.54,
     "variants": [
       "péché",
       "péchés"
+    ]
+  },
+  "G5124": {
+    "gloss": "cela",
+    "count": 165,
+    "confidence": 0.61,
+    "variants": [
+      "cela",
+      "ce"
     ]
   },
   "G3793": {
@@ -2922,15 +2932,6 @@
     "variants": [
       "commandements",
       "commandement"
-    ]
-  },
-  "G5124": {
-    "gloss": "cela",
-    "count": 164,
-    "confidence": 0.61,
-    "variants": [
-      "cela",
-      "ce"
     ]
   },
   "G1565": {
@@ -3198,6 +3199,15 @@
       "autres"
     ]
   },
+  "G2531": {
+    "gloss": "comme",
+    "count": 151,
+    "confidence": 0.63,
+    "variants": [
+      "comme",
+      "selon"
+    ]
+  },
   "G5485": {
     "gloss": "grâce",
     "count": 151,
@@ -3213,15 +3223,6 @@
     "variants": [
       "cœur",
       "cœurs"
-    ]
-  },
-  "G2531": {
-    "gloss": "comme",
-    "count": 150,
-    "confidence": 0.63,
-    "variants": [
-      "comme",
-      "selon"
     ]
   },
   "H6828": {
@@ -3334,7 +3335,7 @@
   "G3779": {
     "gloss": "ainsi",
     "count": 143,
-    "confidence": 0.51,
+    "confidence": 0.52,
     "variants": [
       "ainsi",
       "même",
@@ -3344,7 +3345,7 @@
   "G3844": {
     "gloss": "de",
     "count": 143,
-    "confidence": 0.56,
+    "confidence": 0.57,
     "variants": [
       "de"
     ]
@@ -3448,7 +3449,7 @@
   "G5456": {
     "gloss": "voix",
     "count": 136,
-    "confidence": 0.85,
+    "confidence": 0.87,
     "variants": [
       "voix"
     ],
@@ -3608,6 +3609,15 @@
       "trône"
     ]
   },
+  "G5119": {
+    "gloss": "Alors",
+    "count": 132,
+    "confidence": 0.73,
+    "variants": [
+      "Alors",
+      "alors"
+    ]
+  },
   "G25": {
     "gloss": "aimé",
     "count": 132,
@@ -3631,15 +3641,6 @@
     "confidence": 0.26,
     "variants": [
       "brisé"
-    ]
-  },
-  "G5119": {
-    "gloss": "Alors",
-    "count": 131,
-    "confidence": 0.72,
-    "variants": [
-      "Alors",
-      "alors"
     ]
   },
   "H2026": {
@@ -3784,7 +3785,7 @@
   "H3225": {
     "gloss": "droite",
     "count": 126,
-    "confidence": 0.91,
+    "confidence": 0.9,
     "variants": [
       "droite"
     ]
@@ -3818,7 +3819,7 @@
   "G2249": {
     "gloss": "nous",
     "count": 125,
-    "confidence": 0.8,
+    "confidence": 0.81,
     "variants": [
       "nous",
       "Nous"
@@ -3869,6 +3870,15 @@
       "fureur"
     ]
   },
+  "G5607": {
+    "gloss": "étant",
+    "count": 122,
+    "confidence": 0.44,
+    "variants": [
+      "étant",
+      "est"
+    ]
+  },
   "G749": {
     "gloss": "prêtres",
     "count": 122,
@@ -3879,15 +3889,6 @@
     ],
     "manual": [
       "prêtres"
-    ]
-  },
-  "G5607": {
-    "gloss": "étant",
-    "count": 121,
-    "confidence": 0.4,
-    "variants": [
-      "étant",
-      "est"
     ]
   },
   "G649": {
@@ -3972,14 +3973,6 @@
       "va"
     ]
   },
-  "G2476": {
-    "gloss": "debout",
-    "count": 119,
-    "confidence": 0.3,
-    "variants": [
-      "debout"
-    ]
-  },
   "H7393": {
     "gloss": "chars",
     "count": 118,
@@ -3987,6 +3980,14 @@
     "variants": [
       "chars",
       "char"
+    ]
+  },
+  "G2476": {
+    "gloss": "debout",
+    "count": 118,
+    "confidence": 0.31,
+    "variants": [
+      "debout"
     ]
   },
   "G2198": {
@@ -4052,16 +4053,17 @@
     "variants": [
       "cherche",
       "cherchaient",
-      "cherchez",
-      "cherchant"
+      "cherchant",
+      "cherchez"
     ]
   },
-  "G3748": {
-    "gloss": "qui",
+  "G3761": {
+    "gloss": "pas",
     "count": 116,
-    "confidence": 0.69,
+    "confidence": 0.41,
     "variants": [
-      "qui"
+      "pas",
+      "ni"
     ]
   },
   "G935": {
@@ -4074,13 +4076,12 @@
       "Roi"
     ]
   },
-  "G3761": {
-    "gloss": "pas",
+  "G3748": {
+    "gloss": "qui",
     "count": 115,
-    "confidence": 0.42,
+    "confidence": 0.69,
     "variants": [
-      "pas",
-      "ni"
+      "qui"
     ]
   },
   "H702": {
@@ -4268,7 +4269,7 @@
   "G4571": {
     "gloss": "te",
     "count": 111,
-    "confidence": 0.53,
+    "confidence": 0.54,
     "variants": [
       "te",
       "toi"
@@ -4375,7 +4376,7 @@
   "G3650": {
     "gloss": "toute",
     "count": 108,
-    "confidence": 0.49,
+    "confidence": 0.5,
     "variants": [
       "toute",
       "tout"
@@ -4449,8 +4450,8 @@
     "confidence": 0.29,
     "variants": [
       "sauvé",
-      "sauver",
       "sauvés",
+      "sauver",
       "sauvée"
     ]
   },
@@ -4490,7 +4491,7 @@
   "H3581": {
     "gloss": "force",
     "count": 105,
-    "confidence": 0.71,
+    "confidence": 0.72,
     "variants": [
       "force",
       "puissance"
@@ -4503,6 +4504,17 @@
     "variants": [
       "shabbat",
       "shabbats"
+    ]
+  },
+  "G565": {
+    "gloss": "alla",
+    "count": 105,
+    "confidence": 0.29,
+    "variants": [
+      "alla"
+    ],
+    "manual": [
+      "éloignées"
     ]
   },
   "G225": {
@@ -4555,17 +4567,6 @@
     "confidence": 0.12,
     "variants": [
       "exhorte"
-    ]
-  },
-  "G565": {
-    "gloss": "alla",
-    "count": 104,
-    "confidence": 0.29,
-    "variants": [
-      "alla"
-    ],
-    "manual": [
-      "éloignées"
     ]
   },
   "G281": {
@@ -4626,7 +4627,7 @@
   "G3825": {
     "gloss": "nouveau",
     "count": 102,
-    "confidence": 0.53,
+    "confidence": 0.54,
     "variants": [
       "nouveau",
       "encore"
@@ -4890,7 +4891,7 @@
   "G18": {
     "gloss": "bon",
     "count": 96,
-    "confidence": 0.42,
+    "confidence": 0.41,
     "variants": [
       "bon",
       "bonnes",
@@ -4951,6 +4952,19 @@
       "l'âne"
     ]
   },
+  "H3498": {
+    "gloss": "reste",
+    "count": 94,
+    "confidence": 0.23,
+    "variants": [
+      "reste",
+      "restera",
+      "resté"
+    ],
+    "manual": [
+      "avait laissé"
+    ]
+  },
   "G3598": {
     "gloss": "route",
     "count": 94,
@@ -4970,8 +4984,7 @@
     "variants": [
       "marche",
       "marchant",
-      "marcher",
-      "marchent"
+      "marcher"
     ]
   },
   "G3752": {
@@ -4991,14 +5004,6 @@
       "sang"
     ]
   },
-  "G1163": {
-    "gloss": "faut",
-    "count": 94,
-    "confidence": 0.65,
-    "variants": [
-      "faut"
-    ]
-  },
   "H1755": {
     "gloss": "génération",
     "count": 93,
@@ -5008,17 +5013,12 @@
       "générations"
     ]
   },
-  "H3498": {
-    "gloss": "reste",
+  "G1163": {
+    "gloss": "faut",
     "count": 93,
-    "confidence": 0.24,
+    "confidence": 0.65,
     "variants": [
-      "reste",
-      "restera",
-      "resté"
-    ],
-    "manual": [
-      "avait laissé"
+      "faut"
     ]
   },
   "H3667": {
@@ -5036,16 +5036,6 @@
     "variants": [
       "Achab",
       "d'Achab"
-    ]
-  },
-  "G2570": {
-    "gloss": "bon",
-    "count": 92,
-    "confidence": 0.37,
-    "variants": [
-      "bon",
-      "bonne",
-      "bonnes"
     ]
   },
   "G4413": {
@@ -5118,6 +5108,16 @@
     "variants": [
       "rassasié",
       "rassasiés"
+    ]
+  },
+  "G2570": {
+    "gloss": "bon",
+    "count": 91,
+    "confidence": 0.36,
+    "variants": [
+      "bon",
+      "bonne",
+      "bonnes"
     ]
   },
   "G1343": {
@@ -5217,7 +5217,7 @@
   "G5315": {
     "gloss": "manger",
     "count": 90,
-    "confidence": 0.39,
+    "confidence": 0.41,
     "variants": [
       "manger",
       "mangé"
@@ -5372,7 +5372,7 @@
   "G3753": {
     "gloss": "quand",
     "count": 87,
-    "confidence": 0.67,
+    "confidence": 0.68,
     "variants": [
       "quand",
       "lorsque",
@@ -5382,7 +5382,7 @@
   "G2087": {
     "gloss": "autre",
     "count": 87,
-    "confidence": 0.52,
+    "confidence": 0.53,
     "variants": [
       "autre",
       "l'autre",
@@ -5435,19 +5435,6 @@
     "variants": [
       "maison",
       "maisons"
-    ]
-  },
-  "G190": {
-    "gloss": "suivirent",
-    "count": 86,
-    "confidence": 0.19,
-    "variants": [
-      "suivirent",
-      "suivait",
-      "suivit"
-    ],
-    "manual": [
-      "joints à sa suite"
     ]
   },
   "H1847": {
@@ -5531,6 +5518,19 @@
       "d'Hizqiyah"
     ]
   },
+  "G190": {
+    "gloss": "suivirent",
+    "count": 85,
+    "confidence": 0.19,
+    "variants": [
+      "suivirent",
+      "suivait",
+      "suivit"
+    ],
+    "manual": [
+      "joints à sa suite"
+    ]
+  },
   "H4592": {
     "gloss": "peu",
     "count": 84,
@@ -5551,7 +5551,7 @@
   "H8045": {
     "gloss": "détruire",
     "count": 84,
-    "confidence": 0.11,
+    "confidence": 0.17,
     "variants": [
       "détruire"
     ]
@@ -5638,7 +5638,7 @@
   "H5704": {
     "gloss": "pour",
     "count": 82,
-    "confidence": 0.35,
+    "confidence": 0.34,
     "variants": [
       "pour",
       "jamais",
@@ -5658,18 +5658,23 @@
       "mère"
     ]
   },
-  "G2540": {
-    "gloss": "temps",
+  "G622": {
+    "gloss": "perdra",
     "count": 82,
-    "confidence": 0.72,
+    "confidence": 0.15,
     "variants": [
-      "temps"
-    ],
-    "manual": [
-      "mesure de temps",
-      "mesure",
-      "temps favorable et opportun",
-      "temps convenable"
+      "perdra",
+      "périr",
+      "perdu"
+    ]
+  },
+  "G2398": {
+    "gloss": "propre",
+    "count": 82,
+    "confidence": 0.44,
+    "variants": [
+      "propre",
+      "propres"
     ]
   },
   "H8057": {
@@ -5697,16 +5702,6 @@
       "Yehoshaphat"
     ]
   },
-  "G622": {
-    "gloss": "perdra",
-    "count": 81,
-    "confidence": 0.15,
-    "variants": [
-      "perdra",
-      "périr",
-      "perdu"
-    ]
-  },
   "G305": {
     "gloss": "monta",
     "count": 81,
@@ -5718,13 +5713,18 @@
       "montant"
     ]
   },
-  "G2398": {
-    "gloss": "propre",
+  "G2540": {
+    "gloss": "temps",
     "count": 81,
-    "confidence": 0.43,
+    "confidence": 0.73,
     "variants": [
-      "propre",
-      "propres"
+      "temps"
+    ],
+    "manual": [
+      "mesure de temps",
+      "mesure",
+      "temps favorable et opportun",
+      "temps convenable"
     ]
   },
   "G1511": {
@@ -5859,7 +5859,7 @@
   "G1563": {
     "gloss": "là",
     "count": 79,
-    "confidence": 0.71,
+    "confidence": 0.72,
     "variants": [
       "là",
       "la"
@@ -6036,7 +6036,7 @@
   "H226": {
     "gloss": "signe",
     "count": 76,
-    "confidence": 0.51,
+    "confidence": 0.5,
     "variants": [
       "signe",
       "signes"
@@ -6085,14 +6085,6 @@
     "confidence": 0.13,
     "variants": [
       "enseigné"
-    ]
-  },
-  "G1700": {
-    "gloss": "moi",
-    "count": 76,
-    "confidence": 0.96,
-    "variants": [
-      "moi"
     ]
   },
   "G4592": {
@@ -6162,6 +6154,14 @@
     "confidence": 0.92,
     "variants": [
       "bouche"
+    ]
+  },
+  "G1700": {
+    "gloss": "moi",
+    "count": 75,
+    "confidence": 0.96,
+    "variants": [
+      "moi"
     ]
   },
   "G3777": {
@@ -6312,17 +6312,6 @@
       "chacun"
     ]
   },
-  "G1699": {
-    "gloss": "mon",
-    "count": 74,
-    "confidence": 0.34,
-    "variants": [
-      "mon",
-      "ma",
-      "mes",
-      "moi"
-    ]
-  },
   "G5037": {
     "gloss": "et",
     "count": 74,
@@ -6372,17 +6361,6 @@
       "d'Abraham"
     ]
   },
-  "G142": {
-    "gloss": "prends",
-    "count": 73,
-    "confidence": 0.07,
-    "variants": [],
-    "manual": [
-      "porteront",
-      "prends",
-      "emporte"
-    ]
-  },
   "G2098": {
     "gloss": "l'Évangile",
     "count": 73,
@@ -6415,6 +6393,17 @@
     "count": 73,
     "confidence": 0.86,
     "variants": [
+      "moi"
+    ]
+  },
+  "G1699": {
+    "gloss": "mon",
+    "count": 73,
+    "confidence": 0.34,
+    "variants": [
+      "mon",
+      "ma",
+      "mes",
       "moi"
     ]
   },
@@ -6463,6 +6452,17 @@
     "variants": [
       "baptisés",
       "baptisé"
+    ]
+  },
+  "G142": {
+    "gloss": "prends",
+    "count": 72,
+    "confidence": 0.07,
+    "variants": [],
+    "manual": [
+      "porteront",
+      "prends",
+      "emporte"
     ]
   },
   "G1691": {
@@ -6667,18 +6667,6 @@
       "Éliyah",
       "d'Éliyah",
       "qu'Éliyah"
-    ]
-  },
-  "G615": {
-    "gloss": "tuer",
-    "count": 69,
-    "confidence": 0.29,
-    "variants": [
-      "tuer",
-      "tué"
-    ],
-    "manual": [
-      "tuant"
     ]
   },
   "G240": {
@@ -6948,7 +6936,7 @@
   "G4095": {
     "gloss": "boire",
     "count": 66,
-    "confidence": 0.32,
+    "confidence": 0.33,
     "variants": [
       "boire"
     ]
@@ -6960,6 +6948,18 @@
     "variants": [
       "plus",
       "plutôt"
+    ]
+  },
+  "G615": {
+    "gloss": "tuer",
+    "count": 66,
+    "confidence": 0.27,
+    "variants": [
+      "tuer",
+      "tué"
+    ],
+    "manual": [
+      "tuant"
     ]
   },
   "H2580": {
@@ -7072,16 +7072,6 @@
       "anciens"
     ]
   },
-  "G5083": {
-    "gloss": "gardé",
-    "count": 65,
-    "confidence": 0.22,
-    "variants": [
-      "gardé",
-      "garde",
-      "garder"
-    ]
-  },
   "H7495": {
     "gloss": "guérirai",
     "count": 64,
@@ -7132,7 +7122,7 @@
   "G3735": {
     "gloss": "montagne",
     "count": 64,
-    "confidence": 0.67,
+    "confidence": 0.69,
     "variants": [
       "montagne",
       "montagnes"
@@ -7151,6 +7141,16 @@
       "navigueront",
       "naviguer",
       "navigation"
+    ]
+  },
+  "G5083": {
+    "gloss": "gardé",
+    "count": 64,
+    "confidence": 0.22,
+    "variants": [
+      "gardé",
+      "garde",
+      "garder"
     ]
   },
   "H7673": {
@@ -7309,7 +7309,7 @@
   "H779": {
     "gloss": "Maudit",
     "count": 62,
-    "confidence": 0.39,
+    "confidence": 0.42,
     "variants": [
       "Maudit",
       "maudit"
@@ -7421,7 +7421,7 @@
   "G3571": {
     "gloss": "nuit",
     "count": 62,
-    "confidence": 0.9,
+    "confidence": 0.89,
     "variants": [
       "nuit"
     ]
@@ -7690,6 +7690,20 @@
       "lui"
     ]
   },
+  "G5620": {
+    "gloss": "que",
+    "count": 60,
+    "confidence": 0.37,
+    "variants": [
+      "que",
+      "C'est pourquoi",
+      "pour"
+    ],
+    "manual": [
+      "C'est pourquoi",
+      "c'est pourquoi"
+    ]
+  },
   "G2504": {
     "gloss": "aussi",
     "count": 60,
@@ -7853,24 +7867,10 @@
       "seulement"
     ]
   },
-  "G5620": {
-    "gloss": "que",
-    "count": 59,
-    "confidence": 0.37,
-    "variants": [
-      "que",
-      "C'est pourquoi",
-      "pour"
-    ],
-    "manual": [
-      "C'est pourquoi",
-      "c'est pourquoi"
-    ]
-  },
   "G1508": {
     "gloss": "excepté",
     "count": 59,
-    "confidence": 0.49,
+    "confidence": 0.47,
     "variants": [
       "excepté",
       "sinon",
@@ -8614,6 +8614,15 @@
       "choses"
     ]
   },
+  "G1188": {
+    "gloss": "droite",
+    "count": 52,
+    "confidence": 0.56,
+    "variants": [
+      "droite",
+      "droites"
+    ]
+  },
   "G2896": {
     "gloss": "criant",
     "count": 52,
@@ -8712,12 +8721,12 @@
     ]
   },
   "G4352": {
-    "gloss": "adorer",
+    "gloss": "adorèrent",
     "count": 51,
-    "confidence": 0.16,
+    "confidence": 0.14,
     "variants": [
-      "adorer",
-      "adorèrent"
+      "adorèrent",
+      "adorer"
     ],
     "manual": [
       "adorant"
@@ -8726,7 +8735,7 @@
   "G3813": {
     "gloss": "enfant",
     "count": 51,
-    "confidence": 0.41,
+    "confidence": 0.39,
     "variants": [
       "enfant",
       "enfants",
@@ -8749,15 +8758,6 @@
       "dernier",
       "derniers",
       "dernière"
-    ]
-  },
-  "G1188": {
-    "gloss": "droite",
-    "count": 51,
-    "confidence": 0.55,
-    "variants": [
-      "droite",
-      "droites"
     ]
   },
   "G5600": {
@@ -9318,6 +9318,16 @@
       "projets"
     ]
   },
+  "G3880": {
+    "gloss": "reçu",
+    "count": 47,
+    "confidence": 0.19,
+    "variants": [
+      "reçu",
+      "prend",
+      "pris"
+    ]
+  },
   "G2048": {
     "gloss": "désert",
     "count": 47,
@@ -9476,16 +9486,6 @@
     "confidence": 1.0,
     "variants": [
       "Tsadok"
-    ]
-  },
-  "G3880": {
-    "gloss": "reçu",
-    "count": 46,
-    "confidence": 0.2,
-    "variants": [
-      "reçu",
-      "prend",
-      "pris"
     ]
   },
   "G4226": {
@@ -9849,7 +9849,7 @@
   "G3441": {
     "gloss": "seul",
     "count": 44,
-    "confidence": 0.73,
+    "confidence": 0.75,
     "variants": [
       "seul",
       "seulement"
@@ -9907,6 +9907,16 @@
     "variants": [
       "tribulation",
       "tribulations"
+    ]
+  },
+  "G5401": {
+    "gloss": "crainte",
+    "count": 44,
+    "confidence": 0.68,
+    "variants": [
+      "crainte",
+      "peur",
+      "terreur"
     ]
   },
   "G4991": {
@@ -10065,7 +10075,8 @@
     "confidence": 0.26,
     "variants": [
       "guérit",
-      "guérir"
+      "guérir",
+      "guéris"
     ]
   },
   "G2523": {
@@ -10148,16 +10159,6 @@
     "variants": [
       "ce",
       "cette"
-    ]
-  },
-  "G5401": {
-    "gloss": "crainte",
-    "count": 43,
-    "confidence": 0.7,
-    "variants": [
-      "crainte",
-      "peur",
-      "terreur"
     ]
   },
   "H1588": {
@@ -11058,16 +11059,6 @@
       "de Yesha`yah"
     ]
   },
-  "G2799": {
-    "gloss": "pleurant",
-    "count": 39,
-    "confidence": 0.21,
-    "variants": [
-      "pleurant",
-      "pleurez",
-      "pleurent"
-    ]
-  },
   "G1448": {
     "gloss": "approché",
     "count": 39,
@@ -11108,16 +11099,6 @@
       "justifiée"
     ]
   },
-  "G3664": {
-    "gloss": "semblable",
-    "count": 39,
-    "confidence": 0.64,
-    "variants": [
-      "semblable",
-      "semblables",
-      "ressemble"
-    ]
-  },
   "G3958": {
     "gloss": "souffert",
     "count": 39,
@@ -11131,7 +11112,7 @@
   "G4105": {
     "gloss": "égarés",
     "count": 39,
-    "confidence": 0.18,
+    "confidence": 0.21,
     "variants": [
       "égarés",
       "égare",
@@ -11272,6 +11253,16 @@
       "rebellés"
     ]
   },
+  "G2799": {
+    "gloss": "pleurant",
+    "count": 38,
+    "confidence": 0.21,
+    "variants": [
+      "pleurant",
+      "pleurez",
+      "pleurent"
+    ]
+  },
   "G4594": {
     "gloss": "aujourd'hui",
     "count": 38,
@@ -11281,15 +11272,6 @@
       "Aujourd'hui",
       "jour",
       "aujourd’hui"
-    ]
-  },
-  "G2038": {
-    "gloss": "travailler",
-    "count": 38,
-    "confidence": 0.16,
-    "variants": [
-      "travailler",
-      "fait"
     ]
   },
   "G2296": {
@@ -11312,15 +11294,14 @@
       "surprises"
     ]
   },
-  "G5455": {
-    "gloss": "appelé",
+  "G3664": {
+    "gloss": "semblable",
     "count": 38,
-    "confidence": 0.16,
+    "confidence": 0.63,
     "variants": [
-      "appelé",
-      "chante",
-      "chanta",
-      "appela"
+      "semblable",
+      "semblables",
+      "ressemble"
     ]
   },
   "G3936": {
@@ -11590,6 +11571,15 @@
       "portes"
     ]
   },
+  "G2038": {
+    "gloss": "travailler",
+    "count": 37,
+    "confidence": 0.16,
+    "variants": [
+      "travailler",
+      "fait"
+    ]
+  },
   "G758": {
     "gloss": "chef",
     "count": 37,
@@ -11606,6 +11596,17 @@
     "confidence": 1.0,
     "variants": [
       "Philippos"
+    ]
+  },
+  "G5455": {
+    "gloss": "appelé",
+    "count": 37,
+    "confidence": 0.16,
+    "variants": [
+      "appelé",
+      "chante",
+      "chanta",
+      "appela"
     ]
   },
   "G1939": {
@@ -11810,7 +11811,7 @@
   "G686": {
     "gloss": "donc",
     "count": 36,
-    "confidence": 0.72,
+    "confidence": 0.69,
     "variants": [
       "donc",
       "Ainsi"
@@ -12647,6 +12648,15 @@
       "abonde"
     ]
   },
+  "G987": {
+    "gloss": "blasphémant",
+    "count": 33,
+    "confidence": 0.15,
+    "variants": [
+      "blasphémant",
+      "blasphémé"
+    ]
+  },
   "G5565": {
     "gloss": "sans",
     "count": 33,
@@ -12936,16 +12946,6 @@
       "tenter"
     ]
   },
-  "G1247": {
-    "gloss": "servi",
-    "count": 32,
-    "confidence": 0.19,
-    "variants": [
-      "servi",
-      "servir",
-      "sert"
-    ]
-  },
   "G4655": {
     "gloss": "ténèbre",
     "count": 32,
@@ -12970,15 +12970,6 @@
     "variants": [
       "ennemis",
       "ennemi"
-    ]
-  },
-  "G987": {
-    "gloss": "blasphémant",
-    "count": 32,
-    "confidence": 0.16,
-    "variants": [
-      "blasphémant",
-      "blasphémé"
     ]
   },
   "G3631": {
@@ -13284,6 +13275,16 @@
     "variants": [
       "s'enfuirent",
       "s'enfuit"
+    ]
+  },
+  "G1247": {
+    "gloss": "servi",
+    "count": 31,
+    "confidence": 0.19,
+    "variants": [
+      "servi",
+      "servir",
+      "sert"
     ]
   },
   "G1653": {
@@ -14518,7 +14519,7 @@
   "G3954": {
     "gloss": "ouvertement",
     "count": 28,
-    "confidence": 0.21,
+    "confidence": 0.25,
     "variants": [
       "ouvertement",
       "assurance",
@@ -15388,7 +15389,7 @@
   "G228": {
     "gloss": "véritable",
     "count": 26,
-    "confidence": 0.38,
+    "confidence": 0.42,
     "variants": [
       "véritable",
       "véritables",
@@ -15794,16 +15795,6 @@
     "confidence": 0.96,
     "variants": [
       "plus"
-    ]
-  },
-  "G91": {
-    "gloss": "mal",
-    "count": 25,
-    "confidence": 0.48,
-    "variants": [
-      "mal",
-      "tort",
-      "injustement"
     ]
   },
   "G227": {
@@ -16241,6 +16232,16 @@
     ],
     "manual": [
       "pas encore"
+    ]
+  },
+  "G91": {
+    "gloss": "mal",
+    "count": 24,
+    "confidence": 0.46,
+    "variants": [
+      "mal",
+      "tort",
+      "injustement"
     ]
   },
   "G1176": {
@@ -18685,11 +18686,10 @@
     ]
   },
   "G5143": {
-    "gloss": "courut",
+    "gloss": "couru",
     "count": 20,
-    "confidence": 0.15,
+    "confidence": 0.2,
     "variants": [
-      "courut",
       "couru"
     ]
   },
@@ -18814,7 +18814,7 @@
     "confidence": 0.58,
     "variants": [
       "méchanceté",
-      "mauvaises"
+      "mauvaise"
     ]
   },
   "H2347": {
@@ -19464,6 +19464,14 @@
       "large"
     ]
   },
+  "H4962": {
+    "gloss": "hommes",
+    "count": 18,
+    "confidence": 0.67,
+    "variants": [
+      "hommes"
+    ]
+  },
   "H6556": {
     "gloss": "brèche",
     "count": 18,
@@ -19525,7 +19533,7 @@
   "H4295": {
     "gloss": "bas",
     "count": 18,
-    "confidence": 0.78,
+    "confidence": 0.72,
     "variants": [
       "bas"
     ]
@@ -19856,14 +19864,6 @@
     "variants": [
       "endormis",
       "dort"
-    ]
-  },
-  "G5025": {
-    "gloss": "ces",
-    "count": 18,
-    "confidence": 0.94,
-    "variants": [
-      "ces"
     ]
   },
   "G1869": {
@@ -20201,14 +20201,6 @@
       "tambourins",
       "tambourin",
       "tambours"
-    ]
-  },
-  "H4962": {
-    "gloss": "hommes",
-    "count": 17,
-    "confidence": 0.71,
-    "variants": [
-      "hommes"
     ]
   },
   "H2696": {
@@ -20609,7 +20601,7 @@
   "G4139": {
     "gloss": "prochain",
     "count": 17,
-    "confidence": 0.94,
+    "confidence": 0.88,
     "variants": [
       "prochain"
     ]
@@ -20621,7 +20613,6 @@
     "variants": [
       "délivrés",
       "délivré",
-      "délivre",
       "délivrera"
     ]
   },
@@ -20663,6 +20654,14 @@
     "manual": [
       "proposa",
       "mettent"
+    ]
+  },
+  "G5025": {
+    "gloss": "ces",
+    "count": 17,
+    "confidence": 0.94,
+    "variants": [
+      "ces"
     ]
   },
   "G1033": {
@@ -20750,16 +20749,10 @@
       "circoncis"
     ]
   },
-  "G1381": {
-    "gloss": "examiner",
-    "count": 17,
-    "confidence": 0.12,
-    "variants": []
-  },
   "G3918": {
     "gloss": "présent",
     "count": 17,
-    "confidence": 0.35,
+    "confidence": 0.41,
     "variants": [
       "présent"
     ]
@@ -21679,6 +21672,12 @@
       "colère"
     ]
   },
+  "G1381": {
+    "gloss": "examiner",
+    "count": 16,
+    "confidence": 0.12,
+    "variants": []
+  },
   "G2605": {
     "gloss": "annoncé",
     "count": 16,
@@ -22490,7 +22489,7 @@
   "G700": {
     "gloss": "plaire",
     "count": 15,
-    "confidence": 0.4,
+    "confidence": 0.33,
     "variants": [
       "plaire",
       "plut",
@@ -22661,6 +22660,16 @@
       "témoignage"
     ]
   },
+  "G350": {
+    "gloss": "examinant",
+    "count": 15,
+    "confidence": 0.2,
+    "variants": [
+      "examinant",
+      "juge",
+      "jugé"
+    ]
+  },
   "G544": {
     "gloss": "refusent",
     "count": 15,
@@ -22703,12 +22712,12 @@
     ]
   },
   "G203": {
-    "gloss": "l'incirconcision",
+    "gloss": "incirconcision",
     "count": 15,
     "confidence": 0.4,
     "variants": [
-      "l'incirconcision",
-      "incirconcision"
+      "incirconcision",
+      "l'incirconcision"
     ]
   },
   "H3004": {
@@ -23569,7 +23578,8 @@
     "confidence": 0.21,
     "variants": [
       "publiquement",
-      "manifeste"
+      "manifeste",
+      "manifestes"
     ]
   },
   "G2808": {
@@ -23661,10 +23671,12 @@
     ]
   },
   "G5623": {
-    "gloss": "assisté",
+    "gloss": "profite",
     "count": 14,
-    "confidence": 0.14,
-    "variants": []
+    "confidence": 0.29,
+    "variants": [
+      "profite"
+    ]
   },
   "G2840": {
     "gloss": "rend",
@@ -23847,15 +23859,6 @@
     "confidence": 0.93,
     "variants": [
       "douleur"
-    ]
-  },
-  "G350": {
-    "gloss": "juge",
-    "count": 14,
-    "confidence": 0.21,
-    "variants": [
-      "juge",
-      "jugé"
     ]
   },
   "G2150": {
@@ -24817,12 +24820,10 @@
     ]
   },
   "G4328": {
-    "gloss": "attendre",
+    "gloss": "attend",
     "count": 13,
-    "confidence": 0.23,
-    "variants": [
-      "attendre"
-    ]
+    "confidence": 0.15,
+    "variants": []
   },
   "G726": {
     "gloss": "enlevé",
@@ -24998,7 +24999,7 @@
   "G114": {
     "gloss": "rejette",
     "count": 13,
-    "confidence": 0.38,
+    "confidence": 0.31,
     "variants": [
       "rejette"
     ]
@@ -28183,7 +28184,7 @@
   "G1657": {
     "gloss": "liberté",
     "count": 11,
-    "confidence": 1.0,
+    "confidence": 0.91,
     "variants": [
       "liberté"
     ]
@@ -29406,7 +29407,7 @@
   "G2346": {
     "gloss": "oppressés",
     "count": 10,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "variants": [
       "oppressés"
     ]
@@ -31368,7 +31369,7 @@
   "G5199": {
     "gloss": "sain",
     "count": 9,
-    "confidence": 0.56,
+    "confidence": 0.67,
     "variants": [
       "sain"
     ]
@@ -31873,7 +31874,7 @@
   "G3611": {
     "gloss": "habite",
     "count": 9,
-    "confidence": 0.44,
+    "confidence": 0.56,
     "variants": [
       "habite"
     ]
@@ -32557,10 +32558,9 @@
   "H504": {
     "gloss": "bœufs",
     "count": 8,
-    "confidence": 0.38,
+    "confidence": 0.75,
     "variants": [
-      "bœufs",
-      "gros"
+      "bœufs"
     ]
   },
   "H3369": {
@@ -33749,14 +33749,6 @@
       "silence"
     ]
   },
-  "G3592": {
-    "gloss": "Voici ce",
-    "count": 8,
-    "confidence": 0.62,
-    "variants": [
-      "Voici ce"
-    ]
-  },
   "G1016": {
     "gloss": "bœuf",
     "count": 8,
@@ -34305,7 +34297,7 @@
   "H1736": {
     "gloss": "mandragores",
     "count": 7,
-    "confidence": 0.86,
+    "confidence": 0.71,
     "variants": [
       "mandragores"
     ]
@@ -36044,7 +36036,7 @@
   "G5028": {
     "gloss": "tombe",
     "count": 7,
-    "confidence": 0.57,
+    "confidence": 0.71,
     "variants": [
       "tombe"
     ]
@@ -38944,9 +38936,9 @@
     ]
   },
   "G1716": {
-    "gloss": "crachaient",
+    "gloss": "crachèrent",
     "count": 6,
-    "confidence": 0.33,
+    "confidence": 0.17,
     "variants": []
   },
   "G2847": {
@@ -39433,10 +39425,12 @@
     "variants": []
   },
   "G567": {
-    "gloss": "s'abstenir",
+    "gloss": "abstenir",
     "count": 6,
-    "confidence": 0.33,
-    "variants": []
+    "confidence": 0.5,
+    "variants": [
+      "abstenir"
+    ]
   },
   "G5174": {
     "gloss": "Troas",
@@ -40112,8 +40106,10 @@
   "H7698": {
     "gloss": "portée",
     "count": 5,
-    "confidence": 0.4,
-    "variants": []
+    "confidence": 0.6,
+    "variants": [
+      "portée"
+    ]
   },
   "H1342": {
     "gloss": "levé",
@@ -43058,7 +43054,7 @@
     ]
   },
   "G3330": {
-    "gloss": "donner",
+    "gloss": "communiquer",
     "count": 5,
     "confidence": 0.4,
     "variants": []
@@ -43223,6 +43219,12 @@
       "forceront",
       "obligeront"
     ]
+  },
+  "G1011": {
+    "gloss": "examiner",
+    "count": 5,
+    "confidence": 0.2,
+    "variants": []
   },
   "G4906": {
     "gloss": "mangé",
@@ -43640,9 +43642,9 @@
     "variants": []
   },
   "G4748": {
-    "gloss": "marchons",
+    "gloss": "marches",
     "count": 5,
-    "confidence": 0.4,
+    "confidence": 0.2,
     "variants": [],
     "manual": [
       "marcheront",
@@ -43728,7 +43730,7 @@
   "G5445": {
     "gloss": "pâte",
     "count": 5,
-    "confidence": 0.6,
+    "confidence": 1.0,
     "variants": [
       "pâte"
     ]
@@ -47235,12 +47237,6 @@
       "bruit"
     ]
   },
-  "G1590": {
-    "gloss": "découragés",
-    "count": 4,
-    "confidence": 0.5,
-    "variants": []
-  },
   "G918": {
     "gloss": "Bar-Talmaï",
     "count": 4,
@@ -47288,7 +47284,7 @@
     ]
   },
   "G4377": {
-    "gloss": "s'adressent",
+    "gloss": "s'adressant",
     "count": 4,
     "confidence": 0.25,
     "variants": []
@@ -48119,12 +48115,6 @@
       "distribuait"
     ]
   },
-  "G3822": {
-    "gloss": "s'usent",
-    "count": 4,
-    "confidence": 0.25,
-    "variants": []
-  },
   "G1069": {
     "gloss": "voisins",
     "count": 4,
@@ -48132,12 +48122,6 @@
     "variants": [
       "voisins"
     ]
-  },
-  "G1011": {
-    "gloss": "examiner",
-    "count": 4,
-    "confidence": 0.25,
-    "variants": []
   },
   "G326": {
     "gloss": "vie",
@@ -48349,12 +48333,6 @@
       "portique"
     ]
   },
-  "G3164": {
-    "gloss": "discutaient",
-    "count": 4,
-    "confidence": 0.25,
-    "variants": []
-  },
   "G701": {
     "gloss": "plaisent",
     "count": 4,
@@ -48362,7 +48340,7 @@
     "variants": []
   },
   "G3888": {
-    "gloss": "consoler",
+    "gloss": "consolent",
     "count": 4,
     "confidence": 0.25,
     "variants": []
@@ -48581,6 +48559,14 @@
     "confidence": 0.75,
     "variants": [
       "complot"
+    ]
+  },
+  "G2152": {
+    "gloss": "pieux",
+    "count": 4,
+    "confidence": 1.0,
+    "variants": [
+      "pieux"
     ]
   },
   "G3903": {
@@ -48830,14 +48816,6 @@
     "count": 4,
     "confidence": 0.5,
     "variants": []
-  },
-  "G1397": {
-    "gloss": "l'esclavage",
-    "count": 4,
-    "confidence": 0.75,
-    "variants": [
-      "l'esclavage"
-    ]
   },
   "G3863": {
     "gloss": "jalousie",
@@ -49314,7 +49292,7 @@
     "variants": []
   },
   "H2032": {
-    "gloss": "de tes grossesses",
+    "gloss": "et tes grossesses",
     "count": 3,
     "confidence": 0.33,
     "variants": []
@@ -50614,6 +50592,14 @@
     "count": 3,
     "confidence": 0.33,
     "variants": []
+  },
+  "H6251": {
+    "gloss": "brebis",
+    "count": 3,
+    "confidence": 1.0,
+    "variants": [
+      "brebis"
+    ]
   },
   "H7697": {
     "gloss": "folie",
@@ -54016,6 +54002,12 @@
     "confidence": 0.33,
     "variants": []
   },
+  "G1590": {
+    "gloss": "épuisées",
+    "count": 3,
+    "confidence": 0.33,
+    "variants": []
+  },
   "G185": {
     "gloss": "mélange",
     "count": 3,
@@ -54505,6 +54497,12 @@
   },
   "G4660": {
     "gloss": "ennuyer",
+    "count": 3,
+    "confidence": 0.33,
+    "variants": []
+  },
+  "G1758": {
+    "gloss": "rancune",
     "count": 3,
     "confidence": 0.33,
     "variants": []
@@ -55209,6 +55207,12 @@
     "confidence": 0.67,
     "variants": []
   },
+  "G3164": {
+    "gloss": "discutaient",
+    "count": 3,
+    "confidence": 0.33,
+    "variants": []
+  },
   "G4213": {
     "gloss": "boisson",
     "count": 3,
@@ -55437,14 +55441,6 @@
     "confidence": 1.0,
     "variants": [
       "corroyeur"
-    ]
-  },
-  "G2152": {
-    "gloss": "pieux",
-    "count": 3,
-    "confidence": 1.0,
-    "variants": [
-      "pieux"
     ]
   },
   "G5074": {
@@ -55927,6 +55923,12 @@
     "confidence": 0.67,
     "variants": []
   },
+  "G1397": {
+    "gloss": "l'esclavage",
+    "count": 3,
+    "confidence": 0.67,
+    "variants": []
+  },
   "G1132": {
     "gloss": "nudité",
     "count": 3,
@@ -56266,7 +56268,7 @@
   "G5605": {
     "gloss": "l'enfantement",
     "count": 3,
-    "confidence": 0.67,
+    "confidence": 0.33,
     "variants": []
   },
   "G5331": {
@@ -56276,12 +56278,10 @@
     "variants": []
   },
   "G3609": {
-    "gloss": "famille",
+    "gloss": "maison",
     "count": 3,
-    "confidence": 1.0,
-    "variants": [
-      "famille"
-    ]
+    "confidence": 0.67,
+    "variants": []
   },
   "G5231": {
     "gloss": "au-dessus",
@@ -56529,6 +56529,12 @@
     "confidence": 0.67,
     "variants": []
   },
+  "G3822": {
+    "gloss": "ils vieilliront",
+    "count": 3,
+    "confidence": 0.33,
+    "variants": []
+  },
   "G3405": {
     "gloss": "rémunération",
     "count": 3,
@@ -56540,10 +56546,8 @@
   "G1366": {
     "gloss": "tranchants",
     "count": 3,
-    "confidence": 1.0,
-    "variants": [
-      "tranchants"
-    ]
+    "confidence": 0.67,
+    "variants": []
   },
   "G4731": {
     "gloss": "solide",
@@ -64370,9 +64374,9 @@
     "variants": []
   },
   "G4351": {
-    "gloss": "roula",
+    "gloss": "roulé",
     "count": 2,
-    "confidence": 1.0,
+    "confidence": 0.5,
     "variants": []
   },
   "G2892": {
@@ -64497,12 +64501,6 @@
   },
   "G5522": {
     "gloss": "la poussière",
-    "count": 2,
-    "confidence": 0.5,
-    "variants": []
-  },
-  "G1758": {
-    "gloss": "rancune",
     "count": 2,
     "confidence": 0.5,
     "variants": []
@@ -65081,6 +65079,12 @@
     "gloss": "monter",
     "count": 2,
     "confidence": 1.0,
+    "variants": []
+  },
+  "G3592": {
+    "gloss": "elle",
+    "count": 2,
+    "confidence": 0.5,
     "variants": []
   },
   "G4878": {
@@ -67956,6 +67960,12 @@
     "confidence": 1.0,
     "variants": []
   },
+  "G4136": {
+    "gloss": "pleine",
+    "count": 2,
+    "confidence": 1.0,
+    "variants": []
+  },
   "G276": {
     "gloss": "inaltérable",
     "count": 2,
@@ -70251,12 +70261,6 @@
   },
   "H7865": {
     "gloss": "Sion",
-    "count": 1,
-    "confidence": 1.0,
-    "variants": []
-  },
-  "H6251": {
-    "gloss": "troupeaux",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -83642,7 +83646,7 @@
     "variants": []
   },
   "G1259": {
-    "gloss": "te réconcilier",
+    "gloss": "réconcilié",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -85575,6 +85579,12 @@
   },
   "G608": {
     "gloss": "fermé",
+    "count": 1,
+    "confidence": 1.0,
+    "variants": []
+  },
+  "G1735": {
+    "gloss": "permis",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -88940,7 +88950,7 @@
     "variants": []
   },
   "G4932": {
-    "gloss": "exécuter",
+    "gloss": "brièvement",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -89001,12 +89011,6 @@
   },
   "G2275": {
     "gloss": "amoindrissement",
-    "count": 1,
-    "confidence": 1.0,
-    "variants": []
-  },
-  "G1513": {
-    "gloss": "puis",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -90242,7 +90246,7 @@
     "variants": []
   },
   "G4287": {
-    "gloss": "déterminé",
+    "gloss": "fixé",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -90260,7 +90264,7 @@
     "variants": []
   },
   "G238": {
-    "gloss": "allégoriques",
+    "gloss": "parlées",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -90272,7 +90276,7 @@
     "variants": []
   },
   "G348": {
-    "gloss": "arrêtés",
+    "gloss": "empêchés",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -90308,7 +90312,7 @@
     "variants": []
   },
   "G3456": {
-    "gloss": "moque",
+    "gloss": "moqué",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -91020,7 +91024,7 @@
     "variants": []
   },
   "G2442": {
-    "gloss": "affection",
+    "gloss": "désir",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -91051,12 +91055,6 @@
   },
   "G5233": {
     "gloss": "affaire",
-    "count": 1,
-    "confidence": 1.0,
-    "variants": []
-  },
-  "G5105": {
-    "gloss": "C'est",
     "count": 1,
     "confidence": 1.0,
     "variants": []
@@ -92249,12 +92247,6 @@
   },
   "G1090": {
     "gloss": "cultivée",
-    "count": 1,
-    "confidence": 1.0,
-    "variants": []
-  },
-  "G4136": {
-    "gloss": "pleine",
     "count": 1,
     "confidence": 1.0,
     "variants": []
