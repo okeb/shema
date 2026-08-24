@@ -939,12 +939,11 @@ def main():
     print(f"Cible : {args.target} — sortie : {output_path}")
 
     # 1. Charger les données
-    if args.sqlite:
-        sqlite_path = args.sqlite
-    else:
-        sqlite_path = "/tmp/strong.sqlite"
-        if not os.path.exists(sqlite_path):
-            download(STRONG_SQLITE_URL, sqlite_path)
+    # Le Makefile passe --sqlite /tmp/strong.sqlite ; on télécharge quand même si le fichier
+    # est absent (sinon sqlite3.connect() crée une DB vide → « no such table » en CI).
+    sqlite_path = args.sqlite or "/tmp/strong.sqlite"
+    if not os.path.exists(sqlite_path):
+        download(STRONG_SQLITE_URL, sqlite_path)
 
     print(f"\nLecture : {sqlite_path}")
     conn = sqlite3.connect(sqlite_path)

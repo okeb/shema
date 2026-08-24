@@ -9,7 +9,7 @@
   },
   "G2532": {
     "gloss": "et",
-    "count": 6095,
+    "count": 6094,
     "confidence": 0.74,
     "variants": [
       "et",
@@ -115,7 +115,7 @@
   },
   "H6213": {
     "gloss": "fait",
-    "count": 2092,
+    "count": 2093,
     "confidence": 0.22,
     "variants": [
       "fait",
@@ -177,7 +177,7 @@
   },
   "H3027": {
     "gloss": "main",
-    "count": 1446,
+    "count": 1447,
     "confidence": 0.53,
     "variants": [
       "main",
@@ -1052,7 +1052,7 @@
   },
   "H6680": {
     "gloss": "ordonné",
-    "count": 451,
+    "count": 450,
     "confidence": 0.35,
     "variants": [
       "ordonné"
@@ -2692,7 +2692,7 @@
   },
   "H3254": {
     "gloss": "plus",
-    "count": 179,
+    "count": 180,
     "confidence": 0.3,
     "variants": [
       "plus",
@@ -4202,6 +4202,17 @@
       "assemblée"
     ]
   },
+  "H2706": {
+    "gloss": "statuts",
+    "count": 112,
+    "confidence": 0.32,
+    "variants": [
+      "statuts",
+      "lois",
+      "ordonnance",
+      "ordonnances"
+    ]
+  },
   "G1577": {
     "gloss": "l'assemblée",
     "count": 112,
@@ -4244,17 +4255,6 @@
     "variants": [
       "brûla",
       "brûlé"
-    ]
-  },
-  "H2706": {
-    "gloss": "statuts",
-    "count": 111,
-    "confidence": 0.32,
-    "variants": [
-      "statuts",
-      "lois",
-      "ordonnance",
-      "ordonnances"
     ]
   },
   "H6664": {
@@ -8676,6 +8676,15 @@
       "lavera"
     ]
   },
+  "H8127": {
+    "gloss": "dents",
+    "count": 51,
+    "confidence": 0.55,
+    "variants": [
+      "dents",
+      "dent"
+    ]
+  },
   "H2319": {
     "gloss": "nouveau",
     "count": 51,
@@ -8833,16 +8842,6 @@
     "variants": [
       "faveur",
       "volonté"
-    ]
-  },
-  "H8127": {
-    "gloss": "dents",
-    "count": 50,
-    "confidence": 0.56,
-    "variants": [
-      "dents",
-      "dent",
-      "d'ivoire"
     ]
   },
   "H2389": {
@@ -12515,6 +12514,14 @@
       "terrifié"
     ]
   },
+  "H7264": {
+    "gloss": "tremblent",
+    "count": 33,
+    "confidence": 0.12,
+    "variants": [
+      "tremblent"
+    ]
+  },
   "H4847": {
     "gloss": "Merari",
     "count": 33,
@@ -12690,15 +12697,6 @@
       "errer"
     ]
   },
-  "H3051": {
-    "gloss": "donnez",
-    "count": 32,
-    "confidence": 0.19,
-    "variants": [
-      "donnez",
-      "Donnez"
-    ]
-  },
   "H1219": {
     "gloss": "fortifiées",
     "count": 32,
@@ -12836,14 +12834,6 @@
     "variants": [
       "méchamment",
       "méchant"
-    ]
-  },
-  "H7098": {
-    "gloss": "extrémités",
-    "count": 32,
-    "confidence": 0.53,
-    "variants": [
-      "extrémités"
     ]
   },
   "H7416": {
@@ -13006,14 +12996,6 @@
       "conscience"
     ]
   },
-  "H5921": {
-    "gloss": "sur",
-    "count": 31,
-    "confidence": 0.39,
-    "variants": [
-      "sur"
-    ]
-  },
   "H6212": {
     "gloss": "l'herbe",
     "count": 31,
@@ -13051,6 +13033,12 @@
     "manual": [
       "si"
     ]
+  },
+  "H4229": {
+    "gloss": "effacée",
+    "count": 31,
+    "confidence": 0.1,
+    "variants": []
   },
   "H3176": {
     "gloss": "j'espère",
@@ -13343,6 +13331,15 @@
       "patience"
     ]
   },
+  "H5921": {
+    "gloss": "sur",
+    "count": 30,
+    "confidence": 0.4,
+    "variants": [
+      "sur",
+      "près"
+    ]
+  },
   "H2474": {
     "gloss": "fenêtres",
     "count": 30,
@@ -13359,6 +13356,17 @@
     "variants": [
       "colombes",
       "colombe"
+    ]
+  },
+  "H3051": {
+    "gloss": "donnez",
+    "count": 30,
+    "confidence": 0.2,
+    "variants": [
+      "donnez",
+      "Donnez",
+      "Donne-moi",
+      "Donne-nous"
     ]
   },
   "H6099": {
@@ -13700,15 +13708,6 @@
       "hauteur"
     ]
   },
-  "H4229": {
-    "gloss": "effacée",
-    "count": 29,
-    "confidence": 0.1,
-    "variants": [
-      "effacée",
-      "effacés"
-    ]
-  },
   "H4713": {
     "gloss": "égyptien",
     "count": 29,
@@ -13809,17 +13808,6 @@
       "obstiné"
     ]
   },
-  "H7264": {
-    "gloss": "tremblent",
-    "count": 29,
-    "confidence": 0.14,
-    "variants": [
-      "tremblent",
-      "trembleront",
-      "agité",
-      "trembler"
-    ]
-  },
   "H3582": {
     "gloss": "cache",
     "count": 29,
@@ -13905,6 +13893,15 @@
       "nuées",
       "nuée",
       "nuage"
+    ]
+  },
+  "H7098": {
+    "gloss": "extrémités",
+    "count": 29,
+    "confidence": 0.59,
+    "variants": [
+      "extrémités",
+      "extrémité"
     ]
   },
   "H7857": {
@@ -42474,6 +42471,12 @@
       "supportable"
     ]
   },
+  "G4377": {
+    "gloss": "s'adressant",
+    "count": 5,
+    "confidence": 0.2,
+    "variants": []
+  },
   "G372": {
     "gloss": "repos",
     "count": 5,
@@ -47282,12 +47285,6 @@
     "variants": [
       "prison"
     ]
-  },
-  "G4377": {
-    "gloss": "s'adressant",
-    "count": 4,
-    "confidence": 0.25,
-    "variants": []
   },
   "G2083": {
     "gloss": "Compagnon",
