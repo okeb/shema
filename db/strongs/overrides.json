@@ -47520,11 +47520,11 @@
     },
     {
       "text": "quiconque",
-      "strong": "G302"
+      "strong": "G3739"
     },
     {
       "text": " aura",
-      "strong": null
+      "strong": "G302"
     },
     {
       "text": " ",
@@ -47592,7 +47592,7 @@
     },
     {
       "text": "mais",
-      "strong": "G3739"
+      "strong": "G1161"
     },
     {
       "text": " ",
@@ -47600,11 +47600,11 @@
     },
     {
       "text": "quiconque",
-      "strong": "G302"
+      "strong": "G3739"
     },
     {
       "text": " aura",
-      "strong": null
+      "strong": "G302"
     },
     {
       "text": " ",
@@ -48159,6 +48159,4090 @@
     {
       "text": "pas.",
       "strong": "G3756"
+    }
+  ],
+  "Mt. 24:22": [
+    {
+      "text": "Et",
+      "strong": "G2532"
+    },
+    {
+      "text": " si",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ces",
+      "strong": "G1565"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "jours",
+      "strong": "G2250"
+    },
+    {
+      "text": " n’étaient pas",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "abrégés,",
+      "strong": "G2856"
+    },
+    {
+      "text": " aucune",
+      "strong": "G3956"
+    },
+    {
+      "text": " chair ne serait",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sauvée,",
+      "strong": "G302"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mais",
+      "strong": "G1161"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "cause",
+      "strong": "G1223"
+    },
+    {
+      "text": " des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "élus,",
+      "strong": "G1588"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ces",
+      "strong": "G1565"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "jours",
+      "strong": "G2250"
+    },
+    {
+      "text": " seront",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "abrégés.",
+      "strong": "G2856"
+    },
+    {
+      "text": null,
+      "strong": "G1508"
+    }
+  ],
+  "Mt. 25:29": [
+    {
+      "text": "Car,",
+      "strong": "G1063"
+    },
+    {
+      "text": " à ",
+      "strong": null
+    },
+    {
+      "text": "celui",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "qui",
+      "strong": "G3739"
+    },
+    {
+      "text": " a,",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "on donnera",
+      "strong": "G1325"
+    },
+    {
+      "text": " encore",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " il sera dans",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'abondance,",
+      "strong": "G4052"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mais",
+      "strong": "G1161"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "celui",
+      "strong": "G846"
+    },
+    {
+      "text": " qui",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "n'a",
+      "strong": "G2192"
+    },
+    {
+      "text": " rien, on",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ôtera",
+      "strong": "G142"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "même",
+      "strong": "G2532"
+    },
+    {
+      "text": " ce",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "qu'il a.",
+      "strong": "G2192"
+    },
+    {
+      "text": null,
+      "strong": "G2192"
+    },
+    {
+      "text": null,
+      "strong": "G575"
+    },
+    {
+      "text": null,
+      "strong": "G3361"
+    }
+  ],
+  "Mc. 7:18": [
+    {
+      "text": "Et",
+      "strong": null
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "leur",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dit",
+      "strong": "G3004"
+    },
+    {
+      "text": " :",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Vous",
+      "strong": "G3539"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "aussi,",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "êtes-vous",
+      "strong": "G2075"
+    },
+    {
+      "text": " sans",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "intelligence",
+      "strong": "G801"
+    },
+    {
+      "text": " ? Ne",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "comprenez-vous",
+      "strong": "G5210"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3756"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "que",
+      "strong": "G3754"
+    },
+    {
+      "text": " rien",
+      "strong": "G3956"
+    },
+    {
+      "text": " d'extérieur, en entrant",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dans",
+      "strong": "G1519"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'être humain",
+      "strong": "G444"
+    },
+    {
+      "text": " ne",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "peut",
+      "strong": "G3756"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "rendre",
+      "strong": "G2840"
+    },
+    {
+      "text": " impur,",
+      "strong": null
+    },
+    {
+      "text": null,
+      "strong": "G1855"
+    },
+    {
+      "text": null,
+      "strong": "G1531"
+    },
+    {
+      "text": null,
+      "strong": "G846"
+    }
+  ],
+  "Mc. 16:15": [
+    {
+      "text": "Et",
+      "strong": "G2532"
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "leur",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dit",
+      "strong": "G2036"
+    },
+    {
+      "text": " : Étant",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "allés",
+      "strong": "G4198"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dans",
+      "strong": "G1519"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "monde",
+      "strong": "G2889"
+    },
+    {
+      "text": " entier,",
+      "strong": "G537"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "prêchez",
+      "strong": "G2784"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'Évangile",
+      "strong": "G2098"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "toute",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "créature.",
+      "strong": "G2937"
+    }
+  ],
+  "Lu. 6:10": [
+    {
+      "text": "Et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ayant",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "regardé",
+      "strong": "G4017"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ceux",
+      "strong": "G846"
+    },
+    {
+      "text": " qui étaient autour de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui,",
+      "strong": "G846"
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dit",
+      "strong": "G2036"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'homme",
+      "strong": "G444"
+    },
+    {
+      "text": " :",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Étends",
+      "strong": "G1614"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ta",
+      "strong": "G4675"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "main",
+      "strong": "G5495"
+    },
+    {
+      "text": " ! Il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "fit",
+      "strong": "G4160"
+    },
+    {
+      "text": " ainsi,",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " sa",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "main",
+      "strong": "G5495"
+    },
+    {
+      "text": " fut",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "restaurée",
+      "strong": "G600"
+    },
+    {
+      "text": " à l'état initial comme l'autre.",
+      "strong": null
+    }
+  ],
+  "Lu. 6:40": [
+    {
+      "text": "Le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "disciple",
+      "strong": "G3101"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "n'est",
+      "strong": "G2076"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3756"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "au-dessus de",
+      "strong": "G5228"
+    },
+    {
+      "text": " son",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "docteur,",
+      "strong": "G1320"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mais",
+      "strong": "G1161"
+    },
+    {
+      "text": " entièrement",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "équipé,",
+      "strong": "G2675"
+    },
+    {
+      "text": " il",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sera",
+      "strong": "G2071"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "comme",
+      "strong": "G5613"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "son",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "docteur.",
+      "strong": "G1320"
+    }
+  ],
+  "Lu. 6:47": [
+    {
+      "text": "Quiconque",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vient",
+      "strong": "G2064"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "moi,",
+      "strong": "G3165"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " écoute mes",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "paroles",
+      "strong": "G3056"
+    },
+    {
+      "text": " et les met en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pratique,",
+      "strong": "G4160"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "je",
+      "strong": "G3450"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous",
+      "strong": "G5213"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "montrerai",
+      "strong": "G5263"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "qui",
+      "strong": "G5101"
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "est",
+      "strong": "G2076"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "semblable.",
+      "strong": "G3664"
+    },
+    {
+      "text": null,
+      "strong": "G4314"
+    },
+    {
+      "text": null,
+      "strong": "G191"
+    },
+    {
+      "text": null,
+      "strong": "G846"
+    }
+  ],
+  "Lu. 14:29": [
+    {
+      "text": "de",
+      "strong": null
+    },
+    {
+      "text": " peur qu'en ayant",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "posé",
+      "strong": "G5087"
+    },
+    {
+      "text": " son",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "fondement",
+      "strong": "G2310"
+    },
+    {
+      "text": " et n’ayant pu",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l’achever,",
+      "strong": "G1615"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ceux",
+      "strong": "G3588"
+    },
+    {
+      "text": " qui le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "voient",
+      "strong": "G2334"
+    },
+    {
+      "text": " ne",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "commencent",
+      "strong": "G756"
+    },
+    {
+      "text": " à se",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "jouer",
+      "strong": "G1702"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui,",
+      "strong": "G846"
+    },
+    {
+      "text": null,
+      "strong": "G3363"
+    },
+    {
+      "text": null,
+      "strong": "G3361"
+    },
+    {
+      "text": null,
+      "strong": "G2480"
+    }
+  ],
+  "Lu. 21:15": [
+    {
+      "text": "Car",
+      "strong": "G1063"
+    },
+    {
+      "text": " moi,",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "je",
+      "strong": "G1473"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous",
+      "strong": "G5213"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "donnerai",
+      "strong": "G1325"
+    },
+    {
+      "text": " une",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "bouche",
+      "strong": "G4750"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " une",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sagesse",
+      "strong": "G4678"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "laquelle",
+      "strong": "G3739"
+    },
+    {
+      "text": " aucun",
+      "strong": "G3956"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vos",
+      "strong": "G5213"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "adversaires",
+      "strong": "G480"
+    },
+    {
+      "text": " ne",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pourra",
+      "strong": "G1410"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "contredire",
+      "strong": "G471"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ni",
+      "strong": "G3761"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "résister.",
+      "strong": "G436"
+    },
+    {
+      "text": null,
+      "strong": "G3756"
+    }
+  ],
+  "Jn. 3:8": [
+    {
+      "text": "Le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vent",
+      "strong": "G4151"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "souffle",
+      "strong": "G4154"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "où",
+      "strong": "G3699"
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "veut",
+      "strong": "G2309"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tu en",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "entends",
+      "strong": "G191"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "bruit,",
+      "strong": "G5456"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mais",
+      "strong": "G235"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tu ne",
+      "strong": "G3756"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sais",
+      "strong": "G1492"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d’où",
+      "strong": "G4159"
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vient",
+      "strong": "G2064"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "où",
+      "strong": "G4226"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "il va.",
+      "strong": "G5217"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Ainsi",
+      "strong": "G3779"
+    },
+    {
+      "text": " en est-il de ",
+      "strong": null
+    },
+    {
+      "text": "quiconque",
+      "strong": "G3956"
+    },
+    {
+      "text": " a été",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "engendré",
+      "strong": "G1080"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "à partir de",
+      "strong": "G1537"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l’Esprit.",
+      "strong": "G4151"
+    },
+    {
+      "text": null,
+      "strong": "G2076"
+    }
+  ],
+  "Jn. 6:45": [
+    {
+      "text": "Il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "est",
+      "strong": "G2076"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "écrit",
+      "strong": "G1125"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dans",
+      "strong": "G1722"
+    },
+    {
+      "text": " les",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "prophètes",
+      "strong": "G4396"
+    },
+    {
+      "text": " : Et ils",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "seront",
+      "strong": "G2071"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "enseignés",
+      "strong": "G1318"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'Elohîm.",
+      "strong": "G2316"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Quiconque",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "donc",
+      "strong": "G3767"
+    },
+    {
+      "text": " a",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "entendu",
+      "strong": "G191"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Père",
+      "strong": "G3962"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " a été",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "enseigné",
+      "strong": "G3129"
+    },
+    {
+      "text": " par",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui,",
+      "strong": "G4314"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vient",
+      "strong": "G2064"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "moi.",
+      "strong": "G3165"
+    }
+  ],
+  "Jn. 16:2": [
+    {
+      "text": "Ils",
+      "strong": null
+    },
+    {
+      "text": " feront de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous",
+      "strong": "G5209"
+    },
+    {
+      "text": " des exclus des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "synagogues,",
+      "strong": "G656"
+    },
+    {
+      "text": " et même",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'heure",
+      "strong": "G5610"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vient",
+      "strong": "G2064"
+    },
+    {
+      "text": " où ",
+      "strong": null
+    },
+    {
+      "text": "quiconque",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous",
+      "strong": "G5209"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tuera",
+      "strong": "G615"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pensera",
+      "strong": "G1380"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "rendre",
+      "strong": "G4160"
+    },
+    {
+      "text": " un",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "service",
+      "strong": "G2999"
+    },
+    {
+      "text": " sacré à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Elohîm.",
+      "strong": "G2316"
+    },
+    {
+      "text": null,
+      "strong": "G235"
+    },
+    {
+      "text": null,
+      "strong": "G2443"
+    },
+    {
+      "text": null,
+      "strong": "G4374"
+    }
+  ],
+  "Ac. 5:37": [
+    {
+      "text": "Après",
+      "strong": "G3326"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui",
+      "strong": "G5126"
+    },
+    {
+      "text": " se",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "leva",
+      "strong": "G450"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Yéhouda",
+      "strong": "G2455"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Galiléen,",
+      "strong": "G1057"
+    },
+    {
+      "text": " aux",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "jours",
+      "strong": "G2250"
+    },
+    {
+      "text": " du",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "recensement,",
+      "strong": "G582"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " il entraîna un",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "assez",
+      "strong": "G2425"
+    },
+    {
+      "text": " grand",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "peuple",
+      "strong": "G2992"
+    },
+    {
+      "text": " à la révolte",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "derrière",
+      "strong": "G3694"
+    },
+    {
+      "text": " lui. Il périt lui aussi,",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ceux",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "qui",
+      "strong": "G868"
+    },
+    {
+      "text": " s'étaient laissés",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "persuader",
+      "strong": "G3982"
+    },
+    {
+      "text": " par",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui",
+      "strong": "G2548"
+    },
+    {
+      "text": " ont été",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dispersés.",
+      "strong": "G1287"
+    },
+    {
+      "text": null,
+      "strong": "G1722"
+    },
+    {
+      "text": null,
+      "strong": "G622"
+    },
+    {
+      "text": null,
+      "strong": "G3745"
+    }
+  ],
+  "Ac. 10:38": [
+    {
+      "text": "Yéhoshoua",
+      "strong": "G2424"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Nazareth,",
+      "strong": "G3478"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "comment",
+      "strong": "G5613"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Elohîm",
+      "strong": "G2316"
+    },
+    {
+      "text": " l'a",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "oint",
+      "strong": "G5548"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'Esprit",
+      "strong": "G4151"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Saint",
+      "strong": "G40"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "force,",
+      "strong": "G1411"
+    },
+    {
+      "text": " lui qui allait",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "de",
+      "strong": "G575"
+    },
+    {
+      "text": " lieu en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lieu,",
+      "strong": "G1330"
+    },
+    {
+      "text": " faisant du",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "bien",
+      "strong": "G2109"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "guérissant",
+      "strong": "G2390"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ceux qui",
+      "strong": "G3588"
+    },
+    {
+      "text": " étaient",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sous",
+      "strong": "G5259"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "contrôle",
+      "strong": "G2616"
+    },
+    {
+      "text": " sévère du",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "diable,",
+      "strong": "G1228"
+    },
+    {
+      "text": " parce",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "qu'Elohîm",
+      "strong": "G2316"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "était",
+      "strong": "G2258"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "avec",
+      "strong": "G3326"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui.",
+      "strong": "G846"
+    },
+    {
+      "text": null,
+      "strong": "G3754"
+    }
+  ],
+  "Ac. 16:32": [
+    {
+      "text": "Et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ils",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui",
+      "strong": "G846"
+    },
+    {
+      "text": " annoncèrent la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "parole",
+      "strong": "G2980"
+    },
+    {
+      "text": " du",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Seigneur,",
+      "strong": "G2962"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ceux",
+      "strong": "G3588"
+    },
+    {
+      "text": " qui étaient",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dans",
+      "strong": "G1722"
+    },
+    {
+      "text": " sa",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "maison.",
+      "strong": "G3614"
+    },
+    {
+      "text": null,
+      "strong": "G3056"
+    }
+  ],
+  "Ro. 9:33": [
+    {
+      "text": "selon",
+      "strong": "G2531"
+    },
+    {
+      "text": " qu'il est",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "écrit",
+      "strong": "G1125"
+    },
+    {
+      "text": " :",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Voici,",
+      "strong": "G2400"
+    },
+    {
+      "text": " je",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mets",
+      "strong": "G5087"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "en",
+      "strong": "G1722"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Sion",
+      "strong": "G4622"
+    },
+    {
+      "text": " la pierre",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'achoppement",
+      "strong": "G3037"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " le",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "rocher",
+      "strong": "G4073"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "scandale,",
+      "strong": "G4625"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "quiconque",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "croit",
+      "strong": "G4100"
+    },
+    {
+      "text": " en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lui,",
+      "strong": "G846"
+    },
+    {
+      "text": " ne sera",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3756"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "confus.",
+      "strong": "G2617"
+    },
+    {
+      "text": null,
+      "strong": "G1909"
+    }
+  ],
+  "Ro. 10:12": [
+    {
+      "text": "Car",
+      "strong": "G1063"
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "n'y a",
+      "strong": "G2076"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3756"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "différence",
+      "strong": "G1293"
+    },
+    {
+      "text": " entre",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Juif",
+      "strong": "G2453"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G5037"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Grec,",
+      "strong": "G1672"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "car",
+      "strong": "G1063"
+    },
+    {
+      "text": " le même",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Seigneur",
+      "strong": "G2962"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " est",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "riche",
+      "strong": "G4147"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pour",
+      "strong": "G1519"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ceux",
+      "strong": "G3588"
+    },
+    {
+      "text": " qui",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'invoquent.",
+      "strong": "G1941"
+    },
+    {
+      "text": null,
+      "strong": "G2532"
+    }
+  ],
+  "1 Co. 3:23": [
+    {
+      "text": "et",
+      "strong": "G1161"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous",
+      "strong": "G5216"
+    },
+    {
+      "text": " au",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Mashiah,",
+      "strong": "G5547"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G1161"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Mashiah",
+      "strong": "G5547"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Elohîm.",
+      "strong": "G2316"
+    },
+    {
+      "text": null,
+      "strong": "G2076"
+    },
+    {
+      "text": null,
+      "strong": "G5210"
+    }
+  ],
+  "1 Co. 9:25": [
+    {
+      "text": "Or",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "quiconque",
+      "strong": "G3956"
+    },
+    {
+      "text": " lutte dans les jeux",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sportifs",
+      "strong": "G75"
+    },
+    {
+      "text": " se",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "maîtrise",
+      "strong": "G1467"
+    },
+    {
+      "text": " en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "toutes",
+      "strong": "G3956"
+    },
+    {
+      "text": " choses. Ceux-là donc afin de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "recevoir",
+      "strong": "G2983"
+    },
+    {
+      "text": " en effet une",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "couronne",
+      "strong": "G4735"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "corruptible,",
+      "strong": "G5349"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mais",
+      "strong": "G1161"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "nous,",
+      "strong": "G2249"
+    },
+    {
+      "text": " une",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "incorruptible.",
+      "strong": "G862"
+    },
+    {
+      "text": null,
+      "strong": "G1565"
+    }
+  ],
+  "1 Co. 12:30": [
+    {
+      "text": "Tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ont-ils",
+      "strong": "G3361"
+    },
+    {
+      "text": " les",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dons",
+      "strong": "G5486"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "guérisons",
+      "strong": "G2386"
+    },
+    {
+      "text": " ?",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "parlent-ils",
+      "strong": "G2980"
+    },
+    {
+      "text": " en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "langues",
+      "strong": "G1100"
+    },
+    {
+      "text": " ?",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "interprètent-ils",
+      "strong": "G1329"
+    },
+    {
+      "text": " ?",
+      "strong": null
+    },
+    {
+      "text": null,
+      "strong": "G1411"
+    },
+    {
+      "text": null,
+      "strong": "G2192"
+    },
+    {
+      "text": null,
+      "strong": "G3361"
+    },
+    {
+      "text": null,
+      "strong": "G3361"
+    },
+    {
+      "text": null,
+      "strong": "G3361"
+    }
+  ],
+  "2 Co. 12:12": [
+    {
+      "text": "En",
+      "strong": null
+    },
+    {
+      "text": " effet, les",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "signes",
+      "strong": "G4592"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'apôtre",
+      "strong": "G652"
+    },
+    {
+      "text": " ont été exécutés",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "parmi",
+      "strong": "G1722"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous",
+      "strong": "G5213"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "par",
+      "strong": "G1722"
+    },
+    {
+      "text": " une",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "persévérance",
+      "strong": "G5281"
+    },
+    {
+      "text": " entière,",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "par",
+      "strong": "G1722"
+    },
+    {
+      "text": " des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "signes,",
+      "strong": "G4592"
+    },
+    {
+      "text": " des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "prodiges",
+      "strong": "G5059"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "miracles.",
+      "strong": "G1411"
+    },
+    {
+      "text": null,
+      "strong": "G2716"
+    }
+  ],
+  "2 Co. 13:12": [
+    {
+      "text": "Saluez-vous",
+      "strong": "G782"
+    },
+    {
+      "text": " les uns les",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "autres",
+      "strong": "G240"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "par",
+      "strong": "G1722"
+    },
+    {
+      "text": " un",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "saint",
+      "strong": "G40"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "baiser.",
+      "strong": "G5370"
+    },
+    {
+      "text": null,
+      "strong": "G40"
+    },
+    {
+      "text": null,
+      "strong": "G5209"
+    },
+    {
+      "text": null,
+      "strong": "G782"
+    }
+  ],
+  "Ep. 6:18": [
+    {
+      "text": "À",
+      "strong": null
+    },
+    {
+      "text": " travers",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "toute",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "prière",
+      "strong": "G4336"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "supplication",
+      "strong": "G1162"
+    },
+    {
+      "text": " priant",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "en",
+      "strong": "G1722"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tout",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "temps",
+      "strong": "G2540"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dans",
+      "strong": "G1722"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l’Esprit,",
+      "strong": "G4151"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " étant sans",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sommeil",
+      "strong": "G69"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pour",
+      "strong": "G1519"
+    },
+    {
+      "text": " cela",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "avec",
+      "strong": "G1722"
+    },
+    {
+      "text": " une ",
+      "strong": null
+    },
+    {
+      "text": "entière",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "persévérance",
+      "strong": "G4343"
+    },
+    {
+      "text": " et",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "supplication",
+      "strong": "G1162"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "au sujet de",
+      "strong": "G4012"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " les",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "saints,",
+      "strong": "G40"
+    },
+    {
+      "text": null,
+      "strong": "G4335"
+    },
+    {
+      "text": null,
+      "strong": "G846"
+    }
+  ],
+  "Ja. 1:2": [
+    {
+      "text": "Mes",
+      "strong": "G3450"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "frères,",
+      "strong": "G80"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "estimez",
+      "strong": "G2233"
+    },
+    {
+      "text": " comme une ",
+      "strong": null
+    },
+    {
+      "text": "entière",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "joie",
+      "strong": "G5479"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "quand",
+      "strong": "G3752"
+    },
+    {
+      "text": " vous rencontrez",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "diverses",
+      "strong": "G4164"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tentations,",
+      "strong": "G3986"
+    }
+  ],
+  "1 Jn. 2:21": [
+    {
+      "text": "Je",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous",
+      "strong": "G5213"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "écris,",
+      "strong": "G1125"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "non",
+      "strong": "G3756"
+    },
+    {
+      "text": " pas",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "parce que",
+      "strong": "G3754"
+    },
+    {
+      "text": " vous ne",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "connaissez",
+      "strong": "G1492"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3756"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vérité,",
+      "strong": "G225"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mais",
+      "strong": "G235"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "parce que",
+      "strong": "G3754"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vous la",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "connaissez,",
+      "strong": "G1492"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " parce qu'",
+      "strong": null
+    },
+    {
+      "text": "aucun",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mensonge",
+      "strong": "G5579"
+    },
+    {
+      "text": " n'est issu",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "de",
+      "strong": "G1537"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "vérité.",
+      "strong": "G225"
+    },
+    {
+      "text": null,
+      "strong": "G2076"
+    }
+  ],
+  "Ap. 9:4": [
+    {
+      "text": "Et",
+      "strong": null
+    },
+    {
+      "text": " il",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "leur",
+      "strong": "G846"
+    },
+    {
+      "text": " fut",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dit",
+      "strong": "G4483"
+    },
+    {
+      "text": " de ne",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3363"
+    },
+    {
+      "text": " faire de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mal",
+      "strong": "G91"
+    },
+    {
+      "text": " à",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "l'herbe",
+      "strong": "G5528"
+    },
+    {
+      "text": " de la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Terre,",
+      "strong": "G1093"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ni",
+      "strong": "G3761"
+    },
+    {
+      "text": " à ",
+      "strong": null
+    },
+    {
+      "text": "aucune",
+      "strong": "G3956"
+    },
+    {
+      "text": " verdure, ni à ",
+      "strong": null
+    },
+    {
+      "text": "aucun",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "arbre,",
+      "strong": "G1186"
+    },
+    {
+      "text": " mais",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "seulement",
+      "strong": "G3441"
+    },
+    {
+      "text": " aux",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "humains",
+      "strong": "G444"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "qui",
+      "strong": "G3748"
+    },
+    {
+      "text": " n'avaient",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pas",
+      "strong": "G3761"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "marque",
+      "strong": "G4973"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'Elohîm",
+      "strong": "G2316"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sur",
+      "strong": "G1909"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "leurs",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "fronts.",
+      "strong": "G3359"
+    },
+    {
+      "text": null,
+      "strong": "G5515"
+    },
+    {
+      "text": null,
+      "strong": "G1508"
+    },
+    {
+      "text": null,
+      "strong": "G2192"
+    },
+    {
+      "text": null,
+      "strong": "G3756"
+    }
+  ],
+  "Ap. 18:12": [
+    {
+      "text": "marchandise",
+      "strong": "G1117"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'or",
+      "strong": "G5557"
+    },
+    {
+      "text": " et",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'argent,",
+      "strong": "G696"
+    },
+    {
+      "text": " et",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "de",
+      "strong": "G1537"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pierres",
+      "strong": "G3037"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "précieuses",
+      "strong": "G5093"
+    },
+    {
+      "text": " et de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "perles,",
+      "strong": "G3135"
+    },
+    {
+      "text": " et de fin",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lin",
+      "strong": "G1040"
+    },
+    {
+      "text": " et de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pourpre,",
+      "strong": "G4209"
+    },
+    {
+      "text": " et de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "soie",
+      "strong": "G4596"
+    },
+    {
+      "text": " et",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'écarlate,",
+      "strong": "G2847"
+    },
+    {
+      "text": " et de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "toutes sortes",
+      "strong": "G3956"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "bois",
+      "strong": "G3586"
+    },
+    {
+      "text": " de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "senteur,",
+      "strong": "G2367"
+    },
+    {
+      "text": " et de",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "toutes sortes",
+      "strong": "G3956"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "d'objets",
+      "strong": "G4632"
+    },
+    {
+      "text": " en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ivoire,",
+      "strong": "G1661"
+    },
+    {
+      "text": " et en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "bois",
+      "strong": "G3586"
+    },
+    {
+      "text": " très",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "précieux,",
+      "strong": "G5093"
+    },
+    {
+      "text": " et en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "cuivre,",
+      "strong": "G5475"
+    },
+    {
+      "text": " et en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "fer",
+      "strong": "G4604"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "marbre,",
+      "strong": "G3139"
+    },
+    {
+      "text": null,
+      "strong": "G4632"
+    }
+  ],
+  "Ap. 18:19": [
+    {
+      "text": "Et",
+      "strong": null
+    },
+    {
+      "text": " ils se",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "jetaient",
+      "strong": "G906"
+    },
+    {
+      "text": " de la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "poussière",
+      "strong": "G5522"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sur",
+      "strong": "G1909"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "leurs",
+      "strong": "G846"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "têtes,",
+      "strong": "G2776"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "pleurant",
+      "strong": "G2799"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "et",
+      "strong": "G2532"
+    },
+    {
+      "text": " se",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "lamentant,",
+      "strong": "G3996"
+    },
+    {
+      "text": " et ils",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "disaient",
+      "strong": "G3004"
+    },
+    {
+      "text": " :",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Malheur",
+      "strong": "G3759"
+    },
+    {
+      "text": " !",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "Malheur",
+      "strong": "G3759"
+    },
+    {
+      "text": " ! La",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "grande,",
+      "strong": "G3173"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ville,",
+      "strong": "G4172"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "dans",
+      "strong": "G1722"
+    },
+    {
+      "text": " laquelle étaient devenus",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "riches",
+      "strong": "G4147"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "par",
+      "strong": "G1537"
+    },
+    {
+      "text": " son",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "opulence",
+      "strong": "G5094"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "tous",
+      "strong": "G3956"
+    },
+    {
+      "text": " ceux",
+      "strong": "G3588"
+    },
+    {
+      "text": " qui",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "ont",
+      "strong": "G2192"
+    },
+    {
+      "text": " des",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "navires",
+      "strong": "G4143"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "sur",
+      "strong": "G1722"
+    },
+    {
+      "text": " la",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "mer",
+      "strong": "G2281"
+    },
+    {
+      "text": " ! Parce qu'en",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "une",
+      "strong": "G3391"
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "heure",
+      "strong": "G5610"
+    },
+    {
+      "text": " elle a été",
+      "strong": null
+    },
+    {
+      "text": " ",
+      "strong": null
+    },
+    {
+      "text": "réduite en désert.",
+      "strong": "G2049"
+    },
+    {
+      "text": null,
+      "strong": "G2896"
     }
   ]
 }
