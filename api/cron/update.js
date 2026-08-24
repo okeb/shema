@@ -6,6 +6,10 @@
  * Env vars requises :
  *   - CRON_SECRET  : généré automatiquement par Vercel (disponible en production)
  *   - GH_PAT       : GitHub Personal Access Token (scope : workflow)
+ *   - GH_OWNER     : propriétaire du dépôt GitHub (ex: "okeb") — fallback explicite
+ *                    car VERCEL_GIT_REPO_OWNER n'est peuplé que pour les projets
+ *                    Git-linked (or ce projet est déployé par upload direct via `make deploy`).
+ *   - GH_REPO      : nom du dépôt GitHub (ex: "shema")
  */
 module.exports = async function handler(req, res) {
   // Vercel envoie automatiquement Authorization: Bearer <CRON_SECRET>
@@ -14,11 +18,15 @@ module.exports = async function handler(req, res) {
     return res.status(401).json({ error: "Non autorisé" });
   }
 
-  const owner = process.env.VERCEL_GIT_REPO_OWNER;
-  const repo  = process.env.VERCEL_GIT_REPO_SLUG;
+  // GH_OWNER/GH_REPO explicites en priorité ; fallback sur les vars Git-linked
+  // (vides pour un déploiement par upload direct).
+  const owner = process.env.GH_OWNER || process.env.VERCEL_GIT_REPO_OWNER;
+  const repo  = process.env.GH_REPO  || process.env.VERCEL_GIT_REPO_SLUG;
 
   if (!owner || !repo) {
-    return res.status(500).json({ error: "VERCEL_GIT_REPO_OWNER / SLUG non définis" });
+    return res.status(500).json({
+      error: "GH_OWNER / GH_REPO non définis (et VERCEL_GIT_REPO_OWNER/SLUG vides — projet non Git-linked)",
+    });
   }
   if (!process.env.GH_PAT) {
     return res.status(500).json({ error: "GH_PAT non défini" });

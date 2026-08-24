@@ -24,12 +24,19 @@ jobs:
       - name: Alignement Strong's (make align)
         run: make align
 
+      - name: Vérification d'intégrité des overrides
+        # Refuse de commettre si une override est stale : le texte BYM a changé
+        # (depuis GitLab) mais l'override n'a pas été re-curaté. Évite de pousser
+        # un alignement cassé en production. La re-curation reste manuelle.
+        run: python3 scripts/check_override_integrity.py
+
       - name: Commit et push des fichiers mis à jour
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add \
             db/thebym.json \
+            db/books/bym.json \
             db/books/bym_info.json \
             db/strongs/bym_strongs.json \
             db/strongs/strong_to_bym.json \
